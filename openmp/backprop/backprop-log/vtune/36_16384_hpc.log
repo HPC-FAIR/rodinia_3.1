@@ -1,0 +1,51 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	0.282346
+1	SP GFLOPS	0.0
+1	DP GFLOPS	0.0
+1	x87 GFLOPS	0.0
+1	CPI Rate	1.666667
+1	Average CPU Frequency	3596152017.014925
+1	Total Thread Count	36
+0	Effective Physical Core Utilization	2.8% (0.998 out of 36)
+1	Effective Logical Core Utilization	1.1% (0.799 out of 72)
+1	Serial Time (outside parallel regions)	0.274s (97.0%)
+2	Top Serial Hotspots (outside parallel regions)	
+2	Function	Module	Serial CPU Time
+2	[Outside any known module]	[Unknown]	0.175405
+2	check_match.9525	ld-2.17.so	0.005012
+2	func@0xfcd0	libittnotify_collector.so	0.005012
+1	Parallel Region Time	0.009s (3.0%)
+2	Estimated Ideal Time	0.001s (0.5%)
+2	OpenMP Potential Gain	0.007s (2.5%)
+0	Memory Bound	67.2
+1	Cache Bound	14.9
+1	DRAM Bound	0.0
+1	NUMA: % of Remote Accesses	0.0
+0	Vectorization	0.0
+1	Instruction Mix	
+2	SP FLOPs	0.0
+3	Packed	0.0
+4	128-bit	0.0
+4	256-bit	0.0
+3	Scalar	0.0
+2	DP FLOPs	0.0
+3	Packed	0.0
+4	128-bit	0.0
+4	256-bit	0.0
+3	Scalar	0.0
+2	x87 FLOPs	0.0
+2	Non-FP	100.0
+1	FP Arith/Mem Rd Instr. Ratio	0.0
+1	FP Arith/Mem Wr Instr. Ratio	0.0
+0	Collection and Platform Info	
+1	Application Command Line	backprop "16384" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz2744
+1	Result Size	3805817
+1	Collection start time	20:54:56 21/04/2021 UTC
+1	Collection stop time	20:54:56 21/04/2021 UTC
+1	Collector Type	Driverless Perf per-process sampling
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095149436
+2	Logical CPU Count	72

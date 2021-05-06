@@ -1,0 +1,54 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	4.067168
+1	SP GFLOPS	1.062166
+1	DP GFLOPS	0.0
+1	x87 GFLOPS	0.0
+1	CPI Rate	0.414150
+1	Average CPU Frequency	3035221983.742455
+1	Total Thread Count	4
+0	Effective Physical Core Utilization	3.1% (1.104 out of 36)
+1	Effective Logical Core Utilization	1.5% (1.091 out of 72)
+1	Serial Time (outside parallel regions)	3.824s (94.0%)
+2	Top Serial Hotspots (outside parallel regions)	
+2	Function	Module	Serial CPU Time
+2	[Loop at line 98 in computeTempCPU]	3D	0.616425
+2	[Loop@0x467a0 in __mpn_divrem]	libc-2.17.so	0.305707
+2	_IO_vfscanf	libc-2.17.so	0.215498
+2	____strtof_l_internal	libc-2.17.so	0.160371
+2	[Loop@0x5a55f in _IO_vfscanf]	libc-2.17.so	0.140324
+2	[Others]	N/A	2.029691
+1	Parallel Region Time	0.243s (6.0%)
+2	Estimated Ideal Time	0.235s (5.8%)
+2	OpenMP Potential Gain	0.008s (0.2%)
+0	Memory Bound	4.2
+1	Cache Bound	3.0
+1	DRAM Bound	1.8
+1	NUMA: % of Remote Accesses	0.0
+0	Vectorization	0.0
+1	Instruction Mix	
+2	SP FLOPs	15.8
+3	Packed	0.0
+4	128-bit	0.0
+4	256-bit	0.0
+3	Scalar	100.0
+2	DP FLOPs	0.0
+3	Packed	0.0
+4	128-bit	0.0
+4	256-bit	0.0
+3	Scalar	0.0
+2	x87 FLOPs	0.0
+2	Non-FP	84.2
+1	FP Arith/Mem Rd Instr. Ratio	0.695632
+1	FP Arith/Mem Wr Instr. Ratio	1.767905
+0	Collection and Platform Info	
+1	Application Command Line	3D "512" "8" "100" "../../data/hotspot3D/power_512x8" "../../data/hotspot3D/temp_512x8" "output.txt" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz178
+1	Result Size	6427078
+1	Collection start time	21:45:27 21/04/2021 UTC
+1	Collection stop time	21:45:31 21/04/2021 UTC
+1	Collector Type	Driverless Perf per-process sampling
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095146286
+2	Logical CPU Count	72

@@ -1,0 +1,82 @@
+Elapsed Time: 28.659s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.949
+    Average CPU Frequency: 3.291 GHz 
+    Total Thread Count: 2
+Effective Physical Core Utilization: 2.8% (0.992 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 1.4% (0.992 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+Memory Bound: 42.4% of Pipeline Slots
+ | The metric value is high. This can indicate that the significant fraction of
+ | execution pipeline slots could be stalled due to demand memory load and
+ | stores. Use Memory Access analysis to have the metric breakdown by memory
+ | hierarchy, memory bandwidth information, correlation by memory objects.
+ |
+    Cache Bound: 22.5% of Clockticks
+     | A significant proportion of cycles are being spent on data fetches from
+     | caches. Check Memory Access analysis to see if accesses to L2 or L3
+     | caches are problematic and consider applying the same performance tuning
+     | as you would for a cache-missing workload. This may include reducing the
+     | data working set size, improving data access locality, blocking or
+     | partitioning the working set to fit in the lower cache levels, or
+     | exploiting hardware prefetchers. Consider using software prefetchers, but
+     | note that they can interfere with normal loads, increase latency, and
+     | increase pressure on the memory system. This metric includes coherence
+     | penalties for shared data. Check Microarchitecture Exploration analysis
+     | to see if contested accesses or data sharing are indicated as likely
+     | issues.
+     |
+    DRAM Bound: 0.1% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 100.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.000
+    FP Arith/Mem Wr Instr. Ratio: 0.000
+Collection and Platform Info
+    Application Command Line: pathfinder "100000" "100000" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz2441
+    Result Size: 9 MB 
+    Collection start time: 02:00:46 22/04/2021 UTC
+    Collection stop time: 02:01:15 22/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.

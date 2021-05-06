@@ -1,0 +1,877 @@
+Vtune command: vtune  -collect threading -r nn-log/vtune/nn_tr_36_default --  nn  filelist_4 5 30 90 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_36_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time : 11.930000305176 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47280-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47280-quartz835.sc' filevtune: Executing actions 12 % Loading '47280-47286.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-47286-fe950dfb.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `ld-linux-x86-64.so.2' vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.975s
+    Paused Time: 0s
+Effective CPU Utilization: 0.2% (0.114 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.975
+        Serial Time (outside parallel regions): 0.751s (77.1%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            main                            nn                    0.050s
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.040s
+            __kmp_join_call                 libiomp5.so           0.040s
+        Parallel Region Time: 0.223s (22.9%)
+            Estimated Ideal Time: 0.195s (20.0%)
+            OpenMP Potential Gain: 0.028s (2.9%)
+    Total Thread Count: 36
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 5.017s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                 Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        ------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                            4.958s                        100.0%          32
+        Stream ../../data/nn/cane4_0.db 0x98c3002d                               0.026s                        100.0%           6
+        Stream ../../data/nn/cane4_3.db 0x6dcd4047                               0.015s                        100.0%           5
+        Stream ../../data/nn/cane4_2.db 0x6dcd4047                               0.010s                        100.0%           6
+        Stream ../../data/nn/cane4_1.db 0x6dcd4047                               0.007s                        100.0%           4
+        [Others]                                                                 0.003s                        100.0%          13
+    Spin and Overhead Time: 14.130s (99.2% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                 13.580s                 95.4%
+        __kmp_join_barrier              libiomp5.so                  0.210s                  1.5%
+        __kmp_fork_call                 libiomp5.so                  0.160s                  1.1%
+        __kmp_join_call                 libiomp5.so                  0.050s                  0.4%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.040s                  0.3%
+        [Others]                        N/A                          0.090s                  0.6%
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 7 MB 
+    Collection start time: 00:43:34 22/04/2021 UTC
+    Collection stop time: 00:43:35 22/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_tr_36_default > nn-log/vtune/36_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r nn-log/vtune/nn_hpc_36_default --  nn  filelist_4 5 30 90 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_36_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  4.579999923706 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47393-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47393-quartz835.sc' filevtune: Executing actions 12 % Loading '47408.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-47408-daff180f.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 20 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.425s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 1.138
+     | The CPI may be too high. This could be caused by issues such as memory
+     | stalls, instruction starvation, branch misprediction or long latency
+     | instructions. Explore the other hardware-related metrics to identify what
+     | is causing high CPI.
+     |
+    Average CPU Frequency: 2.702 GHz 
+    Total Thread Count: 36
+Effective Physical Core Utilization: 3.8% (1.364 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 3.1% (2.242 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.339s (79.8%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                                                                                                     Module        Serial CPU Time
+        -----------------------------------------------------------------------------------------------------------  ------------  ---------------
+        [Outside any known module]                                                                                   [Unknown]              0.190s
+        _INTERNAL_25_______src_kmp_barrier_cpp_ddfed41b::__kmp_wait_template<kmp_flag_64, (int)0, (bool)0, (bool)1>  libiomp5.so            0.010s
+        [Loop@0x4016ae in main]                                                                                      nn                     0.005s
+        ____strtod_l_internal                                                                                        libc-2.17.so           0.005s
+        _IO_vfscanf                                                                                                  libc-2.17.so           0.005s
+        [Others]                                                                                                     N/A                    0.020s
+    Parallel Region Time: 0.086s (20.3%)
+        Estimated Ideal Time: 0.020s (4.8%)
+        OpenMP Potential Gain: 0.066s (15.5%)
+         | The time wasted on load imbalance or parallel work arrangement is
+         | significant and negatively impacts the application performance and
+         | scalability. Explore OpenMP regions with the highest metric values.
+         | Make sure the workload of the regions is enough and the loop schedule
+         | is optimal.
+         |
+Memory Bound: 4.5% of Pipeline Slots
+    Cache Bound: 3.8% of Clockticks
+    DRAM Bound: 0.0% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 100.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.000
+    FP Arith/Mem Wr Instr. Ratio: 0.000
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 8 MB 
+    Collection start time: 00:43:51 22/04/2021 UTC
+    Collection stop time: 00:43:51 22/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_hpc_36_default > nn-log/vtune/36_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r nn-log/vtune/nn_tr_18_default --  nn  filelist_4 5 30 90 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_18_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  4.630000114441 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47523-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47523-quartz835.sc' filevtune: Executing actions 12 % Loading '47523-47528.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-47528-6c38ad0e.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-linux-x86-64.so.2' vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.523s
+    Paused Time: 0s
+Effective CPU Utilization: 0.1% (0.077 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.523
+        Serial Time (outside parallel regions): 0.339s (64.8%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+            __kmp_join_call                 libiomp5.so           0.030s
+            __kmp_fork_call                 libiomp5.so           0.010s
+            [Outside any known module]      [Unknown]             0.010s
+        Parallel Region Time: 0.184s (35.2%)
+            Estimated Ideal Time: 0.158s (30.1%)
+            OpenMP Potential Gain: 0.027s (5.1%)
+    Total Thread Count: 18
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.332s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                 Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        ------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                            0.324s                        100.0%          13
+        Stream filelist_4 0xf9eb886f                                             0.002s                        100.0%           1
+        Stream ../../data/nn/cane4_0.db 0x98c3002d                               0.002s                        100.0%           1
+        Stream ../../data/nn/cane4_1.db 0x6dcd4047                               0.001s                        100.0%           1
+        Stream ../../data/nn/cane4_2.db 0x6dcd4047                               0.001s                        100.0%           1
+        [Others]                                                                 0.002s                        100.0%          12
+    Spin and Overhead Time: 5.120s (99.2% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                  4.680s                 90.7%
+        __kmp_fork_call                 libiomp5.so                  0.150s                  2.9%
+        __kmp_join_barrier              libiomp5.so                  0.140s                  2.7%
+        __kmp_join_call                 libiomp5.so                  0.050s                  1.0%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  0.6%
+        [Others]                        N/A                          0.070s                  1.4%
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 7 MB 
+    Collection start time: 00:44:10 22/04/2021 UTC
+    Collection stop time: 00:44:11 22/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_tr_18_default > nn-log/vtune/18_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r nn-log/vtune/nn_hpc_18_default --  nn  filelist_4 5 30 90 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_18_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  1.129999995232 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47616-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47616-quartz835.sc' filevtune: Executing actions 12 % Loading '47631.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-47631-0f123582.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `libpthread-2.17.so'   vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libittnotify_collector
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          vtune: Executing actions 20 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.331s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.941
+    Average CPU Frequency: 2.774 GHz 
+    Total Thread Count: 18
+Effective Physical Core Utilization: 9.4% (3.387 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 1.3% (0.968 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.306s (92.5%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                                          Module       Serial CPU Time
+        ------------------------------------------------  -----------  ---------------
+        [Outside any known module]                        [Unknown]             0.110s
+        rml::internal::Backend::IndexedBins::tryAddBlock  libiomp5.so           0.005s
+    Parallel Region Time: 0.025s (7.5%)
+        Estimated Ideal Time: 0.011s (3.5%)
+        OpenMP Potential Gain: 0.014s (4.1%)
+Memory Bound: 24.2% of Pipeline Slots
+ | The metric value is high. This can indicate that the significant fraction of
+ | execution pipeline slots could be stalled due to demand memory load and
+ | stores. Use Memory Access analysis to have the metric breakdown by memory
+ | hierarchy, memory bandwidth information, correlation by memory objects.
+ |
+    Cache Bound: 15.0% of Clockticks
+    DRAM Bound: 6.0% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 100.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.000
+    FP Arith/Mem Wr Instr. Ratio: 0.000
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 7 MB 
+    Collection start time: 00:44:26 22/04/2021 UTC
+    Collection stop time: 00:44:26 22/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_hpc_18_default > nn-log/vtune/18_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r nn-log/vtune/nn_tr_9_default --  nn  filelist_4 5 30 90 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_9_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  2.029999971390 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47724-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47724-quartz835.sc' filevtune: Executing actions 12 % Loading '47724-47729.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-47729-6927e1b4.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 20 % Resolving information for `libiomp5.so'          vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.378s
+    Paused Time: 0s
+Effective CPU Utilization: 0.1% (0.081 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.378
+        Serial Time (outside parallel regions): 0.217s (57.4%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            __kmp_join_call                 libiomp5.so           0.040s
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+            main                            nn                    0.010s
+        Parallel Region Time: 0.161s (42.6%)
+            Estimated Ideal Time: 0.140s (37.1%)
+            OpenMP Potential Gain: 0.021s (5.5%)
+    Total Thread Count: 9
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.028s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                 Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        ------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                            0.022s                        100.0%           4
+        Stream ../../data/nn/cane4_3.db 0x6dcd4047                               0.001s                        100.0%           1
+        Stream ../../data/nn/cane4_2.db 0x6dcd4047                               0.001s                        100.0%           1
+        Stream filelist_4 0xf9eb886f                                             0.001s                        100.0%           1
+        Stream ../../data/nn/cane4_0.db 0x98c3002d                               0.001s                        100.0%           2
+        [Others]                                                                 0.001s                        100.0%           7
+    Spin and Overhead Time: 2.110s (98.6% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+     | A significant portion of CPU time is spent in synchronization or
+     | threading overhead. Consider increasing task granularity or the scope of
+     | data synchronization.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                                                                                                     Module       Spin and Overhead Time  (% from CPU Time)(%)
+        -----------------------------------------------------------------------------------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier                                                                                           libiomp5.so                  1.600s                 74.8%
+        _INTERNAL_25_______src_kmp_barrier_cpp_ddfed41b::__kmp_wait_template<kmp_flag_64, (int)1, (bool)0, (bool)1>  libiomp5.so                  0.190s                  8.9%
+        __kmp_fork_call                                                                                              libiomp5.so                  0.150s                  7.0%
+        __kmp_join_barrier                                                                                           libiomp5.so                  0.050s                  2.3%
+        sched_yield                                                                                                  libc.so.6                    0.040s                  1.9%
+        [Others]                                                                                                     N/A                          0.080s                  3.7%
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 6 MB 
+    Collection start time: 00:44:44 22/04/2021 UTC
+    Collection stop time: 00:44:45 22/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_tr_9_default > nn-log/vtune/9_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r nn-log/vtune/nn_hpc_9_default --  nn  filelist_4 5 30 90 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_9_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  0.569999992847 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47808-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47808-quartz835.sc' filevtune: Executing actions 12 % Loading '47822.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-47822-cdbc78af.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-2.17.so'           vtune: Executing actions 19 % Resolving information for `libpthread-2.17.so'   vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `libittnotify_collector
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          vtune: Executing actions 20 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.198s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.913
+    Average CPU Frequency: 2.750 GHz 
+    Total Thread Count: 9
+Effective Physical Core Utilization: 7.9% (2.859 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 1.4% (1.040 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.172s (87.0%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                                               Module                     Serial CPU Time
+        -----------------------------------------------------  -------------------------  ---------------
+        [Outside any known module]                             [Unknown]                           0.095s
+        func@0x7efe0                                           libittnotify_collector.so           0.005s
+        kmp_basic_flag_native<unsigned long long>::done_check  libiomp5.so                         0.005s
+    Parallel Region Time: 0.026s (13.0%)
+        Estimated Ideal Time: 0.013s (6.6%)
+        OpenMP Potential Gain: 0.013s (6.5%)
+Memory Bound: 22.5% of Pipeline Slots
+ | The metric value is high. This can indicate that the significant fraction of
+ | execution pipeline slots could be stalled due to demand memory load and
+ | stores. Use Memory Access analysis to have the metric breakdown by memory
+ | hierarchy, memory bandwidth information, correlation by memory objects.
+ |
+    Cache Bound: 17.5% of Clockticks
+    DRAM Bound: 5.8% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 100.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.000
+    FP Arith/Mem Wr Instr. Ratio: 0.000
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 6 MB 
+    Collection start time: 00:44:59 22/04/2021 UTC
+    Collection stop time: 00:45:00 22/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_hpc_9_default > nn-log/vtune/9_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r nn-log/vtune/nn_tr_4_default --  nn  filelist_4 5 30 90 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_4_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  0.769999980927 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47906-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47906-quartz835.sc' filevtune: Executing actions 12 % Loading '47906-47911.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-47911-f81e703c.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      vtune: Executing actions 19 % Resolving information for `nn'                   vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.303s
+    Paused Time: 0s
+Effective CPU Utilization: 0.1% (0.101 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 0.303
+        Serial Time (outside parallel regions): 0.162s (53.4%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+            __kmp_join_call                 libiomp5.so           0.020s
+            __kmp_fork_call                 libiomp5.so           0.012s
+            __fopen_internal                libc.so.6             0.010s
+        Parallel Region Time: 0.141s (46.6%)
+            Estimated Ideal Time: 0.123s (40.7%)
+            OpenMP Potential Gain: 0.018s (5.9%)
+    Total Thread Count: 4
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.008s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                 Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        ------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Stream ../../data/nn/cane4_0.db 0x98c3002d                               0.002s                        100.0%           2
+        Stream ../../data/nn/cane4_1.db 0x6dcd4047                               0.001s                        100.0%           2
+        Stream ../../data/nn/cane4_3.db 0x6dcd4047                               0.001s                        100.0%           1
+        Stream filelist_4 0xf9eb886f                                             0.001s                        100.0%           1
+        Stream ../../data/nn/cane4_2.db 0x6dcd4047                               0.001s                        100.0%           2
+        [Others]                                                                 0.001s                        100.0%           7
+    Spin and Overhead Time: 0.770s (96.2% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+     | A significant portion of CPU time is spent in synchronization or
+     | threading overhead. Consider increasing task granularity or the scope of
+     | data synchronization.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                  0.530s                 66.2%
+        __kmp_fork_call                 libiomp5.so                  0.152s                 19.0%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  3.8%
+        __kmp_join_call                 libiomp5.so                  0.028s                  3.5%
+        __kmp_join_barrier              libiomp5.so                  0.010s                  1.3%
+        [Others]                        N/A                          0.020s                  2.5%
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 6 MB 
+    Collection start time: 00:45:17 22/04/2021 UTC
+    Collection stop time: 00:45:18 22/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_tr_4_default > nn-log/vtune/4_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r nn-log/vtune/nn_hpc_4_default --  nn  filelist_4 5 30 90 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_4_default -command stop.
+The 5 nearest neighbors are:
+1974 12 22 18 24 JOYCE      30.6  89.9   80  593 --> 0.608276
+2003  8 27 12 10 TONY       29.9  89.4  160  286 --> 0.608275
+1997 11 14 12 24 HELENE     30.5  89.8  134  529 --> 0.538515
+1980 10 22 18  3 ISAAC      30.1  90.4  110  778 --> 0.412312
+1988 12 27  0 18 TONY       30.0  89.8  113   39 --> 0.199997
+total time :  0.230000004172 svtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-47987-quartz835.sc' filevtune: Executing actions 12 % Loading 'systemcollector-47987-quartz835.sc' filevtune: Executing actions 12 % Loading '48001.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-48001-515b76a0.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-2.17.so'           vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 20 % Resolving information for `libc-2.17.so'         vtune: Executing actions 20 % Resolving information for `nn'                   vtune: Executing actions 20 % Resolving information for `libittnotify_collector
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 20 % Resolving information for `libiomp5.so'          vtune: Executing actions 21 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 0.177s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 0.000
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.958
+    Average CPU Frequency: 3.166 GHz 
+    Total Thread Count: 4
+Effective Physical Core Utilization: 2.1% (0.744 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 0.8% (0.596 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.153s (86.5%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                    Module                     Serial CPU Time
+        --------------------------  -------------------------  ---------------
+        [Outside any known module]  [Unknown]                           0.055s
+        [Loop@0x401834 in main]     nn                                  0.005s
+        func@0x7efe0                libittnotify_collector.so           0.005s
+        __kmp_free_team             libiomp5.so                         0.005s
+    Parallel Region Time: 0.024s (13.5%)
+        Estimated Ideal Time: 0.013s (7.5%)
+        OpenMP Potential Gain: 0.010s (5.9%)
+Memory Bound: 0.0% of Pipeline Slots
+    Cache Bound: 0.0% of Clockticks
+    DRAM Bound: 12.6% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 0.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 0.0% from DP FP
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 100.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.000
+    FP Arith/Mem Wr Instr. Ratio: 0.000
+Collection and Platform Info
+    Application Command Line: nn "filelist_4" "5" "30" "90" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz835
+    Result Size: 6 MB 
+    Collection start time: 00:45:32 22/04/2021 UTC
+    Collection stop time: 00:45:32 22/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r nn-log/vtune/nn_hpc_4_default > nn-log/vtune/4_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/nn/nn-log/vtune/nn_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            

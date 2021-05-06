@@ -1,0 +1,954 @@
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_36_default --  heartwall ../../data/heartwall/test.avi 10 36 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default -command stop.
+num of threads: 36
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-48826-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-48826-quartz3027.sc' filvtune: Executing actions 12 % Loading '48826-48832.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-48832-b1e78f98.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          vtune: Executing actions 19 % Resolving information for `ld-linux-x86-64.so.2' vtune: Executing actions 19 % Resolving information for `libdl.so.2'           
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 1.455s
+    Paused Time: 0s
+Effective CPU Utilization: 17.4% (12.505 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 1.455
+        Serial Time (outside parallel regions): 0.494s (34.0%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module           Serial CPU Time
+            ------------------------------  ---------------  ---------------
+            chop_flip_image                 heartwall                 0.070s
+            __kmp_get_global_thread_id_reg  libiomp5.so               0.030s
+            __read                          libpthread.so.0           0.020s
+            __kmp_fork_call                 libiomp5.so               0.020s
+        Parallel Region Time: 0.961s (66.0%)
+            Estimated Ideal Time: 0.502s (34.5%)
+            OpenMP Potential Gain: 0.459s (31.6%)
+             | The time wasted on load imbalance or parallel work arrangement is
+             | significant and negatively impacts the application performance
+             | and scalability. Explore OpenMP regions with the highest metric
+             | values. Make sure the workload of the regions is enough and the
+             | loop schedule is optimal.
+             |
+    Total Thread Count: 36
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 1.612s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                      Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -----------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                                 1.563s                        100.0%          36
+        Stream ../../data/heartwall/test.avi 0x5f4696a5                               0.048s                        100.0%          13
+        Mutex 0x6cb3026d                                                              0.001s                        100.0%           8
+        Stream 0xa146e230                                                             0.000s                        100.0%           1
+        Stream /proc/cpuinfo 0x42f783cd                                               0.000s                        100.0%           1
+        [Others]                                                                      0.000s                        100.0%           4
+    Spin and Overhead Time: 21.511s (54.8% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                 20.580s                 52.4%
+        __kmp_join_barrier              libiomp5.so                  0.570s                  1.5%
+        __kmp_join_call                 libiomp5.so                  0.310s                  0.8%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  0.1%
+        __kmp_fork_call                 libiomp5.so                  0.020s                  0.1%
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "36" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 4 MB 
+    Collection start time: 20:59:33 21/04/2021 UTC
+    Collection stop time: 20:59:35 21/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_36_default > heartwall-log/vtune/36_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_36_default --  heartwall ../../data/heartwall/test.avi 10 36 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default -command stop.
+num of threads: 36
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-48941-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-48941-quartz3027.sc' filvtune: Executing actions 12 % Loading '48955.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-48955-bddb46a8.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-2.17.so'           vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libittnotify_collector
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 20 % Resolving information for `libiomp5.so'          vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 1.430s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 6.798
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.825
+    Average CPU Frequency: 2.636 GHz 
+    Total Thread Count: 36
+Effective Physical Core Utilization: 33.3% (11.985 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 24.9% (17.955 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.389s (27.2%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                            Module                     Serial CPU Time
+        ----------------------------------  -------------------------  ---------------
+        [Outside any known module]          [Unknown]                           0.215s
+        [Loop@0x40cbf4 in chop_flip_image]  heartwall                           0.035s
+        [Loop@0x40cafe in chop_flip_image]  heartwall                           0.035s
+        func@0xdcc0                         libittnotify_collector.so           0.005s
+        func@0x7f060                        libittnotify_collector.so           0.005s
+        [Others]                            N/A                                 0.005s
+    Parallel Region Time: 1.041s (72.8%)
+        Estimated Ideal Time: 0.623s (43.5%)
+        OpenMP Potential Gain: 0.419s (29.3%)
+         | The time wasted on load imbalance or parallel work arrangement is
+         | significant and negatively impacts the application performance and
+         | scalability. Explore OpenMP regions with the highest metric values.
+         | Make sure the workload of the regions is enough and the loop schedule
+         | is optimal.
+         |
+Memory Bound: 5.7% of Pipeline Slots
+    Cache Bound: 4.3% of Clockticks
+    DRAM Bound: 0.0% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+ | A significant fraction of floating point arithmetic instructions are scalar.
+ | Use Intel Advisor to see possible reasons why the code was not vectorized.
+ |
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 7.9% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 100.0% from DP FP
+             | This code has floating point operations and is not vectorized.
+             | Consider using Intel Advisor to vectorize the loops.
+             |
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 92.1% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.338
+     | The metric value is low. This can be a result of unaligned access to data
+     | for vector operations. Use Intel Advisor to find possible data access
+     | inefficiencies for vector operations.
+     |
+    FP Arith/Mem Wr Instr. Ratio: 3.008
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "36" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 15 MB 
+    Collection start time: 20:59:51 21/04/2021 UTC
+    Collection stop time: 20:59:53 21/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_36_default > heartwall-log/vtune/36_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_36_default --  heartwall ../../data/heartwall/test.avi 20 36 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_36_default > heartwall-log/vtune/36_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_36_default --  heartwall ../../data/heartwall/test.avi 20 36 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_36_default > heartwall-log/vtune/36_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_36_default --  heartwall ../../data/heartwall/test.avi 30 36 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_36_default > heartwall-log/vtune/36_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_36_default --  heartwall ../../data/heartwall/test.avi 30 36 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_36_default > heartwall-log/vtune/36_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_36_default --  heartwall ../../data/heartwall/test.avi 40 36 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_36_default > heartwall-log/vtune/36_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_36_default --  heartwall ../../data/heartwall/test.avi 40 36 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_36_default > heartwall-log/vtune/36_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_36_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_18_default --  heartwall ../../data/heartwall/test.avi 10 18 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default -command stop.
+num of threads: 18
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-49306-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-49306-quartz3027.sc' filvtune: Executing actions 12 % Loading '49306-49311.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-49311-dac3d369.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-linux-x86-64.so.2' vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 1.284s
+    Paused Time: 0s
+Effective CPU Utilization: 18.0% (12.934 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 1.284
+        Serial Time (outside parallel regions): 0.270s (21.0%)
+         | Serial Time of your application is high. It directly impacts
+         | application Elapsed Time and scalability. Explore options for
+         | parallelization, algorithm or microarchitecture tuning of the serial
+         | part of the application.
+         |
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            chop_flip_image                 heartwall             0.060s
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+        Parallel Region Time: 1.015s (79.0%)
+            Estimated Ideal Time: 0.926s (72.1%)
+            OpenMP Potential Gain: 0.088s (6.9%)
+    Total Thread Count: 18
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.269s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                      Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -----------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                                 0.267s                        100.0%          11
+        Stream ../../data/heartwall/test.avi 0x5f4696a5                               0.002s                        100.0%          10
+        Stream 0xa146e230                                                             0.000s                        100.0%           1
+        Mutex 0x6cb3026d                                                              0.000s                        100.0%           3
+        Stream /proc/cpuinfo 0x42f783cd                                               0.000s                        100.0%           1
+        [Others]                                                                      0.000s                        100.0%           4
+    Spin and Overhead Time: 3.300s (16.6% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                  3.100s                 15.6%
+        __kmp_join_barrier              libiomp5.so                  0.110s                  0.6%
+        __kmp_join_call                 libiomp5.so                  0.060s                  0.3%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  0.2%
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "18" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 4 MB 
+    Collection start time: 21:00:52 21/04/2021 UTC
+    Collection stop time: 21:00:53 21/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_18_default > heartwall-log/vtune/18_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_18_default --  heartwall ../../data/heartwall/test.avi 10 18 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default -command stop.
+num of threads: 18
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-49416-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-49416-quartz3027.sc' filvtune: Executing actions 12 % Loading '49431.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-49431-6c8033e7.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-2.17.so'           vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `libittnotify_collector
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          vtune: Executing actions 20 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 1.333s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 8.981
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.573
+    Average CPU Frequency: 2.681 GHz 
+    Total Thread Count: 18
+Effective Physical Core Utilization: 35.4% (12.728 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 17.8% (12.849 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.267s (20.0%)
+     | Serial Time of your application is high. It directly impacts application
+     | Elapsed Time and scalability. Explore options for parallelization,
+     | algorithm or microarchitecture tuning of the serial part of the
+     | application.
+     |
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                            Module                     Serial CPU Time
+        ----------------------------------  -------------------------  ---------------
+        [Outside any known module]          [Unknown]                           0.135s
+        [Loop@0x40cafe in chop_flip_image]  heartwall                           0.035s
+        [Loop@0x40cbf4 in chop_flip_image]  heartwall                           0.015s
+        func@0x7efe0                        libittnotify_collector.so           0.005s
+    Parallel Region Time: 1.066s (80.0%)
+        Estimated Ideal Time: 0.909s (68.2%)
+        OpenMP Potential Gain: 0.157s (11.8%)
+         | The time wasted on load imbalance or parallel work arrangement is
+         | significant and negatively impacts the application performance and
+         | scalability. Explore OpenMP regions with the highest metric values.
+         | Make sure the workload of the regions is enough and the loop schedule
+         | is optimal.
+         |
+Memory Bound: 4.1% of Pipeline Slots
+    Cache Bound: 1.5% of Clockticks
+    DRAM Bound: 0.0% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+ | A significant fraction of floating point arithmetic instructions are scalar.
+ | Use Intel Advisor to see possible reasons why the code was not vectorized.
+ |
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 12.5% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 100.0% from DP FP
+             | This code has floating point operations and is not vectorized.
+             | Consider using Intel Advisor to vectorize the loops.
+             |
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 87.5% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.667
+    FP Arith/Mem Wr Instr. Ratio: 11.416
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "18" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 10 MB 
+    Collection start time: 21:01:07 21/04/2021 UTC
+    Collection stop time: 21:01:09 21/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_18_default > heartwall-log/vtune/18_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_18_default --  heartwall ../../data/heartwall/test.avi 20 18 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_18_default > heartwall-log/vtune/18_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_18_default --  heartwall ../../data/heartwall/test.avi 20 18 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_18_default > heartwall-log/vtune/18_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_18_default --  heartwall ../../data/heartwall/test.avi 30 18 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_18_default > heartwall-log/vtune/18_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_18_default --  heartwall ../../data/heartwall/test.avi 30 18 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_18_default > heartwall-log/vtune/18_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_18_default --  heartwall ../../data/heartwall/test.avi 40 18 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_18_default > heartwall-log/vtune/18_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_18_default --  heartwall ../../data/heartwall/test.avi 40 18 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_18_default > heartwall-log/vtune/18_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_18_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_9_default --  heartwall ../../data/heartwall/test.avi 10 9 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default -command stop.
+num of threads: 9
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-49755-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-49755-quartz3027.sc' filvtune: Executing actions 12 % Loading '49755-49760.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-49760-c6421076.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 2.214s
+    Paused Time: 0s
+Effective CPU Utilization: 10.2% (7.362 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 2.214
+        Serial Time (outside parallel regions): 0.227s (10.3%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            chop_flip_image                 heartwall             0.090s
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+        Parallel Region Time: 1.986s (89.7%)
+            Estimated Ideal Time: 1.807s (81.6%)
+            OpenMP Potential Gain: 0.179s (8.1%)
+    Total Thread Count: 9
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.030s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                      Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -----------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Condition Variable 0x74c978ed                                                 0.028s                        100.0%           4
+        Stream ../../data/heartwall/test.avi 0x5f4696a5                               0.002s                        100.0%          10
+        Stream 0xa146e230                                                             0.000s                        100.0%           1
+        Stream /proc/cpuinfo 0x42f783cd                                               0.000s                        100.0%           1
+        Stream /proc/meminfo 0x91f9e150                                               0.000s                        100.0%           1
+        [Others]                                                                      0.000s                        100.0%           3
+    Spin and Overhead Time: 2.330s (12.5% of CPU Time)
+     | The threading runtime function related to time spent on imbalance or
+     | serial spinning consumed a significant amount of CPU time. This can be
+     | caused by a load imbalance, insufficient concurrency for all working
+     | threads, or busy waits of worker threads while serial code is executed.
+     | If there is an imbalance, apply dynamic work scheduling or reduce the
+     | size of work chunks or tasks. If there is insufficient concurrency,
+     | consider collapsing the outer and inner loops. If there is a wait for
+     | completion of serial code, explore options for parallelization with Intel
+     | Advisor, algorithm, or microarchitecture tuning of the application's
+     | serial code with VTune Profiler Basic Hotspots or Microarchitecture
+     | Exploration analysis respectively. For OpenMP* applications, use the Per-
+     | Barrier OpenMP Potential Gain metric set in the HPC Performance
+     | Characterization analysis to discover the reason for high imbalance or
+     | serial spin time.
+     |
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                  2.110s                 11.3%
+        __kmp_join_call                 libiomp5.so                  0.100s                  0.5%
+        __kmp_join_barrier              libiomp5.so                  0.080s                  0.4%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  0.2%
+        __kmp_fork_call                 libiomp5.so                  0.010s                  0.1%
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "9" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 4 MB 
+    Collection start time: 21:02:04 21/04/2021 UTC
+    Collection stop time: 21:02:07 21/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_9_default > heartwall-log/vtune/9_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_9_default --  heartwall ../../data/heartwall/test.avi 10 9 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default -command stop.
+num of threads: 9
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-49841-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-49841-quartz3027.sc' filvtune: Executing actions 12 % Loading '49856.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-49856-8576c351.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Executing actions 20 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving information for `libiomp5.so'          vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 2.091s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 6.113
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.554
+    Average CPU Frequency: 2.866 GHz 
+    Total Thread Count: 9
+Effective Physical Core Utilization: 20.8% (7.475 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 10.3% (7.422 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.215s (10.3%)
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                            Module                     Serial CPU Time
+        ----------------------------------  -------------------------  ---------------
+        [Outside any known module]          [Unknown]                           0.075s
+        [Loop@0x40cafe in chop_flip_image]  heartwall                           0.040s
+        [Loop@0x40cbf4 in chop_flip_image]  heartwall                           0.020s
+        func@0x7efe0                        libittnotify_collector.so           0.010s
+        _IO_default_xsputn                  libc-2.17.so                        0.005s
+        [Others]                            N/A                                 0.005s
+    Parallel Region Time: 1.875s (89.7%)
+        Estimated Ideal Time: 1.686s (80.7%)
+        OpenMP Potential Gain: 0.189s (9.0%)
+Memory Bound: 3.1% of Pipeline Slots
+    Cache Bound: 2.4% of Clockticks
+    DRAM Bound: 0.3% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+ | A significant fraction of floating point arithmetic instructions are scalar.
+ | Use Intel Advisor to see possible reasons why the code was not vectorized.
+ |
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 14.1% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 100.0% from DP FP
+             | This code has floating point operations and is not vectorized.
+             | Consider using Intel Advisor to vectorize the loops.
+             |
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 85.9% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.735
+    FP Arith/Mem Wr Instr. Ratio: 20.882
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "9" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 9 MB 
+    Collection start time: 21:02:21 21/04/2021 UTC
+    Collection stop time: 21:02:23 21/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_9_default > heartwall-log/vtune/9_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_9_default --  heartwall ../../data/heartwall/test.avi 20 9 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_9_default > heartwall-log/vtune/9_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_9_default --  heartwall ../../data/heartwall/test.avi 20 9 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_9_default > heartwall-log/vtune/9_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_9_default --  heartwall ../../data/heartwall/test.avi 30 9 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_9_default > heartwall-log/vtune/9_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_9_default --  heartwall ../../data/heartwall/test.avi 30 9 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_9_default > heartwall-log/vtune/9_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_9_default --  heartwall ../../data/heartwall/test.avi 40 9 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_9_default > heartwall-log/vtune/9_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_9_default --  heartwall ../../data/heartwall/test.avi 40 9 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_9_default > heartwall-log/vtune/9_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_9_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_4_default --  heartwall ../../data/heartwall/test.avi 10 4 
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default -command stop.
+num of threads: 4
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-50171-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-50171-quartz3027.sc' filvtune: Executing actions 12 % Loading '50171-50177.0.trace' file               vtune: Executing actions 12 % Loading 'userapicollector-50177-e59aedde.trace' fvtune: Executing actions 12 % Converting API Events to Waits                   vtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `libc.so.6'            
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Executing actions 19 % Resolving information for `libiomp5.so'          
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Executing actions 19 % Resolving information for `libpthread.so.0'      vtune: Executing actions 19 % Resolving information for `libtpsstool.so'       vtune: Executing actions 20 % Resolving information for `libtpsstool.so'       
+vtune: Warning: Cannot locate debugging information for file `/lib64/libc.so.6'.
+Cannot match the module with the symbol file `/usr/lib/debug/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/libtpsstool.so'.
+vtune: Executing actions 21 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving information for `libtpsstool.so'       vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving sync object name information           vtune: Executing actions 24 % Resolving sync object name information           vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 25 % Resolving thread name information                vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 34 % Processing profile metrics and debug information vtune: Executing actions 35 % Processing profile metrics and debug information vtune: Executing actions 35 % Setting data model parameters                    vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 40 % Precomputing frequently used data                vtune: Executing actions 41 % Precomputing frequently used data                vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Updating precomputed scalar metrics              vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 44 % Discarding redundant overtime data               vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 48 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 3.932s
+    Paused Time: 0s
+Effective CPU Utilization: 5.2% (3.719 out of 72 logical CPUs)
+ | The metric value is low, which may signal a poor logical CPU cores
+ | utilization caused by load imbalance, threading runtime overhead, contended
+ | synchronization, or thread/process underutilization. Explore sub-metrics to
+ | estimate the efficiency of MPI and OpenMP parallelism or run the Locks and
+ | Waits analysis to identify parallel bottlenecks for other parallel runtimes.
+ |
+    OpenMP Analysis. Collection Time: 3.932
+        Serial Time (outside parallel regions): 0.171s (4.4%)
+
+            Top Serial Hotspots (outside parallel regions)
+            Function                        Module       Serial CPU Time
+            ------------------------------  -----------  ---------------
+            chop_flip_image                 heartwall             0.080s
+            __kmp_get_global_thread_id_reg  libiomp5.so           0.030s
+        Parallel Region Time: 3.760s (95.6%)
+            Estimated Ideal Time: 3.640s (92.6%)
+            OpenMP Potential Gain: 0.120s (3.1%)
+    Total Thread Count: 4
+     | The number of threads in the application is significantly lower than the
+     | number of logical cores on the machine. Check if it is resulted by thread
+     | number hard coding that limits application scalability.
+     |
+        Thread Oversubscription: 0s (0.0% of CPU Time)
+    Wait Time with poor CPU Utilization: 0.002s (100.0% of Wait Time)
+
+        Top Waiting Objects
+        Sync Object                                                    Wait Time with poor CPU Utilization  (% from Object Wait Time)(%)  Wait Count
+        -------------------------------------------------------------  -----------------------------------  ----------------------------  ----------
+        Stream ../../data/heartwall/test.avi 0x5f4696a5                                             0.002s                        100.0%          10
+        Stream 0xa146e230                                                                           0.000s                        100.0%           1
+        Stream /proc/cpuinfo 0x42f783cd                                                             0.000s                        100.0%           2
+        Stream /proc/meminfo 0xe0dcf749                                                             0.000s                        100.0%           1
+        Stream /sys/kernel/mm/transparent_hugepage/enabled 0x651fc985                               0.000s                        100.0%           1
+        [Others]                                                                                    0.000s                        100.0%           2
+    Spin and Overhead Time: 0.670s (4.4% of CPU Time)
+
+        Top Functions with Spin or Overhead Time
+        Function                        Module       Spin and Overhead Time  (% from CPU Time)(%)
+        ------------------------------  -----------  ----------------------  --------------------
+        __kmp_fork_barrier              libiomp5.so                  0.550s                  3.6%
+        __kmp_join_call                 libiomp5.so                  0.090s                  0.6%
+        __kmp_get_global_thread_id_reg  libiomp5.so                  0.030s                  0.2%
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "4" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 3 MB 
+    Collection start time: 21:03:18 21/04/2021 UTC
+    Collection stop time: 21:03:22 21/04/2021 UTC
+    Collector Type: User-mode sampling and tracing
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_4_default > heartwall-log/vtune/4_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_4_default --  heartwall ../../data/heartwall/test.avi 10 4 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Warning: To profile kernel modules during the session, make sure they are available in the /lib/modules/kernel_version/ location.
+vtune: Warning: Consider reducing possible collection overhead by setting the /proc/sys/kernel/perf_event_paranoid value to 0 (or less).
+vtune: Collection started. To stop the collection, either press CTRL-C or enter from another console window: vtune -r /usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default -command stop.
+num of threads: 4
+frame progress: 0 1 2 3 4 5 6 7 8 9 
+vtune: Collection stopped.
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions  0 % Finalizing the result                            vtune: Executing actions  0 % Clearing the database                            vtune: Executing actions  7 % Clearing the database                            vtune: Executing actions  7 % Loading raw data to the database                 vtune: Executing actions  7 % Loading 'systemcollector-50253-quartz3027.sc' filvtune: Executing actions 12 % Loading 'systemcollector-50253-quartz3027.sc' filvtune: Executing actions 12 % Loading '50267.perf' file                        vtune: Executing actions 12 % Loading 'userapicollector-50267-d3ab801a.trace' fvtune: Executing actions 12 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Updating precomputed scalar metrics              vtune: Executing actions 14 % Processing profile metrics and debug information vtune: Executing actions 19 % Processing profile metrics and debug information vtune: Executing actions 19 % Setting data model parameters                    vtune: Executing actions 19 % Resolving module symbols                         vtune: Executing actions 19 % Resolving information for dangling locations     vtune: Executing actions 19 % Resolving information for `ld-2.17.so'           vtune: Executing actions 19 % Resolving information for `libc-2.17.so'         vtune: Executing actions 19 % Resolving information for `libiomp5.so'          vtune: Executing actions 19 % Resolving information for `libittnotify_collectorvtune: Executing actions 19 % Resolving information for `heartwall'            vtune: Executing actions 20 % Resolving information for `heartwall'            
+vtune: Warning: Cannot locate debugging information for file `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall'.
+vtune: Warning: Cannot locate debugging information for file `/usr/tce/packages/vtune/vtune-2020.0/vtune_profiler_2020.0.0.605129/lib64/runtime/libittnotify_collector.so'.
+vtune: Warning: Cannot locate debugging information for file `/usr/lib64/libc-2.17.so'.
+Cannot match the module with the symbol file `/usr/lib/debug/usr/lib64/libc-2.17.so.debug'. Make sure to specify the correct path to the symbol file in the Binary/Symbol Search list of directories.
+vtune: Executing actions 21 % Resolving information for `heartwall'            vtune: Executing actions 22 % Resolving information for `heartwall'            vtune: Executing actions 22 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving bottom user stack information          vtune: Executing actions 23 % Resolving thread name information                vtune: Executing actions 24 % Resolving thread name information                vtune: Executing actions 24 % Resolving call target names for dynamic code     vtune: Executing actions 25 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Resolving call target names for dynamic code     vtune: Executing actions 26 % Processing profile metrics and debug information vtune: Executing actions 27 % Processing profile metrics and debug information vtune: Executing actions 28 % Processing profile metrics and debug information vtune: Executing actions 29 % Processing profile metrics and debug information vtune: Executing actions 30 % Processing profile metrics and debug information vtune: Executing actions 31 % Processing profile metrics and debug information vtune: Executing actions 32 % Processing profile metrics and debug information vtune: Executing actions 33 % Processing profile metrics and debug information vtune: Executing actions 33 % Setting data model parameters                    vtune: Executing actions 34 % Setting data model parameters                    vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 34 % Precomputing frequently used data                vtune: Executing actions 35 % Precomputing frequently used data                vtune: Executing actions 36 % Precomputing frequently used data                vtune: Executing actions 37 % Precomputing frequently used data                vtune: Executing actions 38 % Precomputing frequently used data                vtune: Executing actions 39 % Precomputing frequently used data                vtune: Executing actions 39 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Updating precomputed scalar metrics              vtune: Executing actions 41 % Discarding redundant overtime data               vtune: Executing actions 42 % Discarding redundant overtime data               vtune: Executing actions 42 % Saving the result                                vtune: Executing actions 44 % Saving the result                                vtune: Executing actions 46 % Saving the result                                vtune: Executing actions 49 % Saving the result                                vtune: Executing actions 50 % Saving the result                                vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              Elapsed Time: 3.693s
+    SP GFLOPS: 0.000
+    DP GFLOPS: 3.534
+    x87 GFLOPS: 0.000
+    CPI Rate: 0.533
+    Average CPU Frequency: 3.235 GHz 
+    Total Thread Count: 4
+Effective Physical Core Utilization: 10.1% (3.623 out of 36)
+ | The metric value is low, which may signal a poor physical CPU cores
+ | utilization caused by:
+ |     - load imbalance
+ |     - threading runtime overhead
+ |     - contended synchronization
+ |     - thread/process underutilization
+ |     - incorrect affinity that utilizes logical cores instead of physical
+ |       cores
+ | Explore sub-metrics to estimate the efficiency of MPI and OpenMP parallelism
+ | or run the Locks and Waits analysis to identify parallel bottlenecks for
+ | other parallel runtimes.
+ |
+    Effective Logical Core Utilization: 5.0% (3.623 out of 72)
+     | The metric value is low, which may signal a poor logical CPU cores
+     | utilization. Consider improving physical core utilization as the first
+     | step and then look at opportunities to utilize logical cores, which in
+     | some cases can improve processor throughput and overall performance of
+     | multi-threaded applications.
+     |
+    Serial Time (outside parallel regions): 0.188s (5.1%)
+
+        Top Serial Hotspots (outside parallel regions)
+        Function                            Module                     Serial CPU Time
+        ----------------------------------  -------------------------  ---------------
+        [Outside any known module]          [Unknown]                           0.075s
+        [Loop@0x40cafe in chop_flip_image]  heartwall                           0.015s
+        [Loop@0x40cbf4 in chop_flip_image]  heartwall                           0.010s
+        func@0x7efe0                        libittnotify_collector.so           0.005s
+        [Loop@0x403a8c in kernel]           heartwall                           0.005s
+    Parallel Region Time: 3.505s (94.9%)
+        Estimated Ideal Time: 3.351s (90.7%)
+        OpenMP Potential Gain: 0.155s (4.2%)
+Memory Bound: 2.8% of Pipeline Slots
+    Cache Bound: 2.2% of Clockticks
+    DRAM Bound: 0.0% of Clockticks
+    NUMA: % of Remote Accesses: 0.0%
+Vectorization: 0.0% of Packed FP Operations
+ | A significant fraction of floating point arithmetic instructions are scalar.
+ | Use Intel Advisor to see possible reasons why the code was not vectorized.
+ |
+    Instruction Mix
+        SP FLOPs: 0.0% of uOps
+            Packed: 0.0% from SP FP
+                128-bit: 0.0% from SP FP
+                256-bit: 0.0% from SP FP
+            Scalar: 0.0% from SP FP
+        DP FLOPs: 15.0% of uOps
+            Packed: 0.0% from DP FP
+                128-bit: 0.0% from DP FP
+                256-bit: 0.0% from DP FP
+            Scalar: 100.0% from DP FP
+             | This code has floating point operations and is not vectorized.
+             | Consider using Intel Advisor to vectorize the loops.
+             |
+        x87 FLOPs: 0.0% of uOps
+        Non-FP: 85.0% of uOps
+    FP Arith/Mem Rd Instr. Ratio: 0.845
+    FP Arith/Mem Wr Instr. Ratio: 27.102
+Collection and Platform Info
+    Application Command Line: heartwall "../../data/heartwall/test.avi" "10" "4" 
+    Operating System: 3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+    Computer Name: quartz3027
+    Result Size: 8 MB 
+    Collection start time: 21:03:35 21/04/2021 UTC
+    Collection stop time: 21:03:39 21/04/2021 UTC
+    Collector Type: Driverless Perf per-process sampling
+    CPU
+        Name: Intel(R) Xeon(R) Processor code named Broadwell
+        Frequency: 2.095 GHz 
+        Logical CPU Count: 72
+
+If you want to skip descriptions of detected performance issues in the report,
+enter: vtune -report summary -report-knob show-issues=false -r <my_result_dir>.
+Alternatively, you may view the report in the csv format: vtune -report
+<report_name> -format=csv.
+vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_4_default > heartwall-log/vtune/4_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_4_default --  heartwall ../../data/heartwall/test.avi 20 4 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_4_default > heartwall-log/vtune/4_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_4_default --  heartwall ../../data/heartwall/test.avi 20 4 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_4_default > heartwall-log/vtune/4_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_4_default --  heartwall ../../data/heartwall/test.avi 30 4 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_4_default > heartwall-log/vtune/4_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_4_default --  heartwall ../../data/heartwall/test.avi 30 4 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_4_default > heartwall-log/vtune/4_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect threading -r heartwall-log/vtune/heartwall_tr_4_default --  heartwall ../../data/heartwall/test.avi 40 4 
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_tr_4_default > heartwall-log/vtune/4_default_tr.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_tr_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            
+Vtune command: vtune  -collect hpc-performance -r heartwall-log/vtune/heartwall_hpc_4_default --  heartwall ../../data/heartwall/test.avi 40 4 
+vtune: Warning: Access to /proc/kallsyms file is limited. Consider changing /proc/sys/kernel/kptr_restrict to 0 to enable resolution of OS kernel and kernel module symbols.
+vtune: Fatal error: The specified result directory already contains result data. Provide another result directory.
+Vtune command: vtune -report summary -format=csv -report-knob show-issues=false  -r heartwall-log/vtune/heartwall_hpc_4_default > heartwall-log/vtune/4_default_hpc.log 
+vtune: Using result path `/usr/WS1/lin32/project/HPC-FAIR/rodinia_3.1/openmp/heartwall/heartwall-log/vtune/heartwall_hpc_4_default'
+vtune: Executing actions  0 %                                                  vtune: Executing actions  0 % Finalizing results                               vtune: Executing actions 50 % Finalizing results                               vtune: Executing actions 50 % Generating a report                              vtune: Executing actions 50 % Setting data model parameters                    vtune: Executing actions 75 % Setting data model parameters                    vtune: Executing actions 75 % Generating a report                              vtune: Executing actions 100 % Generating a report                             vtune: Executing actions 100 % done                                            

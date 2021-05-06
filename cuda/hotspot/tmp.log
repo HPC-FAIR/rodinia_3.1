@@ -1,0 +1,9 @@
+WG size of kernel = 16 X 16
+pyramidHeight: 2
+gridSize: [1024, 1024]
+border:[2, 2]
+blockGrid:[86, 86]
+targetBlock:[12, 12]
+Start computing the transient temperature
+Ending simulation
+TAU: flushing asynchronous CUDA events...

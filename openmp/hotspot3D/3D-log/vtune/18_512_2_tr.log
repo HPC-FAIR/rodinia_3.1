@@ -1,0 +1,46 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	3.282502
+1	Paused Time	0.0
+0	Effective CPU Utilization	1.3% (0.944 out of 72 logical CPUs)
+1	OpenMP Analysis. Collection Time	3.282502
+2	Serial Time (outside parallel regions)	3.071s (93.6%)
+3	Top Serial Hotspots (outside parallel regions)	
+3	Function	Module	Serial CPU Time
+3	readinput	3D	0.930018
+3	readinput	3D	0.910032
+3	__isoc99_sscanf	libc.so.6	0.309956
+3	sprintf	libc.so.6	0.259994
+3	computeTempCPU	3D	0.230000
+3	[Others]	N/A	0.130000
+2	Parallel Region Time	0.211s (6.4%)
+3	Estimated Ideal Time	0.027s (0.8%)
+3	OpenMP Potential Gain	0.185s (5.6%)
+1	Total Thread Count	18
+2	Thread Oversubscription	0s (0.0% of CPU Time)
+1	Wait Time with poor CPU Utilization	7.740s (100.0% of Wait Time)
+2	Top Waiting Objects	
+2	Sync Object	Wait Time with poor CPU Utilization	(% from Object Wait Time)(%)	Wait Count
+2	Condition Variable 0x74c978ed	7.733009	100.0	29
+2	Stream output.txt 0x9b2d8550	0.003819	100.0	1
+2	Stream ../../data/hotspot3D/power_512x2 0x9a09e8a7	0.001754	100.0	1
+2	Stream ../../data/hotspot3D/temp_512x2 0xe7042568	0.000735	100.0	1
+2	Stream 0xeb52f6e2	0.000591	100.0	15
+2	[Others]	0.000301	100.0	10
+1	Spin and Overhead Time	6.720s (68.7% of CPU Time)
+2	Top Functions with Spin or Overhead Time	
+2	Function	Module	Spin and Overhead Time	(% from CPU Time)(%)
+2	__kmp_fork_barrier	libiomp5.so	3.379980	34.6
+2	__kmpc_barrier	libiomp5.so	3.300004	33.7
+2	__kmp_get_global_thread_id_reg	libiomp5.so	0.040000	0.4
+0	Collection and Platform Info	
+1	Application Command Line	3D "512" "2" "100" "../../data/hotspot3D/power_512x2" "../../data/hotspot3D/temp_512x2" "output.txt" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz178
+1	Result Size	4363901
+1	Collection start time	21:38:08 21/04/2021 UTC
+1	Collection stop time	21:38:11 21/04/2021 UTC
+1	Collector Type	User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095146089
+2	Logical CPU Count	72

@@ -1,0 +1,45 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	2.045476
+1	Paused Time	0.0
+0	Effective CPU Utilization	9.5% (6.847 out of 72 logical CPUs)
+1	OpenMP Analysis. Collection Time	2.045476
+2	Serial Time (outside parallel regions)	0.189s (9.2%)
+3	Top Serial Hotspots (outside parallel regions)	
+3	Function	Module	Serial CPU Time
+3	__kmp_get_global_thread_id_reg	libiomp5.so	0.030000
+3	splineenergyform01	leukocyte	0.010004
+3	__kmp_fork_call	libiomp5.so	0.010000
+2	Parallel Region Time	1.857s (90.8%)
+3	Estimated Ideal Time	1.557s (76.1%)
+3	OpenMP Potential Gain	0.300s (14.6%)
+1	Total Thread Count	9
+2	Thread Oversubscription	0s (0.0% of CPU Time)
+1	Wait Time with poor CPU Utilization	0.009s (100.0% of Wait Time)
+2	Top Waiting Objects	
+2	Sync Object	Wait Time with poor CPU Utilization	(% from Object Wait Time)(%)	Wait Count
+2	Condition Variable 0x74c978ed	0.007942	100.0	5
+2	Stream ../../data/leukocyte/testfile.avi 0x6651e125	0.000918	100.0	10
+2	Stream 0xf875f055	0.000168	100.0	1
+2	Stream /proc/cpuinfo 0xb3d293b2	0.000107	100.0	2
+2	Stream /proc/meminfo 0x1bf7b42e	0.000020	100.0	1
+2	[Others]	0.000030	100.0	3
+1	Spin and Overhead Time	3.080s (18.1% of CPU Time)
+2	Top Functions with Spin or Overhead Time	
+2	Function	Module	Spin and Overhead Time	(% from CPU Time)(%)
+2	__kmp_fork_barrier	libiomp5.so	2.719824	15.9
+2	__kmp_join_call	libiomp5.so	0.299979	1.8
+2	__kmp_get_global_thread_id_reg	libiomp5.so	0.030000	0.2
+2	__kmp_join_barrier	libiomp5.so	0.020011	0.1
+2	__kmp_fork_call	libiomp5.so	0.010000	0.1
+0	Collection and Platform Info	
+1	Application Command Line	leukocyte "9" "9" "../../data/leukocyte/testfile.avi" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz2943
+1	Result Size	4511966
+1	Collection start time	00:46:45 22/04/2021 UTC
+1	Collection stop time	00:46:48 22/04/2021 UTC
+1	Collector Type	User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095147780
+2	Logical CPU Count	72

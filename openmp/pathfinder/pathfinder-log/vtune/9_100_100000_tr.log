@@ -1,0 +1,49 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	6.102816
+1	Paused Time	0.0
+0	Effective CPU Utilization	0.3% (0.241 out of 72 logical CPUs)
+1	OpenMP Analysis. Collection Time	6.102816
+2	Serial Time (outside parallel regions)	2.257s (37.0%)
+3	Top Serial Hotspots (outside parallel regions)	
+3	Function	Module	Serial CPU Time
+3	__kmp_join_call	libiomp5.so	1.017373
+3	printf	libc.so.6	0.710002
+3	rand	libc.so.6	0.180003
+3	__kmp_get_global_thread_id_reg	libiomp5.so	0.030000
+3	main	pathfinder	0.029995
+3	[Others]	N/A	0.029999
+2	Parallel Region Time	3.845s (63.0%)
+3	Estimated Ideal Time	3.240s (53.1%)
+3	OpenMP Potential Gain	0.605s (9.9%)
+1	Total Thread Count	9
+2	Thread Oversubscription	0s (0.0% of CPU Time)
+1	Wait Time with poor CPU Utilization	0.030s (100.0% of Wait Time)
+2	Top Waiting Objects	
+2	Sync Object	Wait Time with poor CPU Utilization	(% from Object Wait Time)(%)	Wait Count
+2	Condition Variable 0x74c978ed	0.029491	100.0	4
+2	Stream 0x2bc6bc06	0.000530	100.0	1
+2	Stream /proc/cpuinfo 0xcd775da3	0.000088	100.0	2
+2	Mutex 0x6cb3026d	0.000082	100.0	1
+2	Stream 0x8da665c1	0.000057	100.0	1
+2	[Others]	0.000043	100.0	4
+1	Spin and Overhead Time	44.491s (96.8% of CPU Time)
+2	Top Functions with Spin or Overhead Time	
+2	Function	Module	Spin and Overhead Time	(% from CPU Time)(%)
+2	__kmp_fork_barrier	libiomp5.so	38.139471	83.0
+2	__kmp_fork_call	libiomp5.so	3.055068	6.6
+2	__kmp_join_call	libiomp5.so	1.267055	2.8
+2	__kmp_join_barrier	libiomp5.so	1.159907	2.5
+2	_INTERNAL_23_______src_kmp_sched_cpp_20354e55::__kmp_itt_metadata_loop	libiomp5.so	0.240064	0.5
+2	[Others]	N/A	0.629233	1.4
+0	Collection and Platform Info	
+1	Application Command Line	pathfinder "100" "100000" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz2441
+1	Result Size	82576291
+1	Collection start time	00:51:44 22/04/2021 UTC
+1	Collection stop time	00:51:50 22/04/2021 UTC
+1	Collector Type	User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095147125
+2	Logical CPU Count	72

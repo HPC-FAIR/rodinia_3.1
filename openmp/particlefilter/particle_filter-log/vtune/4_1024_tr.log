@@ -1,0 +1,27 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	2.823010
+1	Paused Time	0.0
+0	Effective CPU Utilization	1.5% (1.077 out of 72 logical CPUs)
+1	Total Thread Count	4
+2	Thread Oversubscription	0s (0.0% of CPU Time)
+1	Wait Time with poor CPU Utilization	
+2	Top Waiting Objects	
+2	Sync Object	Wait Time with poor CPU Utilization	(% from Object Wait Time)(%)	Wait Count
+1	Spin and Overhead Time	0.049s (1.6% of CPU Time)
+2	Top Functions with Spin or Overhead Time	
+2	Function	Module	Spin and Overhead Time	(% from CPU Time)(%)
+2	gomp_barrier_wait_end	libgomp.so.1	0.020000	0.6
+2	gomp_team_barrier_wait_end	libgomp.so.1	0.018970	0.6
+2	gomp_team_end	libgomp.so.1	0.010000	0.3
+0	Collection and Platform Info	
+1	Application Command Line	particle_filter "-x" "1024" "-y" "1024" "-z" "10" "-np" "10000" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz2003
+1	Result Size	3317204
+1	Collection start time	00:50:23 22/04/2021 UTC
+1	Collection stop time	00:50:26 22/04/2021 UTC
+1	Collector Type	User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095147899
+2	Logical CPU Count	72

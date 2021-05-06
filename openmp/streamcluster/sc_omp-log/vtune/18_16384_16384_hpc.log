@@ -1,0 +1,54 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	0.895551
+1	SP GFLOPS	14.873551
+1	DP GFLOPS	0.0
+1	x87 GFLOPS	0.0
+1	CPI Rate	1.447686
+1	Average CPU Frequency	2643504813.282771
+1	Total Thread Count	18
+0	Effective Physical Core Utilization	29.0% (10.427 out of 36)
+1	Effective Logical Core Utilization	14.4% (10.370 out of 72)
+1	Serial Time (outside parallel regions)	0.337s (37.6%)
+2	Top Serial Hotspots (outside parallel regions)	
+2	Function	Module	Serial CPU Time
+2	[Outside any known module]	[Unknown]	0.110255
+2	[Loop@0x408d49 in pgain]	sc_omp	0.040093
+2	[Loop@0x4093a5 in pspeedy]	sc_omp	0.035081
+2	[Loop@0x408e1a in pgain]	sc_omp	0.020046
+2	[Loop@0x409169 in pspeedy]	sc_omp	0.010023
+2	[Others]	N/A	0.035081
+1	Parallel Region Time	0.559s (62.4%)
+2	Estimated Ideal Time	0.503s (56.2%)
+2	OpenMP Potential Gain	0.056s (6.2%)
+0	Memory Bound	63.0
+1	Cache Bound	42.6
+1	DRAM Bound	0.0
+1	NUMA: % of Remote Accesses	0.0
+0	Vectorization	100.0
+1	Instruction Mix	
+2	SP FLOPs	21.6
+3	Packed	100.0
+4	128-bit	100.0
+4	256-bit	0.0
+3	Scalar	0.0
+2	DP FLOPs	0.0
+3	Packed	0.0
+4	128-bit	0.0
+4	256-bit	0.0
+3	Scalar	0.0
+2	x87 FLOPs	0.0
+2	Non-FP	78.4
+1	FP Arith/Mem Rd Instr. Ratio	0.641786
+1	FP Arith/Mem Wr Instr. Ratio	6.115528
+0	Collection and Platform Info	
+1	Application Command Line	sc_omp "10" "20" "256" "16384" "16384" "1000" "none" "output.txt" "18" 
+1	Operating System	3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME="Red Hat Enterprise Linux Server" VERSION="7.9 (Maipo)" ID="rhel" ID_LIKE="fedora" VARIANT="Server" VARIANT_ID="server" VERSION_ID="7.9" PRETTY_NAME="Red Hat Enterprise Linux Server 7.9 (Maipo)" ANSI_COLOR="0;31" CPE_NAME="cpe:/o:redhat:enterprise_linux:7.9:GA:server" HOME_URL="https://www.redhat.com/" BUG_REPORT_URL="https://bugzilla.redhat.com/"  REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux" REDHAT_SUPPORT_PRODUCT_VERSION="7.9"
+1	Computer Name	quartz2758
+1	Result Size	8536668
+1	Collection start time	02:10:43 22/04/2021 UTC
+1	Collection stop time	02:10:44 22/04/2021 UTC
+1	Collector Type	Driverless Perf per-process sampling
+1	CPU	
+2	Name	Intel(R) Xeon(R) Processor code named Broadwell
+2	Frequency	2095147491
+2	Logical CPU Count	72
