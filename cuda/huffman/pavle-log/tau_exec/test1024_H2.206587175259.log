@@ -1,0 +1,227 @@
+Reading Profile files in pavle-log/tau_exec/../../data/huffman/test1024_H2.206587175259.in/profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0           98          208           1         146     208333 .TAU application
+ 45.7           95           95           1           0      95238 cudaThreadExit
+  3.7            7            7          14           0        556 cudaMalloc
+  0.6            1            1           1           0       1318 cudaThreadSynchronize
+  0.6            1            1           2           0        624 cudaGetDeviceProperties
+  0.6            1            1          14           0         89 cudaFree
+  0.3         0.71         0.71          32           0         22 cudaLaunchKernel: histo_kernel(unsigned char*, long, unsigned int*)
+  0.2        0.517        0.517          32           0         16 cudaMemcpyAsync
+  0.2        0.436        0.436           6           0         73 cudaMemcpy
+  0.2         0.39         0.39           2           0        195 cudaStreamCreate
+  0.1        0.229        0.229          10           0         23 cudaLaunchKernel: vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.0         0.03         0.03           2           0         15 cudaMemset
+  0.0        0.029        0.029           4           0          7 cudaEventRecord
+  0.0        0.028        0.028           1           0         28 cudaLaunchKernel: void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.027        0.027           1           0         27 cudaLaunchKernel: void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.026        0.026           1           0         26 cudaLaunchKernel: uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0        0.025        0.025           1           0         25 cudaLaunchKernel: pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.0        0.023        0.023           2           0         12 cudaEventElapsedTime
+  0.0         0.02         0.02           2           0         10 cudaStreamSynchronize
+  0.0        0.018        0.018           2           0          9 cudaEventSynchronize
+  0.0        0.014        0.014           4           0          4 cudaEventCreate
+  0.0        0.011        0.011           9           0          1 cudaGetLastError
+  0.0         0.01         0.01           1           0         10 cudaGetDeviceCount
+  0.0        0.007        0.007           1           0          7 cudaEventDestroy
+  0.0        0.004        0.004           1           0          4 cudaSetDevice
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         2  1.049E+06       1024  5.248E+05  5.238E+05  Bytes copied from Device to Host
+         2  1.049E+06       1024  5.248E+05  5.238E+05  Bytes copied from Device to Host : cudaMemcpy
+        36  1.049E+06       1024  8.744E+04  2.332E+05  Bytes copied from Host to Device
+         4  1.049E+06       1024  5.248E+05  5.238E+05  Bytes copied from Host to Device : cudaMemcpy
+        32  3.277E+04  3.277E+04  3.277E+04          0  Bytes copied from Host to Device : cudaMemcpyAsync
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0           35           38           1          89      38118 .TAU application
+  4.2            1            1          10           0        160 vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.8        0.306        0.306          32           0         10 histo_kernel(unsigned char*, long, unsigned int*)
+  0.6        0.211        0.211          36           0          6 Memory copy Host to Device
+  0.2       0.0945       0.0945           1           0         94 pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.1        0.045        0.045           1           0         45 void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.1       0.0213       0.0213           2           0         11 Memory copy Device to Host
+  0.0       0.0175       0.0175           1           0         18 void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.015        0.015           2           0          8 Stream Synchronize
+  0.0       0.0135       0.0135           2           0          7 Event Synchronize
+  0.0        0.006        0.006           1           0          6 uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0       0.0055       0.0055           1           0          6 Context Synchronize
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 1
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        46         12          3      6.978      2.279  Allocatable Blocks Per SM given Registers used (Blocks)
+        32          8          8          8          0  Allocatable Blocks Per SM given Registers used (Blocks) : histo_kernel(unsigned char*, long, unsigned int*)
+         1         12         12         12          0  Allocatable Blocks Per SM given Registers used (Blocks) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1         10         10         10          0  Allocatable Blocks Per SM given Registers used (Blocks) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10          3          3          3          0  Allocatable Blocks Per SM given Registers used (Blocks) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          9          9          9          0  Allocatable Blocks Per SM given Registers used (Blocks) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1          4          4          4          0  Allocatable Blocks Per SM given Registers used (Blocks) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46       1024         48      146.1      239.7  Allocatable Blocks Per SM given Shared Memory usage (Blocks)
+        32         48         48         48          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : histo_kernel(unsigned char*, long, unsigned int*)
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1        192        192        192          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10        192        192        192          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks)
+        32          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : histo_kernel(unsigned char*, long, unsigned int*)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46        256          1      245.2       50.5  Block Size
+        32        256        256        256          0  Block Size : histo_kernel(unsigned char*, long, unsigned int*)
+         1         16         16         16          0  Block Size : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1        256        256        256          0  Block Size : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10        256        256        256          0  Block Size : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          1          1          1          0  Block Size : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1        256        256        256          0  Block Size : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         2  1.049E+06       1024  5.248E+05  5.238E+05  Bytes copied from Device to Host
+         2  1.049E+06       1024  5.248E+05  5.238E+05  Bytes copied from Device to Host : Memory copy Device to Host
+        36  1.049E+06       1024  8.744E+04  2.332E+05  Bytes copied from Host to Device
+        36  1.049E+06       1024  8.744E+04  2.332E+05  Bytes copied from Host to Device : Memory copy Host to Device
+        46         16          2      15.39      2.855  GPU Occupancy (Warps)
+        32         16         16         16          0  GPU Occupancy (Warps) : histo_kernel(unsigned char*, long, unsigned int*)
+         1          2          2          2          0  GPU Occupancy (Warps) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1         16         16         16          0  GPU Occupancy (Warps) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10         16         16         16          0  GPU Occupancy (Warps) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          2          2          2          0  GPU Occupancy (Warps) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1         16         16         16          0  GPU Occupancy (Warps) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46          0          0          0          0  Local Memory (bytes per thread)
+        32          0          0          0          0  Local Memory (bytes per thread) : histo_kernel(unsigned char*, long, unsigned int*)
+         1          0          0          0          0  Local Memory (bytes per thread) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1          0          0          0          0  Local Memory (bytes per thread) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10          0          0          0          0  Local Memory (bytes per thread) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          0          0          0          0  Local Memory (bytes per thread) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1          0          0          0          0  Local Memory (bytes per thread) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46         72         24      38.61      18.23  Local Registers (per thread)
+        32         28         28         28          0  Local Registers (per thread) : histo_kernel(unsigned char*, long, unsigned int*)
+         1         34         34         34          0  Local Registers (per thread) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1         24         24         24          0  Local Registers (per thread) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10         72         72         72          0  Local Registers (per thread) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1         51         51         51          0  Local Registers (per thread) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1         51         51         51          0  Local Registers (per thread) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46       3072          0      715.3       1282  Shared Dynamic Memory (bytes)
+        32          0          0          0          0  Shared Dynamic Memory (bytes) : histo_kernel(unsigned char*, long, unsigned int*)
+         1          0          0          0          0  Shared Dynamic Memory (bytes) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1          0          0          0          0  Shared Dynamic Memory (bytes) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10       3072       3072       3072          0  Shared Dynamic Memory (bytes) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          8          8          8          0  Shared Dynamic Memory (bytes) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1       2176       2176       2176          0  Shared Dynamic Memory (bytes) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+        46       1024          0      715.9      465.8  Shared Static Memory (bytes)
+        32       1024       1024       1024          0  Shared Static Memory (bytes) : histo_kernel(unsigned char*, long, unsigned int*)
+         1          0          0          0          0  Shared Static Memory (bytes) : pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+         1          4          4          4          0  Shared Static Memory (bytes) : uniformAdd(unsigned int*, unsigned int*, int, int, int)
+        10         16         16         16          0  Shared Static Memory (bytes) : vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         1          0          0          0          0  Shared Static Memory (bytes) : void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+         1          0          0          0          0  Shared Static Memory (bytes) : void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          234          234           1           0     234992 .TAU application
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          369          481           3         235     160481 .TAU application
+ 19.8           95           95           1           0      95238 cudaThreadExit
+  1.6            7            7          14           0        556 cudaMalloc
+  0.3            1            1          10           0        160 vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.3            1            1           1           0       1318 cudaThreadSynchronize
+  0.3            1            1           2           0        624 cudaGetDeviceProperties
+  0.3            1            1          14           0         89 cudaFree
+  0.1         0.71         0.71          32           0         22 cudaLaunchKernel: histo_kernel(unsigned char*, long, unsigned int*)
+  0.1        0.517        0.517          32           0         16 cudaMemcpyAsync
+  0.1        0.436        0.436           6           0         73 cudaMemcpy
+  0.1         0.39         0.39           2           0        195 cudaStreamCreate
+  0.1        0.306        0.306          32           0         10 histo_kernel(unsigned char*, long, unsigned int*)
+  0.0        0.229        0.229          10           0         23 cudaLaunchKernel: vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.0        0.211        0.211          36           0          6 Memory copy Host to Device
+  0.0       0.0945       0.0945           1           0         94 pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.0        0.045        0.045           1           0         45 void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0         0.03         0.03           2           0         15 cudaMemset
+  0.0        0.029        0.029           4           0          7 cudaEventRecord
+  0.0        0.028        0.028           1           0         28 cudaLaunchKernel: void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.027        0.027           1           0         27 cudaLaunchKernel: void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.026        0.026           1           0         26 cudaLaunchKernel: uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0        0.025        0.025           1           0         25 cudaLaunchKernel: pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.0        0.023        0.023           2           0         12 cudaEventElapsedTime
+  0.0       0.0213       0.0213           2           0         11 Memory copy Device to Host
+  0.0         0.02         0.02           2           0         10 cudaStreamSynchronize
+  0.0        0.018        0.018           2           0          9 cudaEventSynchronize
+  0.0       0.0175       0.0175           1           0         18 void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.015        0.015           2           0          8 Stream Synchronize
+  0.0        0.014        0.014           4           0          4 cudaEventCreate
+  0.0       0.0135       0.0135           2           0          7 Event Synchronize
+  0.0        0.011        0.011           9           0          1 cudaGetLastError
+  0.0         0.01         0.01           1           0         10 cudaGetDeviceCount
+  0.0        0.007        0.007           1           0          7 cudaEventDestroy
+  0.0        0.006        0.006           1           0          6 uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0       0.0055       0.0055           1           0          6 Context Synchronize
+  0.0        0.004        0.004           1           0          4 cudaSetDevice
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          123          160           1     78.3333     160481 .TAU application
+ 19.8           31           31    0.333333           0      95238 cudaThreadExit
+  1.6            2            2     4.66667           0        556 cudaMalloc
+  0.3        0.534        0.534     3.33333           0        160 vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.3        0.439        0.439    0.333333           0       1318 cudaThreadSynchronize
+  0.3        0.416        0.416    0.666667           0        624 cudaGetDeviceProperties
+  0.3        0.414        0.414     4.66667           0         89 cudaFree
+  0.1        0.237        0.237     10.6667           0         22 cudaLaunchKernel: histo_kernel(unsigned char*, long, unsigned int*)
+  0.1        0.172        0.172     10.6667           0         16 cudaMemcpyAsync
+  0.1        0.145        0.145           2           0         73 cudaMemcpy
+  0.1         0.13         0.13    0.666667           0        195 cudaStreamCreate
+  0.1        0.102        0.102     10.6667           0         10 histo_kernel(unsigned char*, long, unsigned int*)
+  0.0       0.0763       0.0763     3.33333           0         23 cudaLaunchKernel: vlc_encode_kernel_sm64huff(unsigned int*, unsigned int const*, unsigned int const*, unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+  0.0       0.0703       0.0703          12           0          6 Memory copy Host to Device
+  0.0       0.0315       0.0315    0.333333           0         94 pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.0        0.015        0.015    0.333333           0         45 void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0         0.01         0.01    0.666667           0         15 cudaMemset
+  0.0      0.00967      0.00967     1.33333           0          7 cudaEventRecord
+  0.0      0.00933      0.00933    0.333333           0         28 cudaLaunchKernel: void prescan<true, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.009        0.009    0.333333           0         27 cudaLaunchKernel: void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0      0.00867      0.00867    0.333333           0         26 cudaLaunchKernel: uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0      0.00833      0.00833    0.333333           0         25 cudaLaunchKernel: pack2(unsigned int*, unsigned int*, unsigned int*, unsigned int*, unsigned int)
+  0.0      0.00767      0.00767    0.666667           0         12 cudaEventElapsedTime
+  0.0      0.00708      0.00708    0.666667           0         11 Memory copy Device to Host
+  0.0      0.00667      0.00667    0.666667           0         10 cudaStreamSynchronize
+  0.0        0.006        0.006    0.666667           0          9 cudaEventSynchronize
+  0.0      0.00583      0.00583    0.333333           0         18 void prescan<false, false>(unsigned int*, unsigned int const*, unsigned int*, int, int, int)
+  0.0        0.005        0.005    0.666667           0          8 Stream Synchronize
+  0.0      0.00467      0.00467     1.33333           0          4 cudaEventCreate
+  0.0       0.0045       0.0045    0.666667           0          7 Event Synchronize
+  0.0      0.00367      0.00367           3           0          1 cudaGetLastError
+  0.0      0.00333      0.00333    0.333333           0         10 cudaGetDeviceCount
+  0.0      0.00233      0.00233    0.333333           0          7 cudaEventDestroy
+  0.0        0.002        0.002    0.333333           0          6 uniformAdd(unsigned int*, unsigned int*, int, int, int)
+  0.0      0.00183      0.00183    0.333333           0          6 Context Synchronize
+  0.0      0.00133      0.00133    0.333333           0          4 cudaSetDevice
