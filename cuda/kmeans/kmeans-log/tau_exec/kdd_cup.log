@@ -1,0 +1,131 @@
+Reading Profile files in kmeans-log/tau_exec/../../data/kmeans/kdd_cup.txt/profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        1,531        1,798           1          40    1798597 .TAU application
+ 14.4          258          258           4           0      64623 cudaMalloc
+  0.4            6            6           7           0        968 cudaMemcpy
+  0.1            1            1           4           0        282 cudaFree
+  0.0        0.755        0.755           2           0        378 cudaThreadSynchronize
+  0.0        0.127        0.127           2           0         64 cudaLaunchKernel: kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.0        0.073        0.073           1           0         73 cudaLaunchKernel: invert_mapping(float*, float*, int, int)
+  0.0        0.033        0.033           6           0          6 cudaBindTexture
+  0.0         0.02         0.02           2           0         10 cudaMemcpyToSymbol
+  0.0        0.019        0.019           9           0          2 cudaCreateChannelDesc
+  0.0        0.016        0.016           3           0          5 cudaSetDevice
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         2  1.976E+06  1.976E+06  1.976E+06          0  Bytes copied from Device to Host
+         2  1.976E+06  1.976E+06  1.976E+06          0  Bytes copied from Device to Host : cudaMemcpy
+         7  6.719E+07        680  1.016E+07   2.33E+07  Bytes copied from Host to Device
+         5  6.719E+07        680  1.423E+07  2.649E+07  Bytes copied from Host to Device : cudaMemcpy
+         2        680        680        680          0  Bytes copied from Host to Device : cudaMemcpyToSymbol
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0           23           31           1          12      31274 .TAU application
+ 17.0            5            5           5           0       1062 Memory copy Host to Device
+  4.7            1            1           1           0       1472 invert_mapping(float*, float*, int, int)
+  2.5        0.782        0.782           2           0        391 kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.2       0.0712       0.0712           2           0         36 Memory copy Device to Host
+  0.0       0.0085       0.0085           2           0          4 Context Synchronize
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 1
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3         10          8      9.333     0.9428  Allocatable Blocks Per SM given Registers used (Blocks)
+         1          8          8          8          0  Allocatable Blocks Per SM given Registers used (Blocks) : invert_mapping(float*, float*, int, int)
+         2         10         10         10          0  Allocatable Blocks Per SM given Registers used (Blocks) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks)
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : invert_mapping(float*, float*, int, int)
+         2       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : invert_mapping(float*, float*, int, int)
+         2          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3        256        256        256          0  Block Size
+         1        256        256        256          0  Block Size : invert_mapping(float*, float*, int, int)
+         2        256        256        256          0  Block Size : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         2  1.976E+06  1.976E+06  1.976E+06          0  Bytes copied from Device to Host
+         2  1.976E+06  1.976E+06  1.976E+06          0  Bytes copied from Device to Host : Memory copy Device to Host
+         5  6.719E+07        680  1.423E+07  2.649E+07  Bytes copied from Host to Device
+         5  6.719E+07        680  1.423E+07  2.649E+07  Bytes copied from Host to Device : Memory copy Host to Device
+         3         16         16         16          0  GPU Occupancy (Warps)
+         1         16         16         16          0  GPU Occupancy (Warps) : invert_mapping(float*, float*, int, int)
+         2         16         16         16          0  GPU Occupancy (Warps) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3          0          0          0          0  Local Memory (bytes per thread)
+         1          0          0          0          0  Local Memory (bytes per thread) : invert_mapping(float*, float*, int, int)
+         2          0          0          0          0  Local Memory (bytes per thread) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3         28         22         24      2.828  Local Registers (per thread)
+         1         28         28         28          0  Local Registers (per thread) : invert_mapping(float*, float*, int, int)
+         2         22         22         22          0  Local Registers (per thread) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3          0          0          0          0  Shared Dynamic Memory (bytes)
+         1          0          0          0          0  Shared Dynamic Memory (bytes) : invert_mapping(float*, float*, int, int)
+         2          0          0          0          0  Shared Dynamic Memory (bytes) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+         3          0          0          0          0  Shared Static Memory (bytes)
+         1          0          0          0          0  Shared Static Memory (bytes) : invert_mapping(float*, float*, int, int)
+         2          0          0          0          0  Shared Static Memory (bytes) : kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          140          140           1           0     140419 .TAU application
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        1,695        1,970           3          52     656763 .TAU application
+ 13.1          258          258           4           0      64623 cudaMalloc
+  0.3            6            6           7           0        968 cudaMemcpy
+  0.3            5            5           5           0       1062 Memory copy Host to Device
+  0.1            1            1           1           0       1472 invert_mapping(float*, float*, int, int)
+  0.1            1            1           4           0        282 cudaFree
+  0.0        0.782        0.782           2           0        391 kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.0        0.755        0.755           2           0        378 cudaThreadSynchronize
+  0.0        0.127        0.127           2           0         64 cudaLaunchKernel: kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.0        0.073        0.073           1           0         73 cudaLaunchKernel: invert_mapping(float*, float*, int, int)
+  0.0       0.0712       0.0712           2           0         36 Memory copy Device to Host
+  0.0        0.033        0.033           6           0          6 cudaBindTexture
+  0.0         0.02         0.02           2           0         10 cudaMemcpyToSymbol
+  0.0        0.019        0.019           9           0          2 cudaCreateChannelDesc
+  0.0        0.016        0.016           3           0          5 cudaSetDevice
+  0.0       0.0085       0.0085           2           0          4 Context Synchronize
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          565          656           1     17.3333     656763 .TAU application
+ 13.1           86           86     1.33333           0      64623 cudaMalloc
+  0.3            2            2     2.33333           0        968 cudaMemcpy
+  0.3            1            1     1.66667           0       1062 Memory copy Host to Device
+  0.1        0.491        0.491    0.333333           0       1472 invert_mapping(float*, float*, int, int)
+  0.1        0.376        0.376     1.33333           0        282 cudaFree
+  0.0        0.261        0.261    0.666667           0        391 kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.0        0.252        0.252    0.666667           0        378 cudaThreadSynchronize
+  0.0       0.0423       0.0423    0.666667           0         64 cudaLaunchKernel: kmeansPoint(float*, int, int, int, int*, float*, float*, int*)
+  0.0       0.0243       0.0243    0.333333           0         73 cudaLaunchKernel: invert_mapping(float*, float*, int, int)
+  0.0       0.0238       0.0238    0.666667           0         36 Memory copy Device to Host
+  0.0        0.011        0.011           2           0          6 cudaBindTexture
+  0.0      0.00667      0.00667    0.666667           0         10 cudaMemcpyToSymbol
+  0.0      0.00633      0.00633           3           0          2 cudaCreateChannelDesc
+  0.0      0.00533      0.00533           1           0          5 cudaSetDevice
+  0.0      0.00283      0.00283    0.666667           0          4 Context Synchronize
