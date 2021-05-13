@@ -1,0 +1,106 @@
+Reading Profile files in 3D-log/tau_exec/../../data/hotspot3D/power_512x2/profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        2,169        2,238           1         111    2238422 .TAU application
+  2.9           65           65           3           0      21685 cudaMalloc
+  0.1            2            2         100           0         21 cudaLaunchKernel: hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  0.0            1            1           3           0        373 cudaMemcpy
+  0.0         0.65         0.65           3           0        217 cudaFree
+  0.0        0.072        0.072           1           0         72 cudaDeviceSynchronize
+  0.0        0.003        0.003           1           0          3 cudaFuncSetCacheConfig
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         1  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Device to Host
+         1  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Device to Host : cudaMemcpy
+         2  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Host to Device
+         2  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Host to Device : cudaMemcpy
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        0.531            3           1         104       3519 .TAU application
+ 77.1            2            2         100           0         27 hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  6.6        0.231        0.231           2           0        115 Memory copy Host to Device
+  1.1       0.0372       0.0372           1           0         37 Memory copy Device to Host
+  0.2       0.0055       0.0055           1           0          6 Context Synchronize
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 1
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+       100         10         10         10          0  Allocatable Blocks Per SM given Registers used (Blocks)
+       100         10         10         10          0  Allocatable Blocks Per SM given Registers used (Blocks) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks)
+       100       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks)
+       100          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100        256        256        256          0  Block Size
+       100        256        256        256          0  Block Size : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+         1  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Device to Host
+         1  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Device to Host : Memory copy Device to Host
+         2  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Host to Device
+         2  2.097E+06  2.097E+06  2.097E+06          0  Bytes copied from Host to Device : Memory copy Host to Device
+       100          4          4          4          0  GPU Occupancy (Warps)
+       100          4          4          4          0  GPU Occupancy (Warps) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100          0          0          0          0  Local Memory (bytes per thread)
+       100          0          0          0          0  Local Memory (bytes per thread) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100         41         41         41          0  Local Registers (per thread)
+       100         41         41         41          0  Local Registers (per thread) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100          0          0          0          0  Shared Dynamic Memory (bytes)
+       100          0          0          0          0  Shared Dynamic Memory (bytes) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+       100          0          0          0          0  Shared Static Memory (bytes)
+       100          0          0          0          0  Shared Static Memory (bytes) : hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          140          140           1           0     140904 .TAU application
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        2,310        2,382           3         215     794282 .TAU application
+  2.7           65           65           3           0      21685 cudaMalloc
+  0.1            2            2         100           0         27 hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  0.1            2            2         100           0         21 cudaLaunchKernel: hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  0.0            1            1           3           0        373 cudaMemcpy
+  0.0         0.65         0.65           3           0        217 cudaFree
+  0.0        0.231        0.231           2           0        115 Memory copy Host to Device
+  0.0        0.072        0.072           1           0         72 cudaDeviceSynchronize
+  0.0       0.0372       0.0372           1           0         37 Memory copy Device to Host
+  0.0       0.0055       0.0055           1           0          6 Context Synchronize
+  0.0        0.003        0.003           1           0          3 cudaFuncSetCacheConfig
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          770          794           1     71.6667     794282 .TAU application
+  2.7           21           21           1           0      21685 cudaMalloc
+  0.1        0.905        0.905     33.3333           0         27 hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  0.1        0.708        0.708     33.3333           0         21 cudaLaunchKernel: hotspotOpt1(float*, float*, float*, float, int, int, int, float, float, float, float, float, float, float)
+  0.0        0.373        0.373           1           0        373 cudaMemcpy
+  0.0        0.217        0.217           1           0        217 cudaFree
+  0.0       0.0769       0.0769    0.666667           0        115 Memory copy Host to Device
+  0.0        0.024        0.024    0.333333           0         72 cudaDeviceSynchronize
+  0.0       0.0124       0.0124    0.333333           0         37 Memory copy Device to Host
+  0.0      0.00183      0.00183    0.333333           0          6 Context Synchronize
+  0.0        0.001        0.001    0.333333           0          3 cudaFuncSetCacheConfig
