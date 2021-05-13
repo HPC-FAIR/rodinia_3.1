@@ -1,0 +1,124 @@
+Reading Profile files in b+tree-log/tau_exec//profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        1,746        1,754           1          90    1754576 .TAU application
+  0.2            3            3          18           0        184 cudaMemcpy
+  0.1            2            2          15           0        174 cudaMalloc
+  0.1            1            1          15           0         87 cudaFree
+  0.1            1            1           4           0        274 cudaThreadSynchronize
+  0.0        0.063        0.063           1           0         63 cudaLaunchKernel: findRangeK
+  0.0        0.037        0.037          35           0          1 cudaGetLastError
+  0.0        0.037        0.037           1           0         37 cudaLaunchKernel: findK
+  0.0        0.012        0.012           1           0         12 cudaSetDevice
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3      4E+04    2.4E+04  2.933E+04       7542  Bytes copied from Device to Host
+         3      4E+04    2.4E+04  2.933E+04       7542  Bytes copied from Device to Host : cudaMemcpy
+        15  1.628E+07    2.4E+04  2.473E+06  5.505E+06  Bytes copied from Host to Device
+        15  1.628E+07    2.4E+04  2.473E+06  5.505E+06  Bytes copied from Host to Device : cudaMemcpy
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0            8           11           1          24      11726 .TAU application
+ 22.5            2            2          15           0        176 Memory copy Host to Device
+  3.8        0.444        0.444           4           0        111 Context Synchronize
+  0.5        0.063        0.063           1           0         63 findK
+  0.4       0.0525       0.0525           1           0         52 findRangeK
+  0.1         0.01         0.01           3           0          3 Memory copy Device to Host
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 1
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         2          8          8          8          0  Allocatable Blocks Per SM given Registers used (Blocks)
+         1          8          8          8          0  Allocatable Blocks Per SM given Registers used (Blocks) : findK
+         1          8          8          8          0  Allocatable Blocks Per SM given Registers used (Blocks) : findRangeK
+         2       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks)
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : findK
+         1       1024       1024       1024          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : findRangeK
+         2          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks)
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : findK
+         1          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : findRangeK
+         2        256        256        256          0  Block Size
+         1        256        256        256          0  Block Size : findK
+         1        256        256        256          0  Block Size : findRangeK
+         3      4E+04    2.4E+04  2.933E+04       7542  Bytes copied from Device to Host
+         3      4E+04    2.4E+04  2.933E+04       7542  Bytes copied from Device to Host : Memory copy Device to Host
+        15  1.628E+07    2.4E+04  2.473E+06  5.505E+06  Bytes copied from Host to Device
+        15  1.628E+07    2.4E+04  2.473E+06  5.505E+06  Bytes copied from Host to Device : Memory copy Host to Device
+         2         16         16         16          0  GPU Occupancy (Warps)
+         1         16         16         16          0  GPU Occupancy (Warps) : findK
+         1         16         16         16          0  GPU Occupancy (Warps) : findRangeK
+         2          0          0          0          0  Local Memory (bytes per thread)
+         1          0          0          0          0  Local Memory (bytes per thread) : findK
+         1          0          0          0          0  Local Memory (bytes per thread) : findRangeK
+         2         32         26         29          3  Local Registers (per thread)
+         1         26         26         26          0  Local Registers (per thread) : findK
+         1         32         32         32          0  Local Registers (per thread) : findRangeK
+         2          0          0          0          0  Shared Dynamic Memory (bytes)
+         1          0          0          0          0  Shared Dynamic Memory (bytes) : findK
+         1          0          0          0          0  Shared Dynamic Memory (bytes) : findRangeK
+         2          0          0          0          0  Shared Static Memory (bytes)
+         1          0          0          0          0  Shared Static Memory (bytes) : findK
+         1          0          0          0          0  Shared Static Memory (bytes) : findRangeK
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          143          143           1           0     143947 .TAU application
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0        1,898        1,910           3         114     636750 .TAU application
+  0.2            3            3          18           0        184 cudaMemcpy
+  0.1            2            2          15           0        176 Memory copy Host to Device
+  0.1            2            2          15           0        174 cudaMalloc
+  0.1            1            1          15           0         87 cudaFree
+  0.1            1            1           4           0        274 cudaThreadSynchronize
+  0.0        0.444        0.444           4           0        111 Context Synchronize
+  0.0        0.063        0.063           1           0         63 cudaLaunchKernel: findRangeK
+  0.0        0.063        0.063           1           0         63 findK
+  0.0       0.0525       0.0525           1           0         52 findRangeK
+  0.0        0.037        0.037          35           0          1 cudaGetLastError
+  0.0        0.037        0.037           1           0         37 cudaLaunchKernel: findK
+  0.0        0.012        0.012           1           0         12 cudaSetDevice
+  0.0         0.01         0.01           3           0          3 Memory copy Device to Host
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          632          636           1          38     636750 .TAU application
+  0.2            1            1           6           0        184 cudaMemcpy
+  0.1        0.878        0.878           5           0        176 Memory copy Host to Device
+  0.1        0.872        0.872           5           0        174 cudaMalloc
+  0.1        0.436        0.436           5           0         87 cudaFree
+  0.1        0.365        0.365     1.33333           0        274 cudaThreadSynchronize
+  0.0        0.148        0.148     1.33333           0        111 Context Synchronize
+  0.0        0.021        0.021    0.333333           0         63 cudaLaunchKernel: findRangeK
+  0.0        0.021        0.021    0.333333           0         63 findK
+  0.0       0.0175       0.0175    0.333333           0         52 findRangeK
+  0.0       0.0123       0.0123     11.6667           0          1 cudaGetLastError
+  0.0       0.0123       0.0123    0.333333           0         37 cudaLaunchKernel: findK
+  0.0        0.004        0.004    0.333333           0         12 cudaSetDevice
+  0.0      0.00333      0.00333           1           0          3 Memory copy Device to Host
