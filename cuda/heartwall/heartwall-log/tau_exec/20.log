@@ -1,0 +1,101 @@
+Reading Profile files in heartwall-log/tau_exec/20/profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          237          839           1        1316     839702 .TAU application
+ 69.3          582          582         623           0        935 cudaMalloc
+  1.5           12           12         623           0         20 cudaFree
+  0.7            6            6          28           0        222 cudaMemcpy
+  0.1        0.713        0.713          22           0         32 cudaMemcpyToSymbol
+  0.1        0.521        0.521          20           0         26 cudaLaunchKernel: kernel()
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         4   1.29E+04       8320  1.061E+04       2288  Bytes copied from Device to Host
+         4   1.29E+04       8320  1.061E+04       2288  Bytes copied from Device to Host : cudaMemcpy
+        46  1.952E+06         16   8.49E+05  9.676E+05  Bytes copied from Host to Device
+        24  1.952E+06         80  1.627E+06  7.275E+05  Bytes copied from Host to Device : cudaMemcpy
+        22       8160         16      409.1       1695  Bytes copied from Host to Device : cudaMemcpyToSymbol
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 1:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          110          188           1          70     188728 .TAU application
+ 40.6           76           76          20           0       3829 kernel()
+  0.6            1            1          46           0         26 Memory copy Host to Device
+  0.0       0.0103       0.0103           4           0          3 Memory copy Device to Host
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 1
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+        20          4          4          4          0  Allocatable Blocks Per SM given Registers used (Blocks)
+        20          4          4          4          0  Allocatable Blocks Per SM given Registers used (Blocks) : kernel()
+        20          4          4          4          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks)
+        20          4          4          4          0  Allocatable Blocks Per SM given Shared Memory usage (Blocks) : kernel()
+        20          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks)
+        20          2          2          2          0  Allocatable Blocks per SM given Thread count (Blocks) : kernel()
+        20        256        256        256          0  Block Size
+        20        256        256        256          0  Block Size : kernel()
+         4   1.29E+04       8320  1.061E+04       2288  Bytes copied from Device to Host
+         4   1.29E+04       8320  1.061E+04       2288  Bytes copied from Device to Host : Memory copy Device to Host
+        46  1.952E+06         16   8.49E+05  9.676E+05  Bytes copied from Host to Device
+        46  1.952E+06         16   8.49E+05  9.676E+05  Bytes copied from Host to Device : Memory copy Host to Device
+        20         16         16         16          0  GPU Occupancy (Warps)
+        20         16         16         16          0  GPU Occupancy (Warps) : kernel()
+        20          0          0          0          0  Local Memory (bytes per thread)
+        20          0          0          0          0  Local Memory (bytes per thread) : kernel()
+        20         54         54         54          0  Local Registers (per thread)
+        20         54         54         54          0  Local Registers (per thread) : kernel()
+        20          0          0          0          0  Shared Dynamic Memory (bytes)
+        20          0          0          0          0  Shared Dynamic Memory (bytes) : kernel()
+        20  1.187E+04  1.187E+04  1.187E+04          0  Shared Static Memory (bytes)
+        20  1.187E+04  1.187E+04  1.187E+04          0  Shared Static Memory (bytes) : kernel()
+---------------------------------------------------------------------------------------
+
+NODE 0;CONTEXT 0;THREAD 2:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          136          136           1           0     136802 .TAU application
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          485        1,165           3        1386     388411 .TAU application
+ 50.0          582          582         623           0        935 cudaMalloc
+  6.6           76           76          20           0       3829 kernel()
+  1.1           12           12         623           0         20 cudaFree
+  0.5            6            6          28           0        222 cudaMemcpy
+  0.1            1            1          46           0         26 Memory copy Host to Device
+  0.1        0.713        0.713          22           0         32 cudaMemcpyToSymbol
+  0.0        0.521        0.521          20           0         26 cudaLaunchKernel: kernel()
+  0.0       0.0103       0.0103           4           0          3 Memory copy Device to Host
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          161          388           1         462     388411 .TAU application
+ 50.0          194          194     207.667           0        935 cudaMalloc
+  6.6           25           25     6.66667           0       3829 kernel()
+  1.1            4            4     207.667           0         20 cudaFree
+  0.5            2            2     9.33333           0        222 cudaMemcpy
+  0.1        0.399        0.399     15.3333           0         26 Memory copy Host to Device
+  0.1        0.238        0.238     7.33333           0         32 cudaMemcpyToSymbol
+  0.0        0.174        0.174     6.66667           0         26 cudaLaunchKernel: kernel()
+  0.0      0.00342      0.00342     1.33333           0          3 Memory copy Device to Host
