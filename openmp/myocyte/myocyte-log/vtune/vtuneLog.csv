@@ -1,0 +1,3277 @@
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,10,Metric Name,Metric Value
+hpc,36,10,Elapsed Time,0.022050
+hpc,36,10,SP GFLOPS,0.0
+hpc,36,10,DP GFLOPS,0.0
+hpc,36,10,x87 GFLOPS,0.0
+hpc,36,10,CPI Rate,2.000000
+hpc,36,10,Average CPU Frequency,4190299608.000000
+hpc,36,10,Total Thread Count,1
+hpc,36,10,Effective Physical Core Utilization,0.3% (0.114 out of 36)
+hpc,36,10,Effective Logical Core Utilization,0.3% (0.227 out of 72)
+hpc,36,10,Memory Bound,0.0
+hpc,36,10,Cache Bound,0.0
+hpc,36,10,DRAM Bound,0.0
+hpc,36,10,NUMA: % of Remote Accesses,0.0
+hpc,36,10,Vectorization,0.0
+hpc,36,10,SP FLOPs,0.0
+hpc,36,10,Packed,0.0
+hpc,36,10,128-bit,0.0
+hpc,36,10,256-bit,0.0
+hpc,36,10,Scalar,0.0
+hpc,36,10,DP FLOPs,0.0
+hpc,36,10,Packed,0.0
+hpc,36,10,128-bit,0.0
+hpc,36,10,256-bit,0.0
+hpc,36,10,Scalar,0.0
+hpc,36,10,x87 FLOPs,0.0
+hpc,36,10,Non-FP,0.0
+hpc,36,10,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,10,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,10,Application Command Line,"myocyte ""100"" ""1"" ""0"" ""36"""
+hpc,36,10,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,10,Computer Name,quartz2391
+hpc,36,10,Result Size,3316662
+hpc,36,10,Collection start time,22:50:43 21/04/2021 UTC
+hpc,36,10,Collection stop time,22:50:43 21/04/2021 UTC
+hpc,36,10,Collector Type,Driverless Perf per-process sampling
+hpc,36,10,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,10,Frequency,2095149804
+hpc,36,10,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,10,Metric Name,Metric Value
+hpc,18,10,Elapsed Time,0.027244
+hpc,18,10,SP GFLOPS,0.0
+hpc,18,10,DP GFLOPS,0.0
+hpc,18,10,x87 GFLOPS,0.0
+hpc,18,10,CPI Rate,2.000000
+hpc,18,10,Average CPU Frequency,4190298162.000000
+hpc,18,10,Total Thread Count,1
+hpc,18,10,Effective Physical Core Utilization,0.3% (0.092 out of 36)
+hpc,18,10,Effective Logical Core Utilization,0.3% (0.184 out of 72)
+hpc,18,10,Memory Bound,0.0
+hpc,18,10,Cache Bound,0.0
+hpc,18,10,DRAM Bound,0.0
+hpc,18,10,NUMA: % of Remote Accesses,0.0
+hpc,18,10,Vectorization,0.0
+hpc,18,10,SP FLOPs,0.0
+hpc,18,10,Packed,0.0
+hpc,18,10,128-bit,0.0
+hpc,18,10,256-bit,0.0
+hpc,18,10,Scalar,0.0
+hpc,18,10,DP FLOPs,0.0
+hpc,18,10,Packed,0.0
+hpc,18,10,128-bit,0.0
+hpc,18,10,256-bit,0.0
+hpc,18,10,Scalar,0.0
+hpc,18,10,x87 FLOPs,0.0
+hpc,18,10,Non-FP,0.0
+hpc,18,10,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,10,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,10,Application Command Line,"myocyte ""100"" ""1"" ""0"" ""18"""
+hpc,18,10,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,10,Computer Name,quartz2391
+hpc,18,10,Result Size,3316780
+hpc,18,10,Collection start time,22:51:03 21/04/2021 UTC
+hpc,18,10,Collection stop time,22:51:03 21/04/2021 UTC
+hpc,18,10,Collector Type,Driverless Perf per-process sampling
+hpc,18,10,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,10,Frequency,2095149081
+hpc,18,10,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,10,Metric Name,Metric Value
+hpc,9,10,Elapsed Time,0.023155
+hpc,9,10,SP GFLOPS,0.0
+hpc,9,10,DP GFLOPS,0.0
+hpc,9,10,x87 GFLOPS,0.0
+hpc,9,10,CPI Rate,2.000000
+hpc,9,10,Average CPU Frequency,4190296680.000000
+hpc,9,10,Total Thread Count,1
+hpc,9,10,Effective Physical Core Utilization,0.3% (0.108 out of 36)
+hpc,9,10,Effective Logical Core Utilization,0.3% (0.216 out of 72)
+hpc,9,10,Memory Bound,0.0
+hpc,9,10,Cache Bound,0.0
+hpc,9,10,DRAM Bound,0.0
+hpc,9,10,NUMA: % of Remote Accesses,0.0
+hpc,9,10,Vectorization,0.0
+hpc,9,10,SP FLOPs,0.0
+hpc,9,10,Packed,0.0
+hpc,9,10,128-bit,0.0
+hpc,9,10,256-bit,0.0
+hpc,9,10,Scalar,0.0
+hpc,9,10,DP FLOPs,0.0
+hpc,9,10,Packed,0.0
+hpc,9,10,128-bit,0.0
+hpc,9,10,256-bit,0.0
+hpc,9,10,Scalar,0.0
+hpc,9,10,x87 FLOPs,0.0
+hpc,9,10,Non-FP,0.0
+hpc,9,10,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,10,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,10,Application Command Line,"myocyte ""100"" ""1"" ""0"" ""9"""
+hpc,9,10,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,10,Computer Name,quartz2391
+hpc,9,10,Result Size,3316693
+hpc,9,10,Collection start time,22:51:23 21/04/2021 UTC
+hpc,9,10,Collection stop time,22:51:23 21/04/2021 UTC
+hpc,9,10,Collector Type,Driverless Perf per-process sampling
+hpc,9,10,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,10,Frequency,2095148340
+hpc,9,10,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,10,Metric Name,Metric Value
+hpc,4,10,Elapsed Time,0.024766
+hpc,4,10,SP GFLOPS,0.0
+hpc,4,10,DP GFLOPS,0.0
+hpc,4,10,x87 GFLOPS,0.0
+hpc,4,10,CPI Rate,2.000000
+hpc,4,10,Average CPU Frequency,4190295502.000000
+hpc,4,10,Total Thread Count,1
+hpc,4,10,Effective Physical Core Utilization,0.3% (0.101 out of 36)
+hpc,4,10,Effective Logical Core Utilization,0.3% (0.202 out of 72)
+hpc,4,10,Memory Bound,0.0
+hpc,4,10,Cache Bound,0.0
+hpc,4,10,DRAM Bound,0.0
+hpc,4,10,NUMA: % of Remote Accesses,0.0
+hpc,4,10,Vectorization,0.0
+hpc,4,10,SP FLOPs,0.0
+hpc,4,10,Packed,0.0
+hpc,4,10,128-bit,0.0
+hpc,4,10,256-bit,0.0
+hpc,4,10,Scalar,0.0
+hpc,4,10,DP FLOPs,0.0
+hpc,4,10,Packed,0.0
+hpc,4,10,128-bit,0.0
+hpc,4,10,256-bit,0.0
+hpc,4,10,Scalar,0.0
+hpc,4,10,x87 FLOPs,0.0
+hpc,4,10,Non-FP,0.0
+hpc,4,10,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,10,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,10,Application Command Line,"myocyte ""100"" ""1"" ""0"" ""4"""
+hpc,4,10,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,10,Computer Name,quartz2391
+hpc,4,10,Result Size,3333103
+hpc,4,10,Collection start time,22:51:45 21/04/2021 UTC
+hpc,4,10,Collection stop time,22:51:45 21/04/2021 UTC
+hpc,4,10,Collector Type,Driverless Perf per-process sampling
+hpc,4,10,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,10,Frequency,2095147751
+hpc,4,10,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,11,Metric Name,Metric Value
+hpc,36,11,Elapsed Time,0.029912
+hpc,36,11,SP GFLOPS,0.0
+hpc,36,11,DP GFLOPS,0.0
+hpc,36,11,x87 GFLOPS,0.0
+hpc,36,11,CPI Rate,2.000000
+hpc,36,11,Average CPU Frequency,4190294292.000000
+hpc,36,11,Total Thread Count,1
+hpc,36,11,Effective Physical Core Utilization,0.2% (0.084 out of 36)
+hpc,36,11,Effective Logical Core Utilization,0.2% (0.168 out of 72)
+hpc,36,11,Memory Bound,0.0
+hpc,36,11,Cache Bound,0.0
+hpc,36,11,DRAM Bound,0.0
+hpc,36,11,NUMA: % of Remote Accesses,0.0
+hpc,36,11,Vectorization,0.0
+hpc,36,11,SP FLOPs,0.0
+hpc,36,11,Packed,0.0
+hpc,36,11,128-bit,0.0
+hpc,36,11,256-bit,0.0
+hpc,36,11,Scalar,0.0
+hpc,36,11,DP FLOPs,0.0
+hpc,36,11,Packed,0.0
+hpc,36,11,128-bit,0.0
+hpc,36,11,256-bit,0.0
+hpc,36,11,Scalar,0.0
+hpc,36,11,x87 FLOPs,0.0
+hpc,36,11,Non-FP,0.0
+hpc,36,11,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,11,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,11,Application Command Line,"myocyte ""100"" ""1"" ""1"" ""36"""
+hpc,36,11,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,11,Computer Name,quartz2391
+hpc,36,11,Result Size,3317113
+hpc,36,11,Collection start time,22:52:04 21/04/2021 UTC
+hpc,36,11,Collection stop time,22:52:04 21/04/2021 UTC
+hpc,36,11,Collector Type,Driverless Perf per-process sampling
+hpc,36,11,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,11,Frequency,2095147146
+hpc,36,11,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,11,Metric Name,Metric Value
+hpc,18,11,Elapsed Time,0.024694
+hpc,18,11,SP GFLOPS,0.0
+hpc,18,11,DP GFLOPS,0.0
+hpc,18,11,x87 GFLOPS,0.0
+hpc,18,11,CPI Rate,2.000000
+hpc,18,11,Average CPU Frequency,4190293970.000000
+hpc,18,11,Total Thread Count,1
+hpc,18,11,Effective Physical Core Utilization,0.3% (0.101 out of 36)
+hpc,18,11,Effective Logical Core Utilization,0.3% (0.203 out of 72)
+hpc,18,11,Memory Bound,0.0
+hpc,18,11,Cache Bound,0.0
+hpc,18,11,DRAM Bound,0.0
+hpc,18,11,NUMA: % of Remote Accesses,0.0
+hpc,18,11,Vectorization,0.0
+hpc,18,11,SP FLOPs,0.0
+hpc,18,11,Packed,0.0
+hpc,18,11,128-bit,0.0
+hpc,18,11,256-bit,0.0
+hpc,18,11,Scalar,0.0
+hpc,18,11,DP FLOPs,0.0
+hpc,18,11,Packed,0.0
+hpc,18,11,128-bit,0.0
+hpc,18,11,256-bit,0.0
+hpc,18,11,Scalar,0.0
+hpc,18,11,x87 FLOPs,0.0
+hpc,18,11,Non-FP,0.0
+hpc,18,11,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,11,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,11,Application Command Line,"myocyte ""100"" ""1"" ""1"" ""18"""
+hpc,18,11,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,11,Computer Name,quartz2391
+hpc,18,11,Result Size,3316763
+hpc,18,11,Collection start time,22:52:24 21/04/2021 UTC
+hpc,18,11,Collection stop time,22:52:24 21/04/2021 UTC
+hpc,18,11,Collector Type,Driverless Perf per-process sampling
+hpc,18,11,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,11,Frequency,2095146985
+hpc,18,11,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,11,Metric Name,Metric Value
+hpc,9,11,Elapsed Time,0.025572
+hpc,9,11,SP GFLOPS,0.0
+hpc,9,11,DP GFLOPS,0.0
+hpc,9,11,x87 GFLOPS,0.0
+hpc,9,11,CPI Rate,2.000000
+hpc,9,11,Average CPU Frequency,4190295150.000000
+hpc,9,11,Total Thread Count,1
+hpc,9,11,Effective Physical Core Utilization,0.3% (0.098 out of 36)
+hpc,9,11,Effective Logical Core Utilization,0.3% (0.196 out of 72)
+hpc,9,11,Memory Bound,0.0
+hpc,9,11,Cache Bound,0.0
+hpc,9,11,DRAM Bound,0.0
+hpc,9,11,NUMA: % of Remote Accesses,0.0
+hpc,9,11,Vectorization,0.0
+hpc,9,11,SP FLOPs,0.0
+hpc,9,11,Packed,0.0
+hpc,9,11,128-bit,0.0
+hpc,9,11,256-bit,0.0
+hpc,9,11,Scalar,0.0
+hpc,9,11,DP FLOPs,0.0
+hpc,9,11,Packed,0.0
+hpc,9,11,128-bit,0.0
+hpc,9,11,256-bit,0.0
+hpc,9,11,Scalar,0.0
+hpc,9,11,x87 FLOPs,0.0
+hpc,9,11,Non-FP,0.0
+hpc,9,11,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,11,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,11,Application Command Line,"myocyte ""100"" ""1"" ""1"" ""9"""
+hpc,9,11,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,11,Computer Name,quartz2391
+hpc,9,11,Result Size,3317034
+hpc,9,11,Collection start time,22:52:44 21/04/2021 UTC
+hpc,9,11,Collection stop time,22:52:44 21/04/2021 UTC
+hpc,9,11,Collector Type,Driverless Perf per-process sampling
+hpc,9,11,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,11,Frequency,2095147575
+hpc,9,11,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,11,Metric Name,Metric Value
+hpc,4,11,Elapsed Time,0.048770
+hpc,4,11,SP GFLOPS,0.0
+hpc,4,11,DP GFLOPS,0.0
+hpc,4,11,x87 GFLOPS,0.0
+hpc,4,11,CPI Rate,2.000000
+hpc,4,11,Average CPU Frequency,2095147693.000000
+hpc,4,11,Total Thread Count,1
+hpc,4,11,Effective Physical Core Utilization,0.3% (0.103 out of 36)
+hpc,4,11,Effective Logical Core Utilization,0.3% (0.206 out of 72)
+hpc,4,11,Memory Bound,0.0
+hpc,4,11,Cache Bound,0.0
+hpc,4,11,DRAM Bound,0.0
+hpc,4,11,NUMA: % of Remote Accesses,0.0
+hpc,4,11,Vectorization,0.0
+hpc,4,11,SP FLOPs,0.0
+hpc,4,11,Packed,0.0
+hpc,4,11,128-bit,0.0
+hpc,4,11,256-bit,0.0
+hpc,4,11,Scalar,0.0
+hpc,4,11,DP FLOPs,0.0
+hpc,4,11,Packed,0.0
+hpc,4,11,128-bit,0.0
+hpc,4,11,256-bit,0.0
+hpc,4,11,Scalar,0.0
+hpc,4,11,x87 FLOPs,0.0
+hpc,4,11,Non-FP,0.0
+hpc,4,11,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,11,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,11,Application Command Line,"myocyte ""100"" ""1"" ""1"" ""4"""
+hpc,4,11,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,11,Computer Name,quartz2391
+hpc,4,11,Result Size,3317004
+hpc,4,11,Collection start time,22:53:05 21/04/2021 UTC
+hpc,4,11,Collection stop time,22:53:05 21/04/2021 UTC
+hpc,4,11,Collector Type,Driverless Perf per-process sampling
+hpc,4,11,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,11,Frequency,2095147693
+hpc,4,11,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,20,Metric Name,Metric Value
+hpc,36,20,Elapsed Time,0.025486
+hpc,36,20,SP GFLOPS,0.0
+hpc,36,20,DP GFLOPS,0.0
+hpc,36,20,x87 GFLOPS,0.0
+hpc,36,20,CPI Rate,2.000000
+hpc,36,20,Average CPU Frequency,2095148862.000000
+hpc,36,20,Total Thread Count,1
+hpc,36,20,Effective Physical Core Utilization,0.5% (0.197 out of 36)
+hpc,36,20,Effective Logical Core Utilization,0.5% (0.393 out of 72)
+hpc,36,20,Memory Bound,0.0
+hpc,36,20,Cache Bound,0.0
+hpc,36,20,DRAM Bound,0.0
+hpc,36,20,NUMA: % of Remote Accesses,0.0
+hpc,36,20,Vectorization,0.0
+hpc,36,20,SP FLOPs,0.0
+hpc,36,20,Packed,0.0
+hpc,36,20,128-bit,0.0
+hpc,36,20,256-bit,0.0
+hpc,36,20,Scalar,0.0
+hpc,36,20,DP FLOPs,0.0
+hpc,36,20,Packed,0.0
+hpc,36,20,128-bit,0.0
+hpc,36,20,256-bit,0.0
+hpc,36,20,Scalar,0.0
+hpc,36,20,x87 FLOPs,0.0
+hpc,36,20,Non-FP,0.0
+hpc,36,20,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,20,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,20,Application Command Line,"myocyte ""100"" ""2"" ""0"" ""36"""
+hpc,36,20,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,20,Computer Name,quartz2391
+hpc,36,20,Result Size,3317003
+hpc,36,20,Collection start time,22:53:25 21/04/2021 UTC
+hpc,36,20,Collection stop time,22:53:25 21/04/2021 UTC
+hpc,36,20,Collector Type,Driverless Perf per-process sampling
+hpc,36,20,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,20,Frequency,2095148862
+hpc,36,20,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,20,Metric Name,Metric Value
+hpc,18,20,Elapsed Time,0.022211
+hpc,18,20,SP GFLOPS,0.0
+hpc,18,20,DP GFLOPS,0.0
+hpc,18,20,x87 GFLOPS,0.0
+hpc,18,20,CPI Rate,2.000000
+hpc,18,20,Average CPU Frequency,4190298184.000000
+hpc,18,20,Total Thread Count,1
+hpc,18,20,Effective Physical Core Utilization,0.3% (0.113 out of 36)
+hpc,18,20,Effective Logical Core Utilization,0.3% (0.226 out of 72)
+hpc,18,20,Memory Bound,0.0
+hpc,18,20,Cache Bound,0.0
+hpc,18,20,DRAM Bound,0.0
+hpc,18,20,NUMA: % of Remote Accesses,0.0
+hpc,18,20,Vectorization,0.0
+hpc,18,20,SP FLOPs,0.0
+hpc,18,20,Packed,0.0
+hpc,18,20,128-bit,0.0
+hpc,18,20,256-bit,0.0
+hpc,18,20,Scalar,0.0
+hpc,18,20,DP FLOPs,0.0
+hpc,18,20,Packed,0.0
+hpc,18,20,128-bit,0.0
+hpc,18,20,256-bit,0.0
+hpc,18,20,Scalar,0.0
+hpc,18,20,x87 FLOPs,0.0
+hpc,18,20,Non-FP,0.0
+hpc,18,20,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,20,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,20,Application Command Line,"myocyte ""100"" ""2"" ""0"" ""18"""
+hpc,18,20,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,20,Computer Name,quartz2391
+hpc,18,20,Result Size,3316713
+hpc,18,20,Collection start time,22:53:44 21/04/2021 UTC
+hpc,18,20,Collection stop time,22:53:44 21/04/2021 UTC
+hpc,18,20,Collector Type,Driverless Perf per-process sampling
+hpc,18,20,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,20,Frequency,2095149092
+hpc,18,20,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,20,Metric Name,Metric Value
+hpc,9,20,Elapsed Time,0.024805
+hpc,9,20,SP GFLOPS,0.0
+hpc,9,20,DP GFLOPS,0.0
+hpc,9,20,x87 GFLOPS,0.0
+hpc,9,20,CPI Rate,3.000000
+hpc,9,20,Average CPU Frequency,3142720332.000000
+hpc,9,20,Total Thread Count,1
+hpc,9,20,Effective Physical Core Utilization,0.6% (0.202 out of 36)
+hpc,9,20,Effective Logical Core Utilization,0.6% (0.404 out of 72)
+hpc,9,20,Memory Bound,100.0
+hpc,9,20,Cache Bound,100.0
+hpc,9,20,DRAM Bound,0.0
+hpc,9,20,NUMA: % of Remote Accesses,0.0
+hpc,9,20,Vectorization,0.0
+hpc,9,20,SP FLOPs,0.0
+hpc,9,20,Packed,0.0
+hpc,9,20,128-bit,0.0
+hpc,9,20,256-bit,0.0
+hpc,9,20,Scalar,0.0
+hpc,9,20,DP FLOPs,0.0
+hpc,9,20,Packed,0.0
+hpc,9,20,128-bit,0.0
+hpc,9,20,256-bit,0.0
+hpc,9,20,Scalar,0.0
+hpc,9,20,x87 FLOPs,0.0
+hpc,9,20,Non-FP,0.0
+hpc,9,20,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,20,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,20,Application Command Line,"myocyte ""100"" ""2"" ""0"" ""9"""
+hpc,9,20,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,20,Computer Name,quartz2391
+hpc,9,20,Result Size,3318031
+hpc,9,20,Collection start time,22:54:02 21/04/2021 UTC
+hpc,9,20,Collection stop time,22:54:02 21/04/2021 UTC
+hpc,9,20,Collector Type,Driverless Perf per-process sampling
+hpc,9,20,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,20,Frequency,2095146888
+hpc,9,20,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,20,Metric Name,Metric Value
+hpc,4,20,Elapsed Time,0.024586
+hpc,4,20,SP GFLOPS,0.0
+hpc,4,20,DP GFLOPS,0.0
+hpc,4,20,x87 GFLOPS,0.0
+hpc,4,20,CPI Rate,2.000000
+hpc,4,20,Average CPU Frequency,2095149933.000000
+hpc,4,20,Total Thread Count,1
+hpc,4,20,Effective Physical Core Utilization,0.6% (0.204 out of 36)
+hpc,4,20,Effective Logical Core Utilization,0.6% (0.408 out of 72)
+hpc,4,20,Memory Bound,0.0
+hpc,4,20,Cache Bound,0.0
+hpc,4,20,DRAM Bound,0.0
+hpc,4,20,NUMA: % of Remote Accesses,0.0
+hpc,4,20,Vectorization,0.0
+hpc,4,20,SP FLOPs,0.0
+hpc,4,20,Packed,0.0
+hpc,4,20,128-bit,0.0
+hpc,4,20,256-bit,0.0
+hpc,4,20,Scalar,0.0
+hpc,4,20,DP FLOPs,0.0
+hpc,4,20,Packed,0.0
+hpc,4,20,128-bit,0.0
+hpc,4,20,256-bit,0.0
+hpc,4,20,Scalar,0.0
+hpc,4,20,x87 FLOPs,0.0
+hpc,4,20,Non-FP,0.0
+hpc,4,20,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,20,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,20,Application Command Line,"myocyte ""100"" ""2"" ""0"" ""4"""
+hpc,4,20,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,20,Computer Name,quartz2391
+hpc,4,20,Result Size,3316982
+hpc,4,20,Collection start time,22:54:21 21/04/2021 UTC
+hpc,4,20,Collection stop time,22:54:21 21/04/2021 UTC
+hpc,4,20,Collector Type,Driverless Perf per-process sampling
+hpc,4,20,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,20,Frequency,2095149933
+hpc,4,20,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,21,Metric Name,Metric Value
+hpc,36,21,Elapsed Time,0.021726
+hpc,36,21,SP GFLOPS,0.0
+hpc,36,21,DP GFLOPS,0.0
+hpc,36,21,x87 GFLOPS,0.0
+hpc,36,21,CPI Rate,2.000000
+hpc,36,21,Average CPU Frequency,2095147078.000000
+hpc,36,21,Total Thread Count,1
+hpc,36,21,Effective Physical Core Utilization,0.6% (0.231 out of 36)
+hpc,36,21,Effective Logical Core Utilization,0.6% (0.461 out of 72)
+hpc,36,21,Memory Bound,0.0
+hpc,36,21,Cache Bound,0.0
+hpc,36,21,DRAM Bound,0.0
+hpc,36,21,NUMA: % of Remote Accesses,0.0
+hpc,36,21,Vectorization,0.0
+hpc,36,21,SP FLOPs,0.0
+hpc,36,21,Packed,0.0
+hpc,36,21,128-bit,0.0
+hpc,36,21,256-bit,0.0
+hpc,36,21,Scalar,0.0
+hpc,36,21,DP FLOPs,0.0
+hpc,36,21,Packed,0.0
+hpc,36,21,128-bit,0.0
+hpc,36,21,256-bit,0.0
+hpc,36,21,Scalar,0.0
+hpc,36,21,x87 FLOPs,0.0
+hpc,36,21,Non-FP,0.0
+hpc,36,21,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,21,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,21,Application Command Line,"myocyte ""100"" ""2"" ""1"" ""36"""
+hpc,36,21,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,21,Computer Name,quartz2391
+hpc,36,21,Result Size,3333465
+hpc,36,21,Collection start time,22:54:40 21/04/2021 UTC
+hpc,36,21,Collection stop time,22:54:40 21/04/2021 UTC
+hpc,36,21,Collector Type,Driverless Perf per-process sampling
+hpc,36,21,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,21,Frequency,2095147078
+hpc,36,21,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,21,Metric Name,Metric Value
+hpc,18,21,Elapsed Time,0.027055
+hpc,18,21,SP GFLOPS,0.0
+hpc,18,21,DP GFLOPS,0.0
+hpc,18,21,x87 GFLOPS,0.0
+hpc,18,21,CPI Rate,2.000000
+hpc,18,21,Average CPU Frequency,2095147190.000000
+hpc,18,21,Total Thread Count,1
+hpc,18,21,Effective Physical Core Utilization,0.5% (0.185 out of 36)
+hpc,18,21,Effective Logical Core Utilization,0.5% (0.370 out of 72)
+hpc,18,21,Memory Bound,0.0
+hpc,18,21,Cache Bound,0.0
+hpc,18,21,DRAM Bound,0.0
+hpc,18,21,NUMA: % of Remote Accesses,0.0
+hpc,18,21,Vectorization,0.0
+hpc,18,21,SP FLOPs,0.0
+hpc,18,21,Packed,0.0
+hpc,18,21,128-bit,0.0
+hpc,18,21,256-bit,0.0
+hpc,18,21,Scalar,0.0
+hpc,18,21,DP FLOPs,0.0
+hpc,18,21,Packed,0.0
+hpc,18,21,128-bit,0.0
+hpc,18,21,256-bit,0.0
+hpc,18,21,Scalar,0.0
+hpc,18,21,x87 FLOPs,0.0
+hpc,18,21,Non-FP,0.0
+hpc,18,21,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,21,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,21,Application Command Line,"myocyte ""100"" ""2"" ""1"" ""18"""
+hpc,18,21,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,21,Computer Name,quartz2391
+hpc,18,21,Result Size,3317018
+hpc,18,21,Collection start time,22:55:00 21/04/2021 UTC
+hpc,18,21,Collection stop time,22:55:00 21/04/2021 UTC
+hpc,18,21,Collector Type,Driverless Perf per-process sampling
+hpc,18,21,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,21,Frequency,2095147190
+hpc,18,21,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,21,Metric Name,Metric Value
+hpc,9,21,Elapsed Time,0.023676
+hpc,9,21,SP GFLOPS,0.0
+hpc,9,21,DP GFLOPS,0.0
+hpc,9,21,x87 GFLOPS,0.0
+hpc,9,21,CPI Rate,2.000000
+hpc,9,21,Average CPU Frequency,4190298830.000000
+hpc,9,21,Total Thread Count,1
+hpc,9,21,Effective Physical Core Utilization,0.3% (0.106 out of 36)
+hpc,9,21,Effective Logical Core Utilization,0.3% (0.212 out of 72)
+hpc,9,21,Memory Bound,0.0
+hpc,9,21,Cache Bound,0.0
+hpc,9,21,DRAM Bound,0.0
+hpc,9,21,NUMA: % of Remote Accesses,0.0
+hpc,9,21,Vectorization,0.0
+hpc,9,21,SP FLOPs,0.0
+hpc,9,21,Packed,0.0
+hpc,9,21,128-bit,0.0
+hpc,9,21,256-bit,0.0
+hpc,9,21,Scalar,0.0
+hpc,9,21,DP FLOPs,0.0
+hpc,9,21,Packed,0.0
+hpc,9,21,128-bit,0.0
+hpc,9,21,256-bit,0.0
+hpc,9,21,Scalar,0.0
+hpc,9,21,x87 FLOPs,0.0
+hpc,9,21,Non-FP,0.0
+hpc,9,21,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,21,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,21,Application Command Line,"myocyte ""100"" ""2"" ""1"" ""9"""
+hpc,9,21,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,21,Computer Name,quartz2391
+hpc,9,21,Result Size,3316945
+hpc,9,21,Collection start time,22:55:19 21/04/2021 UTC
+hpc,9,21,Collection stop time,22:55:19 21/04/2021 UTC
+hpc,9,21,Collector Type,Driverless Perf per-process sampling
+hpc,9,21,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,21,Frequency,2095149415
+hpc,9,21,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,21,Metric Name,Metric Value
+hpc,4,21,Elapsed Time,0.023336
+hpc,4,21,SP GFLOPS,0.0
+hpc,4,21,DP GFLOPS,0.0
+hpc,4,21,x87 GFLOPS,0.0
+hpc,4,21,CPI Rate,2.000000
+hpc,4,21,Average CPU Frequency,4190293556.000000
+hpc,4,21,Total Thread Count,1
+hpc,4,21,Effective Physical Core Utilization,0.3% (0.107 out of 36)
+hpc,4,21,Effective Logical Core Utilization,0.3% (0.215 out of 72)
+hpc,4,21,Memory Bound,0.0
+hpc,4,21,Cache Bound,0.0
+hpc,4,21,DRAM Bound,0.0
+hpc,4,21,NUMA: % of Remote Accesses,0.0
+hpc,4,21,Vectorization,0.0
+hpc,4,21,SP FLOPs,0.0
+hpc,4,21,Packed,0.0
+hpc,4,21,128-bit,0.0
+hpc,4,21,256-bit,0.0
+hpc,4,21,Scalar,0.0
+hpc,4,21,DP FLOPs,0.0
+hpc,4,21,Packed,0.0
+hpc,4,21,128-bit,0.0
+hpc,4,21,256-bit,0.0
+hpc,4,21,Scalar,0.0
+hpc,4,21,x87 FLOPs,0.0
+hpc,4,21,Non-FP,0.0
+hpc,4,21,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,21,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,21,Application Command Line,"myocyte ""100"" ""2"" ""1"" ""4"""
+hpc,4,21,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,21,Computer Name,quartz2391
+hpc,4,21,Result Size,3316664
+hpc,4,21,Collection start time,22:55:38 21/04/2021 UTC
+hpc,4,21,Collection stop time,22:55:38 21/04/2021 UTC
+hpc,4,21,Collector Type,Driverless Perf per-process sampling
+hpc,4,21,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,21,Frequency,2095146778
+hpc,4,21,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,30,Metric Name,Metric Value
+hpc,36,30,Elapsed Time,0.023622
+hpc,36,30,SP GFLOPS,0.0
+hpc,36,30,DP GFLOPS,0.0
+hpc,36,30,x87 GFLOPS,0.0
+hpc,36,30,CPI Rate,2.000000
+hpc,36,30,Average CPU Frequency,4190300192.000000
+hpc,36,30,Total Thread Count,1
+hpc,36,30,Effective Physical Core Utilization,0.3% (0.106 out of 36)
+hpc,36,30,Effective Logical Core Utilization,0.3% (0.212 out of 72)
+hpc,36,30,Memory Bound,0.0
+hpc,36,30,Cache Bound,0.0
+hpc,36,30,DRAM Bound,0.0
+hpc,36,30,NUMA: % of Remote Accesses,0.0
+hpc,36,30,Vectorization,0.0
+hpc,36,30,SP FLOPs,0.0
+hpc,36,30,Packed,0.0
+hpc,36,30,128-bit,0.0
+hpc,36,30,256-bit,0.0
+hpc,36,30,Scalar,0.0
+hpc,36,30,DP FLOPs,0.0
+hpc,36,30,Packed,0.0
+hpc,36,30,128-bit,0.0
+hpc,36,30,256-bit,0.0
+hpc,36,30,Scalar,0.0
+hpc,36,30,x87 FLOPs,0.0
+hpc,36,30,Non-FP,0.0
+hpc,36,30,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,30,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,30,Application Command Line,"myocyte ""100"" ""3"" ""0"" ""36"""
+hpc,36,30,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,30,Computer Name,quartz2391
+hpc,36,30,Result Size,3317082
+hpc,36,30,Collection start time,22:55:57 21/04/2021 UTC
+hpc,36,30,Collection stop time,22:55:57 21/04/2021 UTC
+hpc,36,30,Collector Type,Driverless Perf per-process sampling
+hpc,36,30,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,30,Frequency,2095150096
+hpc,36,30,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,30,Metric Name,Metric Value
+hpc,18,30,Elapsed Time,0.027341
+hpc,18,30,SP GFLOPS,0.0
+hpc,18,30,DP GFLOPS,0.0
+hpc,18,30,x87 GFLOPS,0.0
+hpc,18,30,CPI Rate,3.000000
+hpc,18,30,Average CPU Frequency,3142723246.500000
+hpc,18,30,Total Thread Count,1
+hpc,18,30,Effective Physical Core Utilization,0.5% (0.183 out of 36)
+hpc,18,30,Effective Logical Core Utilization,0.5% (0.367 out of 72)
+hpc,18,30,Memory Bound,0.0
+hpc,18,30,Cache Bound,0.0
+hpc,18,30,DRAM Bound,0.0
+hpc,18,30,NUMA: % of Remote Accesses,0.0
+hpc,18,30,Vectorization,0.0
+hpc,18,30,SP FLOPs,0.0
+hpc,18,30,Packed,0.0
+hpc,18,30,128-bit,0.0
+hpc,18,30,256-bit,0.0
+hpc,18,30,Scalar,0.0
+hpc,18,30,DP FLOPs,0.0
+hpc,18,30,Packed,0.0
+hpc,18,30,128-bit,0.0
+hpc,18,30,256-bit,0.0
+hpc,18,30,Scalar,0.0
+hpc,18,30,x87 FLOPs,0.0
+hpc,18,30,Non-FP,0.0
+hpc,18,30,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,30,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,30,Application Command Line,"myocyte ""100"" ""3"" ""0"" ""18"""
+hpc,18,30,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,30,Computer Name,quartz2391
+hpc,18,30,Result Size,3317316
+hpc,18,30,Collection start time,22:56:16 21/04/2021 UTC
+hpc,18,30,Collection stop time,22:56:16 21/04/2021 UTC
+hpc,18,30,Collector Type,Driverless Perf per-process sampling
+hpc,18,30,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,30,Frequency,2095148831
+hpc,18,30,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,30,Metric Name,Metric Value
+hpc,9,30,Elapsed Time,0.026236
+hpc,9,30,SP GFLOPS,0.0
+hpc,9,30,DP GFLOPS,0.0
+hpc,9,30,x87 GFLOPS,0.0
+hpc,9,30,CPI Rate,2.000000
+hpc,9,30,Average CPU Frequency,4190297214.000000
+hpc,9,30,Total Thread Count,1
+hpc,9,30,Effective Physical Core Utilization,0.3% (0.096 out of 36)
+hpc,9,30,Effective Logical Core Utilization,0.3% (0.191 out of 72)
+hpc,9,30,Memory Bound,0.0
+hpc,9,30,Cache Bound,0.0
+hpc,9,30,DRAM Bound,0.0
+hpc,9,30,NUMA: % of Remote Accesses,0.0
+hpc,9,30,Vectorization,0.0
+hpc,9,30,SP FLOPs,0.0
+hpc,9,30,Packed,0.0
+hpc,9,30,128-bit,0.0
+hpc,9,30,256-bit,0.0
+hpc,9,30,Scalar,0.0
+hpc,9,30,DP FLOPs,0.0
+hpc,9,30,Packed,0.0
+hpc,9,30,128-bit,0.0
+hpc,9,30,256-bit,0.0
+hpc,9,30,Scalar,0.0
+hpc,9,30,x87 FLOPs,0.0
+hpc,9,30,Non-FP,0.0
+hpc,9,30,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,30,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,30,Application Command Line,"myocyte ""100"" ""3"" ""0"" ""9"""
+hpc,9,30,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,30,Computer Name,quartz2391
+hpc,9,30,Result Size,3333122
+hpc,9,30,Collection start time,22:56:35 21/04/2021 UTC
+hpc,9,30,Collection stop time,22:56:35 21/04/2021 UTC
+hpc,9,30,Collector Type,Driverless Perf per-process sampling
+hpc,9,30,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,30,Frequency,2095148607
+hpc,9,30,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,30,Metric Name,Metric Value
+hpc,4,30,Elapsed Time,0.028608
+hpc,4,30,SP GFLOPS,0.0
+hpc,4,30,DP GFLOPS,0.0
+hpc,4,30,x87 GFLOPS,0.0
+hpc,4,30,CPI Rate,3.000000
+hpc,4,30,Average CPU Frequency,3142723035.000000
+hpc,4,30,Total Thread Count,1
+hpc,4,30,Effective Physical Core Utilization,0.5% (0.175 out of 36)
+hpc,4,30,Effective Logical Core Utilization,0.5% (0.350 out of 72)
+hpc,4,30,Memory Bound,0.0
+hpc,4,30,Cache Bound,0.0
+hpc,4,30,DRAM Bound,0.0
+hpc,4,30,NUMA: % of Remote Accesses,0.0
+hpc,4,30,Vectorization,0.0
+hpc,4,30,SP FLOPs,0.0
+hpc,4,30,Packed,0.0
+hpc,4,30,128-bit,0.0
+hpc,4,30,256-bit,0.0
+hpc,4,30,Scalar,0.0
+hpc,4,30,DP FLOPs,0.0
+hpc,4,30,Packed,0.0
+hpc,4,30,128-bit,0.0
+hpc,4,30,256-bit,0.0
+hpc,4,30,Scalar,0.0
+hpc,4,30,x87 FLOPs,0.0
+hpc,4,30,Non-FP,0.0
+hpc,4,30,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,30,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,30,Application Command Line,"myocyte ""100"" ""3"" ""0"" ""4"""
+hpc,4,30,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,30,Computer Name,quartz2391
+hpc,4,30,Result Size,3317275
+hpc,4,30,Collection start time,22:56:54 21/04/2021 UTC
+hpc,4,30,Collection stop time,22:56:54 21/04/2021 UTC
+hpc,4,30,Collector Type,Driverless Perf per-process sampling
+hpc,4,30,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,30,Frequency,2095148690
+hpc,4,30,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,31,Metric Name,Metric Value
+hpc,36,31,Elapsed Time,0.025084
+hpc,36,31,SP GFLOPS,0.0
+hpc,36,31,DP GFLOPS,0.0
+hpc,36,31,x87 GFLOPS,0.0
+hpc,36,31,CPI Rate,2.000000
+hpc,36,31,Average CPU Frequency,4190298876.000000
+hpc,36,31,Total Thread Count,1
+hpc,36,31,Effective Physical Core Utilization,0.3% (0.100 out of 36)
+hpc,36,31,Effective Logical Core Utilization,0.3% (0.200 out of 72)
+hpc,36,31,Memory Bound,0.0
+hpc,36,31,Cache Bound,0.0
+hpc,36,31,DRAM Bound,0.0
+hpc,36,31,NUMA: % of Remote Accesses,0.0
+hpc,36,31,Vectorization,0.0
+hpc,36,31,SP FLOPs,0.0
+hpc,36,31,Packed,0.0
+hpc,36,31,128-bit,0.0
+hpc,36,31,256-bit,0.0
+hpc,36,31,Scalar,0.0
+hpc,36,31,DP FLOPs,0.0
+hpc,36,31,Packed,0.0
+hpc,36,31,128-bit,0.0
+hpc,36,31,256-bit,0.0
+hpc,36,31,Scalar,0.0
+hpc,36,31,x87 FLOPs,0.0
+hpc,36,31,Non-FP,0.0
+hpc,36,31,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,31,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,31,Application Command Line,"myocyte ""100"" ""3"" ""1"" ""36"""
+hpc,36,31,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,31,Computer Name,quartz2391
+hpc,36,31,Result Size,3316769
+hpc,36,31,Collection start time,22:57:14 21/04/2021 UTC
+hpc,36,31,Collection stop time,22:57:14 21/04/2021 UTC
+hpc,36,31,Collector Type,Driverless Perf per-process sampling
+hpc,36,31,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,31,Frequency,2095149438
+hpc,36,31,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,31,Metric Name,Metric Value
+hpc,18,31,Elapsed Time,0.024941
+hpc,18,31,SP GFLOPS,0.0
+hpc,18,31,DP GFLOPS,0.0
+hpc,18,31,x87 GFLOPS,0.0
+hpc,18,31,CPI Rate,2.000000
+hpc,18,31,Average CPU Frequency,4190298356.000000
+hpc,18,31,Total Thread Count,1
+hpc,18,31,Effective Physical Core Utilization,0.3% (0.100 out of 36)
+hpc,18,31,Effective Logical Core Utilization,0.3% (0.201 out of 72)
+hpc,18,31,Memory Bound,0.0
+hpc,18,31,Cache Bound,0.0
+hpc,18,31,DRAM Bound,0.0
+hpc,18,31,NUMA: % of Remote Accesses,0.0
+hpc,18,31,Vectorization,0.0
+hpc,18,31,SP FLOPs,0.0
+hpc,18,31,Packed,0.0
+hpc,18,31,128-bit,0.0
+hpc,18,31,256-bit,0.0
+hpc,18,31,Scalar,0.0
+hpc,18,31,DP FLOPs,0.0
+hpc,18,31,Packed,0.0
+hpc,18,31,128-bit,0.0
+hpc,18,31,256-bit,0.0
+hpc,18,31,Scalar,0.0
+hpc,18,31,x87 FLOPs,0.0
+hpc,18,31,Non-FP,0.0
+hpc,18,31,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,31,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,31,Application Command Line,"myocyte ""100"" ""3"" ""1"" ""18"""
+hpc,18,31,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,31,Computer Name,quartz2391
+hpc,18,31,Result Size,3316746
+hpc,18,31,Collection start time,22:57:34 21/04/2021 UTC
+hpc,18,31,Collection stop time,22:57:34 21/04/2021 UTC
+hpc,18,31,Collector Type,Driverless Perf per-process sampling
+hpc,18,31,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,31,Frequency,2095149178
+hpc,18,31,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,31,Metric Name,Metric Value
+hpc,9,31,Elapsed Time,0.023760
+hpc,9,31,SP GFLOPS,0.0
+hpc,9,31,DP GFLOPS,0.0
+hpc,9,31,x87 GFLOPS,0.0
+hpc,9,31,CPI Rate,2.000000
+hpc,9,31,Average CPU Frequency,4190298458.000000
+hpc,9,31,Total Thread Count,1
+hpc,9,31,Effective Physical Core Utilization,0.3% (0.105 out of 36)
+hpc,9,31,Effective Logical Core Utilization,0.3% (0.211 out of 72)
+hpc,9,31,Memory Bound,0.0
+hpc,9,31,Cache Bound,0.0
+hpc,9,31,DRAM Bound,0.0
+hpc,9,31,NUMA: % of Remote Accesses,0.0
+hpc,9,31,Vectorization,0.0
+hpc,9,31,SP FLOPs,0.0
+hpc,9,31,Packed,0.0
+hpc,9,31,128-bit,0.0
+hpc,9,31,256-bit,0.0
+hpc,9,31,Scalar,0.0
+hpc,9,31,DP FLOPs,0.0
+hpc,9,31,Packed,0.0
+hpc,9,31,128-bit,0.0
+hpc,9,31,256-bit,0.0
+hpc,9,31,Scalar,0.0
+hpc,9,31,x87 FLOPs,0.0
+hpc,9,31,Non-FP,0.0
+hpc,9,31,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,31,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,31,Application Command Line,"myocyte ""100"" ""3"" ""1"" ""9"""
+hpc,9,31,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,31,Computer Name,quartz2391
+hpc,9,31,Result Size,3316716
+hpc,9,31,Collection start time,22:57:53 21/04/2021 UTC
+hpc,9,31,Collection stop time,22:57:53 21/04/2021 UTC
+hpc,9,31,Collector Type,Driverless Perf per-process sampling
+hpc,9,31,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,31,Frequency,2095149229
+hpc,9,31,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,31,Metric Name,Metric Value
+hpc,4,31,Elapsed Time,0.035054
+hpc,4,31,SP GFLOPS,0.0
+hpc,4,31,DP GFLOPS,0.0
+hpc,4,31,x87 GFLOPS,0.0
+hpc,4,31,CPI Rate,2.000000
+hpc,4,31,Average CPU Frequency,4190294680.000000
+hpc,4,31,Total Thread Count,1
+hpc,4,31,Effective Physical Core Utilization,0.2% (0.071 out of 36)
+hpc,4,31,Effective Logical Core Utilization,0.2% (0.143 out of 72)
+hpc,4,31,Memory Bound,0.0
+hpc,4,31,Cache Bound,0.0
+hpc,4,31,DRAM Bound,0.0
+hpc,4,31,NUMA: % of Remote Accesses,0.0
+hpc,4,31,Vectorization,0.0
+hpc,4,31,SP FLOPs,0.0
+hpc,4,31,Packed,0.0
+hpc,4,31,128-bit,0.0
+hpc,4,31,256-bit,0.0
+hpc,4,31,Scalar,0.0
+hpc,4,31,DP FLOPs,0.0
+hpc,4,31,Packed,0.0
+hpc,4,31,128-bit,0.0
+hpc,4,31,256-bit,0.0
+hpc,4,31,Scalar,0.0
+hpc,4,31,x87 FLOPs,0.0
+hpc,4,31,Non-FP,0.0
+hpc,4,31,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,31,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,31,Application Command Line,"myocyte ""100"" ""3"" ""1"" ""4"""
+hpc,4,31,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,31,Computer Name,quartz2391
+hpc,4,31,Result Size,3316778
+hpc,4,31,Collection start time,22:58:12 21/04/2021 UTC
+hpc,4,31,Collection stop time,22:58:12 21/04/2021 UTC
+hpc,4,31,Collector Type,Driverless Perf per-process sampling
+hpc,4,31,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,31,Frequency,2095147340
+hpc,4,31,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,40,Metric Name,Metric Value
+hpc,36,40,Elapsed Time,0.025535
+hpc,36,40,SP GFLOPS,0.0
+hpc,36,40,DP GFLOPS,0.0
+hpc,36,40,x87 GFLOPS,0.0
+hpc,36,40,CPI Rate,2.000000
+hpc,36,40,Average CPU Frequency,2095146858.000000
+hpc,36,40,Total Thread Count,1
+hpc,36,40,Effective Physical Core Utilization,0.5% (0.196 out of 36)
+hpc,36,40,Effective Logical Core Utilization,0.5% (0.393 out of 72)
+hpc,36,40,Memory Bound,0.0
+hpc,36,40,Cache Bound,0.0
+hpc,36,40,DRAM Bound,0.0
+hpc,36,40,NUMA: % of Remote Accesses,0.0
+hpc,36,40,Vectorization,0.0
+hpc,36,40,SP FLOPs,0.0
+hpc,36,40,Packed,0.0
+hpc,36,40,128-bit,0.0
+hpc,36,40,256-bit,0.0
+hpc,36,40,Scalar,0.0
+hpc,36,40,DP FLOPs,0.0
+hpc,36,40,Packed,0.0
+hpc,36,40,128-bit,0.0
+hpc,36,40,256-bit,0.0
+hpc,36,40,Scalar,0.0
+hpc,36,40,x87 FLOPs,0.0
+hpc,36,40,Non-FP,0.0
+hpc,36,40,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,40,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,40,Application Command Line,"myocyte ""100"" ""4"" ""0"" ""36"""
+hpc,36,40,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,40,Computer Name,quartz2391
+hpc,36,40,Result Size,3317088
+hpc,36,40,Collection start time,22:58:32 21/04/2021 UTC
+hpc,36,40,Collection stop time,22:58:32 21/04/2021 UTC
+hpc,36,40,Collector Type,Driverless Perf per-process sampling
+hpc,36,40,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,40,Frequency,2095146858
+hpc,36,40,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,40,Metric Name,Metric Value
+hpc,18,40,Elapsed Time,0.023084
+hpc,18,40,SP GFLOPS,0.0
+hpc,18,40,DP GFLOPS,0.0
+hpc,18,40,x87 GFLOPS,0.0
+hpc,18,40,CPI Rate,2.000000
+hpc,18,40,Average CPU Frequency,4190293336.000000
+hpc,18,40,Total Thread Count,1
+hpc,18,40,Effective Physical Core Utilization,0.3% (0.109 out of 36)
+hpc,18,40,Effective Logical Core Utilization,0.3% (0.217 out of 72)
+hpc,18,40,Memory Bound,0.0
+hpc,18,40,Cache Bound,0.0
+hpc,18,40,DRAM Bound,0.0
+hpc,18,40,NUMA: % of Remote Accesses,0.0
+hpc,18,40,Vectorization,0.0
+hpc,18,40,SP FLOPs,0.0
+hpc,18,40,Packed,0.0
+hpc,18,40,128-bit,0.0
+hpc,18,40,256-bit,0.0
+hpc,18,40,Scalar,0.0
+hpc,18,40,DP FLOPs,0.0
+hpc,18,40,Packed,0.0
+hpc,18,40,128-bit,0.0
+hpc,18,40,256-bit,0.0
+hpc,18,40,Scalar,0.0
+hpc,18,40,x87 FLOPs,0.0
+hpc,18,40,Non-FP,0.0
+hpc,18,40,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,40,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,40,Application Command Line,"myocyte ""100"" ""4"" ""0"" ""18"""
+hpc,18,40,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,40,Computer Name,quartz2391
+hpc,18,40,Result Size,3316722
+hpc,18,40,Collection start time,22:58:52 21/04/2021 UTC
+hpc,18,40,Collection stop time,22:58:52 21/04/2021 UTC
+hpc,18,40,Collector Type,Driverless Perf per-process sampling
+hpc,18,40,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,40,Frequency,2095146668
+hpc,18,40,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,40,Metric Name,Metric Value
+hpc,9,40,Elapsed Time,0.024901
+hpc,9,40,SP GFLOPS,0.0
+hpc,9,40,DP GFLOPS,0.0
+hpc,9,40,x87 GFLOPS,0.0
+hpc,9,40,CPI Rate,2.000000
+hpc,9,40,Average CPU Frequency,4190297232.000000
+hpc,9,40,Total Thread Count,1
+hpc,9,40,Effective Physical Core Utilization,0.3% (0.101 out of 36)
+hpc,9,40,Effective Logical Core Utilization,0.3% (0.201 out of 72)
+hpc,9,40,Memory Bound,0.0
+hpc,9,40,Cache Bound,0.0
+hpc,9,40,DRAM Bound,0.0
+hpc,9,40,NUMA: % of Remote Accesses,0.0
+hpc,9,40,Vectorization,0.0
+hpc,9,40,SP FLOPs,0.0
+hpc,9,40,Packed,0.0
+hpc,9,40,128-bit,0.0
+hpc,9,40,256-bit,0.0
+hpc,9,40,Scalar,0.0
+hpc,9,40,DP FLOPs,0.0
+hpc,9,40,Packed,0.0
+hpc,9,40,128-bit,0.0
+hpc,9,40,256-bit,0.0
+hpc,9,40,Scalar,0.0
+hpc,9,40,x87 FLOPs,0.0
+hpc,9,40,Non-FP,0.0
+hpc,9,40,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,40,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,40,Application Command Line,"myocyte ""100"" ""4"" ""0"" ""9"""
+hpc,9,40,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,40,Computer Name,quartz2391
+hpc,9,40,Result Size,3316679
+hpc,9,40,Collection start time,22:59:11 21/04/2021 UTC
+hpc,9,40,Collection stop time,22:59:11 21/04/2021 UTC
+hpc,9,40,Collector Type,Driverless Perf per-process sampling
+hpc,9,40,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,40,Frequency,2095148616
+hpc,9,40,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,40,Metric Name,Metric Value
+hpc,4,40,Elapsed Time,0.026697
+hpc,4,40,SP GFLOPS,0.0
+hpc,4,40,DP GFLOPS,0.0
+hpc,4,40,x87 GFLOPS,0.0
+hpc,4,40,CPI Rate,2.000000
+hpc,4,40,Average CPU Frequency,2095149501.000000
+hpc,4,40,Total Thread Count,1
+hpc,4,40,Effective Physical Core Utilization,0.5% (0.188 out of 36)
+hpc,4,40,Effective Logical Core Utilization,0.5% (0.375 out of 72)
+hpc,4,40,Memory Bound,0.0
+hpc,4,40,Cache Bound,0.0
+hpc,4,40,DRAM Bound,0.0
+hpc,4,40,NUMA: % of Remote Accesses,0.0
+hpc,4,40,Vectorization,0.0
+hpc,4,40,SP FLOPs,0.0
+hpc,4,40,Packed,0.0
+hpc,4,40,128-bit,0.0
+hpc,4,40,256-bit,0.0
+hpc,4,40,Scalar,0.0
+hpc,4,40,DP FLOPs,0.0
+hpc,4,40,Packed,0.0
+hpc,4,40,128-bit,0.0
+hpc,4,40,256-bit,0.0
+hpc,4,40,Scalar,0.0
+hpc,4,40,x87 FLOPs,0.0
+hpc,4,40,Non-FP,0.0
+hpc,4,40,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,40,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,40,Application Command Line,"myocyte ""100"" ""4"" ""0"" ""4"""
+hpc,4,40,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,40,Computer Name,quartz2391
+hpc,4,40,Result Size,3317026
+hpc,4,40,Collection start time,22:59:30 21/04/2021 UTC
+hpc,4,40,Collection stop time,22:59:30 21/04/2021 UTC
+hpc,4,40,Collector Type,Driverless Perf per-process sampling
+hpc,4,40,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,40,Frequency,2095149501
+hpc,4,40,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,41,Metric Name,Metric Value
+hpc,36,41,Elapsed Time,0.024999
+hpc,36,41,SP GFLOPS,0.0
+hpc,36,41,DP GFLOPS,0.0
+hpc,36,41,x87 GFLOPS,0.0
+hpc,36,41,Average CPU Frequency,2095148605.000000
+hpc,36,41,Total Thread Count,1
+hpc,36,41,Effective Physical Core Utilization,0.3% (0.100 out of 36)
+hpc,36,41,Effective Logical Core Utilization,0.3% (0.200 out of 72)
+hpc,36,41,Memory Bound,0.0
+hpc,36,41,Cache Bound,0.0
+hpc,36,41,DRAM Bound,0.0
+hpc,36,41,NUMA: % of Remote Accesses,0.0
+hpc,36,41,Vectorization,0.0
+hpc,36,41,SP FLOPs,0.0
+hpc,36,41,Packed,0.0
+hpc,36,41,128-bit,0.0
+hpc,36,41,256-bit,0.0
+hpc,36,41,Scalar,0.0
+hpc,36,41,DP FLOPs,0.0
+hpc,36,41,Packed,0.0
+hpc,36,41,128-bit,0.0
+hpc,36,41,256-bit,0.0
+hpc,36,41,Scalar,0.0
+hpc,36,41,x87 FLOPs,0.0
+hpc,36,41,Non-FP,0.0
+hpc,36,41,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,41,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,41,Application Command Line,"myocyte ""100"" ""4"" ""1"" ""36"""
+hpc,36,41,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,41,Computer Name,quartz2391
+hpc,36,41,Result Size,3316167
+hpc,36,41,Collection start time,22:59:50 21/04/2021 UTC
+hpc,36,41,Collection stop time,22:59:50 21/04/2021 UTC
+hpc,36,41,Collector Type,Driverless Perf per-process sampling
+hpc,36,41,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,41,Frequency,2095148605
+hpc,36,41,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,41,Metric Name,Metric Value
+hpc,18,41,Elapsed Time,0.029793
+hpc,18,41,SP GFLOPS,0.0
+hpc,18,41,DP GFLOPS,0.0
+hpc,18,41,x87 GFLOPS,0.0
+hpc,18,41,CPI Rate,3.000000
+hpc,18,41,Average CPU Frequency,3142719000.000000
+hpc,18,41,Total Thread Count,1
+hpc,18,41,Effective Physical Core Utilization,0.5% (0.168 out of 36)
+hpc,18,41,Effective Logical Core Utilization,0.5% (0.336 out of 72)
+hpc,18,41,Memory Bound,0.0
+hpc,18,41,Cache Bound,0.0
+hpc,18,41,DRAM Bound,0.0
+hpc,18,41,NUMA: % of Remote Accesses,0.0
+hpc,18,41,Vectorization,0.0
+hpc,18,41,SP FLOPs,0.0
+hpc,18,41,Packed,0.0
+hpc,18,41,128-bit,0.0
+hpc,18,41,256-bit,0.0
+hpc,18,41,Scalar,0.0
+hpc,18,41,DP FLOPs,0.0
+hpc,18,41,Packed,0.0
+hpc,18,41,128-bit,0.0
+hpc,18,41,256-bit,0.0
+hpc,18,41,Scalar,0.0
+hpc,18,41,x87 FLOPs,0.0
+hpc,18,41,Non-FP,0.0
+hpc,18,41,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,41,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,41,Application Command Line,"myocyte ""100"" ""4"" ""1"" ""18"""
+hpc,18,41,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,41,Computer Name,quartz2391
+hpc,18,41,Result Size,3333742
+hpc,18,41,Collection start time,23:00:11 21/04/2021 UTC
+hpc,18,41,Collection stop time,23:00:11 21/04/2021 UTC
+hpc,18,41,Collector Type,Driverless Perf per-process sampling
+hpc,18,41,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,41,Frequency,2095146000
+hpc,18,41,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,41,Metric Name,Metric Value
+hpc,9,41,Elapsed Time,0.026102
+hpc,9,41,SP GFLOPS,0.0
+hpc,9,41,DP GFLOPS,0.0
+hpc,9,41,x87 GFLOPS,0.0
+hpc,9,41,CPI Rate,2.000000
+hpc,9,41,Average CPU Frequency,2095146620.000000
+hpc,9,41,Total Thread Count,1
+hpc,9,41,Effective Physical Core Utilization,0.5% (0.192 out of 36)
+hpc,9,41,Effective Logical Core Utilization,0.5% (0.384 out of 72)
+hpc,9,41,Memory Bound,0.0
+hpc,9,41,Cache Bound,0.0
+hpc,9,41,DRAM Bound,0.0
+hpc,9,41,NUMA: % of Remote Accesses,0.0
+hpc,9,41,Vectorization,0.0
+hpc,9,41,SP FLOPs,0.0
+hpc,9,41,Packed,0.0
+hpc,9,41,128-bit,0.0
+hpc,9,41,256-bit,0.0
+hpc,9,41,Scalar,0.0
+hpc,9,41,DP FLOPs,0.0
+hpc,9,41,Packed,0.0
+hpc,9,41,128-bit,0.0
+hpc,9,41,256-bit,0.0
+hpc,9,41,Scalar,0.0
+hpc,9,41,x87 FLOPs,0.0
+hpc,9,41,Non-FP,0.0
+hpc,9,41,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,41,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,41,Application Command Line,"myocyte ""100"" ""4"" ""1"" ""9"""
+hpc,9,41,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,41,Computer Name,quartz2391
+hpc,9,41,Result Size,3317011
+hpc,9,41,Collection start time,23:00:34 21/04/2021 UTC
+hpc,9,41,Collection stop time,23:00:34 21/04/2021 UTC
+hpc,9,41,Collector Type,Driverless Perf per-process sampling
+hpc,9,41,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,41,Frequency,2095146620
+hpc,9,41,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,41,Metric Name,Metric Value
+hpc,4,41,Elapsed Time,0.026015
+hpc,4,41,SP GFLOPS,0.0
+hpc,4,41,DP GFLOPS,0.0
+hpc,4,41,x87 GFLOPS,0.0
+hpc,4,41,CPI Rate,3.000000
+hpc,4,41,Average CPU Frequency,3142722520.500000
+hpc,4,41,Total Thread Count,1
+hpc,4,41,Effective Physical Core Utilization,0.5% (0.193 out of 36)
+hpc,4,41,Effective Logical Core Utilization,0.5% (0.385 out of 72)
+hpc,4,41,Memory Bound,0.0
+hpc,4,41,Cache Bound,0.0
+hpc,4,41,DRAM Bound,0.0
+hpc,4,41,NUMA: % of Remote Accesses,0.0
+hpc,4,41,Vectorization,0.0
+hpc,4,41,SP FLOPs,0.0
+hpc,4,41,Packed,0.0
+hpc,4,41,128-bit,0.0
+hpc,4,41,256-bit,0.0
+hpc,4,41,Scalar,0.0
+hpc,4,41,DP FLOPs,0.0
+hpc,4,41,Packed,0.0
+hpc,4,41,128-bit,0.0
+hpc,4,41,256-bit,0.0
+hpc,4,41,Scalar,0.0
+hpc,4,41,x87 FLOPs,0.0
+hpc,4,41,Non-FP,0.0
+hpc,4,41,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,41,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,41,Application Command Line,"myocyte ""100"" ""4"" ""1"" ""4"""
+hpc,4,41,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,41,Computer Name,quartz2391
+hpc,4,41,Result Size,3342272
+hpc,4,41,Collection start time,23:00:55 21/04/2021 UTC
+hpc,4,41,Collection stop time,23:00:55 21/04/2021 UTC
+hpc,4,41,Collector Type,Driverless Perf per-process sampling
+hpc,4,41,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,41,Frequency,2095148347
+hpc,4,41,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,50,Metric Name,Metric Value
+hpc,36,50,Elapsed Time,0.024624
+hpc,36,50,SP GFLOPS,0.0
+hpc,36,50,DP GFLOPS,0.0
+hpc,36,50,x87 GFLOPS,0.0
+hpc,36,50,CPI Rate,3.000000
+hpc,36,50,Average CPU Frequency,3142723035.000000
+hpc,36,50,Total Thread Count,1
+hpc,36,50,Effective Physical Core Utilization,0.6% (0.204 out of 36)
+hpc,36,50,Effective Logical Core Utilization,0.6% (0.407 out of 72)
+hpc,36,50,Memory Bound,0.0
+hpc,36,50,Cache Bound,0.0
+hpc,36,50,DRAM Bound,0.0
+hpc,36,50,NUMA: % of Remote Accesses,0.0
+hpc,36,50,Vectorization,0.0
+hpc,36,50,SP FLOPs,0.0
+hpc,36,50,Packed,0.0
+hpc,36,50,128-bit,0.0
+hpc,36,50,256-bit,0.0
+hpc,36,50,Scalar,0.0
+hpc,36,50,DP FLOPs,0.0
+hpc,36,50,Packed,0.0
+hpc,36,50,128-bit,0.0
+hpc,36,50,256-bit,0.0
+hpc,36,50,Scalar,0.0
+hpc,36,50,x87 FLOPs,0.0
+hpc,36,50,Non-FP,0.0
+hpc,36,50,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,50,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,50,Application Command Line,"myocyte ""100"" ""5"" ""0"" ""36"""
+hpc,36,50,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,50,Computer Name,quartz2391
+hpc,36,50,Result Size,3317332
+hpc,36,50,Collection start time,23:01:15 21/04/2021 UTC
+hpc,36,50,Collection stop time,23:01:15 21/04/2021 UTC
+hpc,36,50,Collector Type,Driverless Perf per-process sampling
+hpc,36,50,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,50,Frequency,2095148690
+hpc,36,50,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,50,Metric Name,Metric Value
+hpc,18,50,Elapsed Time,0.025501
+hpc,18,50,SP GFLOPS,0.0
+hpc,18,50,DP GFLOPS,0.0
+hpc,18,50,x87 GFLOPS,0.0
+hpc,18,50,CPI Rate,3.000000
+hpc,18,50,Average CPU Frequency,3142722238.500000
+hpc,18,50,Total Thread Count,1
+hpc,18,50,Effective Physical Core Utilization,0.5% (0.197 out of 36)
+hpc,18,50,Effective Logical Core Utilization,0.5% (0.393 out of 72)
+hpc,18,50,Memory Bound,0.0
+hpc,18,50,Cache Bound,0.0
+hpc,18,50,DRAM Bound,0.0
+hpc,18,50,NUMA: % of Remote Accesses,0.0
+hpc,18,50,Vectorization,0.0
+hpc,18,50,SP FLOPs,0.0
+hpc,18,50,Packed,0.0
+hpc,18,50,128-bit,0.0
+hpc,18,50,256-bit,0.0
+hpc,18,50,Scalar,0.0
+hpc,18,50,DP FLOPs,0.0
+hpc,18,50,Packed,0.0
+hpc,18,50,128-bit,0.0
+hpc,18,50,256-bit,0.0
+hpc,18,50,Scalar,0.0
+hpc,18,50,x87 FLOPs,0.0
+hpc,18,50,Non-FP,0.0
+hpc,18,50,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,50,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,50,Application Command Line,"myocyte ""100"" ""5"" ""0"" ""18"""
+hpc,18,50,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,50,Computer Name,quartz2391
+hpc,18,50,Result Size,3317278
+hpc,18,50,Collection start time,23:01:35 21/04/2021 UTC
+hpc,18,50,Collection stop time,23:01:35 21/04/2021 UTC
+hpc,18,50,Collector Type,Driverless Perf per-process sampling
+hpc,18,50,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,50,Frequency,2095148159
+hpc,18,50,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,50,Metric Name,Metric Value
+hpc,9,50,Elapsed Time,0.025098
+hpc,9,50,SP GFLOPS,0.0
+hpc,9,50,DP GFLOPS,0.0
+hpc,9,50,x87 GFLOPS,0.0
+hpc,9,50,CPI Rate,2.000000
+hpc,9,50,Average CPU Frequency,2095148394.000000
+hpc,9,50,Total Thread Count,1
+hpc,9,50,Effective Physical Core Utilization,0.6% (0.200 out of 36)
+hpc,9,50,Effective Logical Core Utilization,0.6% (0.399 out of 72)
+hpc,9,50,Memory Bound,0.0
+hpc,9,50,Cache Bound,0.0
+hpc,9,50,DRAM Bound,0.0
+hpc,9,50,NUMA: % of Remote Accesses,0.0
+hpc,9,50,Vectorization,0.0
+hpc,9,50,SP FLOPs,0.0
+hpc,9,50,Packed,0.0
+hpc,9,50,128-bit,0.0
+hpc,9,50,256-bit,0.0
+hpc,9,50,Scalar,0.0
+hpc,9,50,DP FLOPs,0.0
+hpc,9,50,Packed,0.0
+hpc,9,50,128-bit,0.0
+hpc,9,50,256-bit,0.0
+hpc,9,50,Scalar,0.0
+hpc,9,50,x87 FLOPs,0.0
+hpc,9,50,Non-FP,0.0
+hpc,9,50,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,50,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,50,Application Command Line,"myocyte ""100"" ""5"" ""0"" ""9"""
+hpc,9,50,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,50,Computer Name,quartz2391
+hpc,9,50,Result Size,3333489
+hpc,9,50,Collection start time,23:01:54 21/04/2021 UTC
+hpc,9,50,Collection stop time,23:01:54 21/04/2021 UTC
+hpc,9,50,Collector Type,Driverless Perf per-process sampling
+hpc,9,50,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,50,Frequency,2095148394
+hpc,9,50,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,50,Metric Name,Metric Value
+hpc,4,50,Elapsed Time,0.028803
+hpc,4,50,SP GFLOPS,0.0
+hpc,4,50,DP GFLOPS,0.0
+hpc,4,50,x87 GFLOPS,0.0
+hpc,4,50,CPI Rate,2.000000
+hpc,4,50,Average CPU Frequency,2095148946.000000
+hpc,4,50,Total Thread Count,1
+hpc,4,50,Effective Physical Core Utilization,0.5% (0.174 out of 36)
+hpc,4,50,Effective Logical Core Utilization,0.5% (0.348 out of 72)
+hpc,4,50,Memory Bound,0.0
+hpc,4,50,Cache Bound,0.0
+hpc,4,50,DRAM Bound,0.0
+hpc,4,50,NUMA: % of Remote Accesses,0.0
+hpc,4,50,Vectorization,0.0
+hpc,4,50,SP FLOPs,0.0
+hpc,4,50,Packed,0.0
+hpc,4,50,128-bit,0.0
+hpc,4,50,256-bit,0.0
+hpc,4,50,Scalar,0.0
+hpc,4,50,DP FLOPs,0.0
+hpc,4,50,Packed,0.0
+hpc,4,50,128-bit,0.0
+hpc,4,50,256-bit,0.0
+hpc,4,50,Scalar,0.0
+hpc,4,50,x87 FLOPs,0.0
+hpc,4,50,Non-FP,0.0
+hpc,4,50,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,50,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,50,Application Command Line,"myocyte ""100"" ""5"" ""0"" ""4"""
+hpc,4,50,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,50,Computer Name,quartz2391
+hpc,4,50,Result Size,3317010
+hpc,4,50,Collection start time,23:02:13 21/04/2021 UTC
+hpc,4,50,Collection stop time,23:02:13 21/04/2021 UTC
+hpc,4,50,Collector Type,Driverless Perf per-process sampling
+hpc,4,50,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,50,Frequency,2095148946
+hpc,4,50,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,51,Metric Name,Metric Value
+hpc,36,51,Elapsed Time,0.024528
+hpc,36,51,SP GFLOPS,0.0
+hpc,36,51,DP GFLOPS,0.0
+hpc,36,51,x87 GFLOPS,0.0
+hpc,36,51,CPI Rate,2.000000
+hpc,36,51,Average CPU Frequency,4190297726.000000
+hpc,36,51,Total Thread Count,1
+hpc,36,51,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,36,51,Effective Logical Core Utilization,0.3% (0.204 out of 72)
+hpc,36,51,Memory Bound,0.0
+hpc,36,51,Cache Bound,0.0
+hpc,36,51,DRAM Bound,0.0
+hpc,36,51,NUMA: % of Remote Accesses,0.0
+hpc,36,51,Vectorization,0.0
+hpc,36,51,SP FLOPs,0.0
+hpc,36,51,Packed,0.0
+hpc,36,51,128-bit,0.0
+hpc,36,51,256-bit,0.0
+hpc,36,51,Scalar,0.0
+hpc,36,51,DP FLOPs,0.0
+hpc,36,51,Packed,0.0
+hpc,36,51,128-bit,0.0
+hpc,36,51,256-bit,0.0
+hpc,36,51,Scalar,0.0
+hpc,36,51,x87 FLOPs,0.0
+hpc,36,51,Non-FP,0.0
+hpc,36,51,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,51,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,51,Application Command Line,"myocyte ""100"" ""5"" ""1"" ""36"""
+hpc,36,51,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,51,Computer Name,quartz2391
+hpc,36,51,Result Size,3316711
+hpc,36,51,Collection start time,23:02:32 21/04/2021 UTC
+hpc,36,51,Collection stop time,23:02:32 21/04/2021 UTC
+hpc,36,51,Collector Type,Driverless Perf per-process sampling
+hpc,36,51,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,51,Frequency,2095148863
+hpc,36,51,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,51,Metric Name,Metric Value
+hpc,18,51,Elapsed Time,0.024638
+hpc,18,51,SP GFLOPS,0.0
+hpc,18,51,DP GFLOPS,0.0
+hpc,18,51,x87 GFLOPS,0.0
+hpc,18,51,CPI Rate,2.000000
+hpc,18,51,Average CPU Frequency,4190293764.000000
+hpc,18,51,Total Thread Count,1
+hpc,18,51,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,18,51,Effective Logical Core Utilization,0.3% (0.203 out of 72)
+hpc,18,51,Memory Bound,0.0
+hpc,18,51,Cache Bound,0.0
+hpc,18,51,DRAM Bound,0.0
+hpc,18,51,NUMA: % of Remote Accesses,0.0
+hpc,18,51,Vectorization,0.0
+hpc,18,51,SP FLOPs,0.0
+hpc,18,51,Packed,0.0
+hpc,18,51,128-bit,0.0
+hpc,18,51,256-bit,0.0
+hpc,18,51,Scalar,0.0
+hpc,18,51,DP FLOPs,0.0
+hpc,18,51,Packed,0.0
+hpc,18,51,128-bit,0.0
+hpc,18,51,256-bit,0.0
+hpc,18,51,Scalar,0.0
+hpc,18,51,x87 FLOPs,0.0
+hpc,18,51,Non-FP,0.0
+hpc,18,51,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,51,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,51,Application Command Line,"myocyte ""100"" ""5"" ""1"" ""18"""
+hpc,18,51,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,51,Computer Name,quartz2391
+hpc,18,51,Result Size,3316735
+hpc,18,51,Collection start time,23:02:51 21/04/2021 UTC
+hpc,18,51,Collection stop time,23:02:51 21/04/2021 UTC
+hpc,18,51,Collector Type,Driverless Perf per-process sampling
+hpc,18,51,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,51,Frequency,2095146882
+hpc,18,51,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,51,Metric Name,Metric Value
+hpc,9,51,Elapsed Time,0.020598
+hpc,9,51,SP GFLOPS,0.0
+hpc,9,51,DP GFLOPS,0.0
+hpc,9,51,x87 GFLOPS,0.0
+hpc,9,51,CPI Rate,2.000000
+hpc,9,51,Average CPU Frequency,4190297700.000000
+hpc,9,51,Total Thread Count,1
+hpc,9,51,Effective Physical Core Utilization,0.3% (0.122 out of 36)
+hpc,9,51,Effective Logical Core Utilization,0.3% (0.243 out of 72)
+hpc,9,51,Memory Bound,0.0
+hpc,9,51,Cache Bound,0.0
+hpc,9,51,DRAM Bound,0.0
+hpc,9,51,NUMA: % of Remote Accesses,0.0
+hpc,9,51,Vectorization,0.0
+hpc,9,51,SP FLOPs,0.0
+hpc,9,51,Packed,0.0
+hpc,9,51,128-bit,0.0
+hpc,9,51,256-bit,0.0
+hpc,9,51,Scalar,0.0
+hpc,9,51,DP FLOPs,0.0
+hpc,9,51,Packed,0.0
+hpc,9,51,128-bit,0.0
+hpc,9,51,256-bit,0.0
+hpc,9,51,Scalar,0.0
+hpc,9,51,x87 FLOPs,0.0
+hpc,9,51,Non-FP,0.0
+hpc,9,51,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,51,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,51,Application Command Line,"myocyte ""100"" ""5"" ""1"" ""9"""
+hpc,9,51,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,51,Computer Name,quartz2391
+hpc,9,51,Result Size,3316610
+hpc,9,51,Collection start time,23:03:10 21/04/2021 UTC
+hpc,9,51,Collection stop time,23:03:10 21/04/2021 UTC
+hpc,9,51,Collector Type,Driverless Perf per-process sampling
+hpc,9,51,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,51,Frequency,2095148850
+hpc,9,51,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,51,Metric Name,Metric Value
+hpc,4,51,Elapsed Time,0.024136
+hpc,4,51,SP GFLOPS,0.0
+hpc,4,51,DP GFLOPS,0.0
+hpc,4,51,x87 GFLOPS,0.0
+hpc,4,51,CPI Rate,2.000000
+hpc,4,51,Average CPU Frequency,2095149105.000000
+hpc,4,51,Total Thread Count,1
+hpc,4,51,Effective Physical Core Utilization,0.6% (0.208 out of 36)
+hpc,4,51,Effective Logical Core Utilization,0.6% (0.415 out of 72)
+hpc,4,51,Memory Bound,0.0
+hpc,4,51,Cache Bound,0.0
+hpc,4,51,DRAM Bound,0.0
+hpc,4,51,NUMA: % of Remote Accesses,0.0
+hpc,4,51,Vectorization,0.0
+hpc,4,51,SP FLOPs,0.0
+hpc,4,51,Packed,0.0
+hpc,4,51,128-bit,0.0
+hpc,4,51,256-bit,0.0
+hpc,4,51,Scalar,0.0
+hpc,4,51,DP FLOPs,0.0
+hpc,4,51,Packed,0.0
+hpc,4,51,128-bit,0.0
+hpc,4,51,256-bit,0.0
+hpc,4,51,Scalar,0.0
+hpc,4,51,x87 FLOPs,0.0
+hpc,4,51,Non-FP,0.0
+hpc,4,51,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,51,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,51,Application Command Line,"myocyte ""100"" ""5"" ""1"" ""4"""
+hpc,4,51,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,51,Computer Name,quartz2391
+hpc,4,51,Result Size,3317000
+hpc,4,51,Collection start time,23:03:29 21/04/2021 UTC
+hpc,4,51,Collection stop time,23:03:29 21/04/2021 UTC
+hpc,4,51,Collector Type,Driverless Perf per-process sampling
+hpc,4,51,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,51,Frequency,2095149105
+hpc,4,51,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,60,Metric Name,Metric Value
+hpc,36,60,Elapsed Time,0.029117
+hpc,36,60,SP GFLOPS,0.0
+hpc,36,60,DP GFLOPS,0.0
+hpc,36,60,x87 GFLOPS,0.0
+hpc,36,60,CPI Rate,3.000000
+hpc,36,60,Average CPU Frequency,3142723452.000000
+hpc,36,60,Total Thread Count,1
+hpc,36,60,Effective Physical Core Utilization,0.5% (0.172 out of 36)
+hpc,36,60,Effective Logical Core Utilization,0.5% (0.344 out of 72)
+hpc,36,60,Memory Bound,0.0
+hpc,36,60,Cache Bound,0.0
+hpc,36,60,DRAM Bound,0.0
+hpc,36,60,NUMA: % of Remote Accesses,0.0
+hpc,36,60,Vectorization,0.0
+hpc,36,60,SP FLOPs,0.0
+hpc,36,60,Packed,0.0
+hpc,36,60,128-bit,0.0
+hpc,36,60,256-bit,0.0
+hpc,36,60,Scalar,0.0
+hpc,36,60,DP FLOPs,0.0
+hpc,36,60,Packed,0.0
+hpc,36,60,128-bit,0.0
+hpc,36,60,256-bit,0.0
+hpc,36,60,Scalar,0.0
+hpc,36,60,x87 FLOPs,0.0
+hpc,36,60,Non-FP,0.0
+hpc,36,60,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,60,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,60,Application Command Line,"myocyte ""100"" ""6"" ""0"" ""36"""
+hpc,36,60,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,60,Computer Name,quartz2391
+hpc,36,60,Result Size,3317315
+hpc,36,60,Collection start time,23:03:48 21/04/2021 UTC
+hpc,36,60,Collection stop time,23:03:48 21/04/2021 UTC
+hpc,36,60,Collector Type,Driverless Perf per-process sampling
+hpc,36,60,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,60,Frequency,2095148968
+hpc,36,60,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,60,Metric Name,Metric Value
+hpc,18,60,Elapsed Time,0.025349
+hpc,18,60,SP GFLOPS,0.0
+hpc,18,60,DP GFLOPS,0.0
+hpc,18,60,x87 GFLOPS,0.0
+hpc,18,60,CPI Rate,2.000000
+hpc,18,60,Average CPU Frequency,2095148826.000000
+hpc,18,60,Total Thread Count,1
+hpc,18,60,Effective Physical Core Utilization,0.5% (0.198 out of 36)
+hpc,18,60,Effective Logical Core Utilization,0.5% (0.395 out of 72)
+hpc,18,60,Memory Bound,0.0
+hpc,18,60,Cache Bound,0.0
+hpc,18,60,DRAM Bound,0.0
+hpc,18,60,NUMA: % of Remote Accesses,0.0
+hpc,18,60,Vectorization,0.0
+hpc,18,60,SP FLOPs,0.0
+hpc,18,60,Packed,0.0
+hpc,18,60,128-bit,0.0
+hpc,18,60,256-bit,0.0
+hpc,18,60,Scalar,0.0
+hpc,18,60,DP FLOPs,0.0
+hpc,18,60,Packed,0.0
+hpc,18,60,128-bit,0.0
+hpc,18,60,256-bit,0.0
+hpc,18,60,Scalar,0.0
+hpc,18,60,x87 FLOPs,0.0
+hpc,18,60,Non-FP,0.0
+hpc,18,60,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,60,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,60,Application Command Line,"myocyte ""100"" ""6"" ""0"" ""18"""
+hpc,18,60,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,60,Computer Name,quartz2391
+hpc,18,60,Result Size,3333464
+hpc,18,60,Collection start time,23:04:07 21/04/2021 UTC
+hpc,18,60,Collection stop time,23:04:07 21/04/2021 UTC
+hpc,18,60,Collector Type,Driverless Perf per-process sampling
+hpc,18,60,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,60,Frequency,2095148826
+hpc,18,60,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,60,Metric Name,Metric Value
+hpc,9,60,Elapsed Time,0.023386
+hpc,9,60,SP GFLOPS,0.0
+hpc,9,60,DP GFLOPS,0.0
+hpc,9,60,x87 GFLOPS,0.0
+hpc,9,60,Average CPU Frequency,2095148637.000000
+hpc,9,60,Total Thread Count,1
+hpc,9,60,Effective Physical Core Utilization,0.3% (0.107 out of 36)
+hpc,9,60,Effective Logical Core Utilization,0.3% (0.214 out of 72)
+hpc,9,60,Memory Bound,0.0
+hpc,9,60,Cache Bound,0.0
+hpc,9,60,DRAM Bound,0.0
+hpc,9,60,NUMA: % of Remote Accesses,0.0
+hpc,9,60,Vectorization,0.0
+hpc,9,60,SP FLOPs,0.0
+hpc,9,60,Packed,0.0
+hpc,9,60,128-bit,0.0
+hpc,9,60,256-bit,0.0
+hpc,9,60,Scalar,0.0
+hpc,9,60,DP FLOPs,0.0
+hpc,9,60,Packed,0.0
+hpc,9,60,128-bit,0.0
+hpc,9,60,256-bit,0.0
+hpc,9,60,Scalar,0.0
+hpc,9,60,x87 FLOPs,0.0
+hpc,9,60,Non-FP,0.0
+hpc,9,60,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,60,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,60,Application Command Line,"myocyte ""100"" ""6"" ""0"" ""9"""
+hpc,9,60,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,60,Computer Name,quartz2391
+hpc,9,60,Result Size,3316150
+hpc,9,60,Collection start time,23:04:26 21/04/2021 UTC
+hpc,9,60,Collection stop time,23:04:26 21/04/2021 UTC
+hpc,9,60,Collector Type,Driverless Perf per-process sampling
+hpc,9,60,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,60,Frequency,2095148637
+hpc,9,60,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,60,Metric Name,Metric Value
+hpc,4,60,Elapsed Time,0.027458
+hpc,4,60,SP GFLOPS,0.0
+hpc,4,60,DP GFLOPS,0.0
+hpc,4,60,x87 GFLOPS,0.0
+hpc,4,60,CPI Rate,2.000000
+hpc,4,60,Average CPU Frequency,2095146712.000000
+hpc,4,60,Total Thread Count,1
+hpc,4,60,Effective Physical Core Utilization,0.5% (0.183 out of 36)
+hpc,4,60,Effective Logical Core Utilization,0.5% (0.365 out of 72)
+hpc,4,60,Memory Bound,0.0
+hpc,4,60,Cache Bound,0.0
+hpc,4,60,DRAM Bound,0.0
+hpc,4,60,NUMA: % of Remote Accesses,0.0
+hpc,4,60,Vectorization,0.0
+hpc,4,60,SP FLOPs,0.0
+hpc,4,60,Packed,0.0
+hpc,4,60,128-bit,0.0
+hpc,4,60,256-bit,0.0
+hpc,4,60,Scalar,0.0
+hpc,4,60,DP FLOPs,0.0
+hpc,4,60,Packed,0.0
+hpc,4,60,128-bit,0.0
+hpc,4,60,256-bit,0.0
+hpc,4,60,Scalar,0.0
+hpc,4,60,x87 FLOPs,0.0
+hpc,4,60,Non-FP,0.0
+hpc,4,60,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,60,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,60,Application Command Line,"myocyte ""100"" ""6"" ""0"" ""4"""
+hpc,4,60,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,60,Computer Name,quartz2391
+hpc,4,60,Result Size,3317032
+hpc,4,60,Collection start time,23:04:46 21/04/2021 UTC
+hpc,4,60,Collection stop time,23:04:46 21/04/2021 UTC
+hpc,4,60,Collector Type,Driverless Perf per-process sampling
+hpc,4,60,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,60,Frequency,2095146712
+hpc,4,60,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,61,Metric Name,Metric Value
+hpc,36,61,Elapsed Time,0.025340
+hpc,36,61,SP GFLOPS,0.0
+hpc,36,61,DP GFLOPS,0.0
+hpc,36,61,x87 GFLOPS,0.0
+hpc,36,61,CPI Rate,2.000000
+hpc,36,61,Average CPU Frequency,4190297720.000000
+hpc,36,61,Total Thread Count,1
+hpc,36,61,Effective Physical Core Utilization,0.3% (0.099 out of 36)
+hpc,36,61,Effective Logical Core Utilization,0.3% (0.198 out of 72)
+hpc,36,61,Memory Bound,0.0
+hpc,36,61,Cache Bound,0.0
+hpc,36,61,DRAM Bound,0.0
+hpc,36,61,NUMA: % of Remote Accesses,0.0
+hpc,36,61,Vectorization,0.0
+hpc,36,61,SP FLOPs,0.0
+hpc,36,61,Packed,0.0
+hpc,36,61,128-bit,0.0
+hpc,36,61,256-bit,0.0
+hpc,36,61,Scalar,0.0
+hpc,36,61,DP FLOPs,0.0
+hpc,36,61,Packed,0.0
+hpc,36,61,128-bit,0.0
+hpc,36,61,256-bit,0.0
+hpc,36,61,Scalar,0.0
+hpc,36,61,x87 FLOPs,0.0
+hpc,36,61,Non-FP,0.0
+hpc,36,61,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,61,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,61,Application Command Line,"myocyte ""100"" ""6"" ""1"" ""36"""
+hpc,36,61,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,61,Computer Name,quartz2391
+hpc,36,61,Result Size,3316710
+hpc,36,61,Collection start time,23:05:05 21/04/2021 UTC
+hpc,36,61,Collection stop time,23:05:05 21/04/2021 UTC
+hpc,36,61,Collector Type,Driverless Perf per-process sampling
+hpc,36,61,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,61,Frequency,2095148860
+hpc,36,61,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,61,Metric Name,Metric Value
+hpc,18,61,Elapsed Time,0.022927
+hpc,18,61,SP GFLOPS,0.0
+hpc,18,61,DP GFLOPS,0.0
+hpc,18,61,x87 GFLOPS,0.0
+hpc,18,61,CPI Rate,2.000000
+hpc,18,61,Average CPU Frequency,2095149318.000000
+hpc,18,61,Total Thread Count,1
+hpc,18,61,Effective Physical Core Utilization,0.6% (0.219 out of 36)
+hpc,18,61,Effective Logical Core Utilization,0.6% (0.437 out of 72)
+hpc,18,61,Memory Bound,0.0
+hpc,18,61,Cache Bound,0.0
+hpc,18,61,DRAM Bound,0.0
+hpc,18,61,NUMA: % of Remote Accesses,0.0
+hpc,18,61,Vectorization,0.0
+hpc,18,61,SP FLOPs,0.0
+hpc,18,61,Packed,0.0
+hpc,18,61,128-bit,0.0
+hpc,18,61,256-bit,0.0
+hpc,18,61,Scalar,0.0
+hpc,18,61,DP FLOPs,0.0
+hpc,18,61,Packed,0.0
+hpc,18,61,128-bit,0.0
+hpc,18,61,256-bit,0.0
+hpc,18,61,Scalar,0.0
+hpc,18,61,x87 FLOPs,0.0
+hpc,18,61,Non-FP,0.0
+hpc,18,61,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,61,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,61,Application Command Line,"myocyte ""100"" ""6"" ""1"" ""18"""
+hpc,18,61,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,61,Computer Name,quartz2391
+hpc,18,61,Result Size,3333759
+hpc,18,61,Collection start time,23:05:24 21/04/2021 UTC
+hpc,18,61,Collection stop time,23:05:24 21/04/2021 UTC
+hpc,18,61,Collector Type,Driverless Perf per-process sampling
+hpc,18,61,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,61,Frequency,2095149318
+hpc,18,61,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,61,Metric Name,Metric Value
+hpc,9,61,Elapsed Time,0.023201
+hpc,9,61,SP GFLOPS,0.0
+hpc,9,61,DP GFLOPS,0.0
+hpc,9,61,x87 GFLOPS,0.0
+hpc,9,61,CPI Rate,2.000000
+hpc,9,61,Average CPU Frequency,4190291764.000000
+hpc,9,61,Total Thread Count,1
+hpc,9,61,Effective Physical Core Utilization,0.3% (0.108 out of 36)
+hpc,9,61,Effective Logical Core Utilization,0.3% (0.216 out of 72)
+hpc,9,61,Memory Bound,0.0
+hpc,9,61,Cache Bound,0.0
+hpc,9,61,DRAM Bound,0.0
+hpc,9,61,NUMA: % of Remote Accesses,0.0
+hpc,9,61,Vectorization,0.0
+hpc,9,61,SP FLOPs,0.0
+hpc,9,61,Packed,0.0
+hpc,9,61,128-bit,0.0
+hpc,9,61,256-bit,0.0
+hpc,9,61,Scalar,0.0
+hpc,9,61,DP FLOPs,0.0
+hpc,9,61,Packed,0.0
+hpc,9,61,128-bit,0.0
+hpc,9,61,256-bit,0.0
+hpc,9,61,Scalar,0.0
+hpc,9,61,x87 FLOPs,0.0
+hpc,9,61,Non-FP,0.0
+hpc,9,61,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,61,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,61,Application Command Line,"myocyte ""100"" ""6"" ""1"" ""9"""
+hpc,9,61,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,61,Computer Name,quartz2391
+hpc,9,61,Result Size,3316671
+hpc,9,61,Collection start time,23:05:44 21/04/2021 UTC
+hpc,9,61,Collection stop time,23:05:44 21/04/2021 UTC
+hpc,9,61,Collector Type,Driverless Perf per-process sampling
+hpc,9,61,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,61,Frequency,2095145882
+hpc,9,61,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,61,Metric Name,Metric Value
+hpc,4,61,Elapsed Time,0.025388
+hpc,4,61,SP GFLOPS,0.0
+hpc,4,61,DP GFLOPS,0.0
+hpc,4,61,x87 GFLOPS,0.0
+hpc,4,61,CPI Rate,2.000000
+hpc,4,61,Average CPU Frequency,2095148655.000000
+hpc,4,61,Total Thread Count,1
+hpc,4,61,Effective Physical Core Utilization,0.5% (0.197 out of 36)
+hpc,4,61,Effective Logical Core Utilization,0.5% (0.395 out of 72)
+hpc,4,61,Memory Bound,0.0
+hpc,4,61,Cache Bound,0.0
+hpc,4,61,DRAM Bound,0.0
+hpc,4,61,NUMA: % of Remote Accesses,0.0
+hpc,4,61,Vectorization,0.0
+hpc,4,61,SP FLOPs,0.0
+hpc,4,61,Packed,0.0
+hpc,4,61,128-bit,0.0
+hpc,4,61,256-bit,0.0
+hpc,4,61,Scalar,0.0
+hpc,4,61,DP FLOPs,0.0
+hpc,4,61,Packed,0.0
+hpc,4,61,128-bit,0.0
+hpc,4,61,256-bit,0.0
+hpc,4,61,Scalar,0.0
+hpc,4,61,x87 FLOPs,0.0
+hpc,4,61,Non-FP,0.0
+hpc,4,61,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,61,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,61,Application Command Line,"myocyte ""100"" ""6"" ""1"" ""4"""
+hpc,4,61,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,61,Computer Name,quartz2391
+hpc,4,61,Result Size,3317022
+hpc,4,61,Collection start time,23:06:02 21/04/2021 UTC
+hpc,4,61,Collection stop time,23:06:03 21/04/2021 UTC
+hpc,4,61,Collector Type,Driverless Perf per-process sampling
+hpc,4,61,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,61,Frequency,2095148655
+hpc,4,61,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,70,Metric Name,Metric Value
+hpc,36,70,Elapsed Time,0.029874
+hpc,36,70,SP GFLOPS,0.0
+hpc,36,70,DP GFLOPS,0.0
+hpc,36,70,x87 GFLOPS,0.0
+hpc,36,70,CPI Rate,3.000000
+hpc,36,70,Average CPU Frequency,3142723036.500000
+hpc,36,70,Total Thread Count,1
+hpc,36,70,Effective Physical Core Utilization,0.5% (0.168 out of 36)
+hpc,36,70,Effective Logical Core Utilization,0.5% (0.336 out of 72)
+hpc,36,70,Memory Bound,0.0
+hpc,36,70,Cache Bound,0.0
+hpc,36,70,DRAM Bound,0.0
+hpc,36,70,NUMA: % of Remote Accesses,0.0
+hpc,36,70,Vectorization,0.0
+hpc,36,70,SP FLOPs,0.0
+hpc,36,70,Packed,0.0
+hpc,36,70,128-bit,0.0
+hpc,36,70,256-bit,0.0
+hpc,36,70,Scalar,0.0
+hpc,36,70,DP FLOPs,0.0
+hpc,36,70,Packed,0.0
+hpc,36,70,128-bit,0.0
+hpc,36,70,256-bit,0.0
+hpc,36,70,Scalar,0.0
+hpc,36,70,x87 FLOPs,0.0
+hpc,36,70,Non-FP,0.0
+hpc,36,70,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,70,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,70,Application Command Line,"myocyte ""100"" ""7"" ""0"" ""36"""
+hpc,36,70,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,70,Computer Name,quartz2391
+hpc,36,70,Result Size,3333760
+hpc,36,70,Collection start time,23:06:22 21/04/2021 UTC
+hpc,36,70,Collection stop time,23:06:22 21/04/2021 UTC
+hpc,36,70,Collector Type,Driverless Perf per-process sampling
+hpc,36,70,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,70,Frequency,2095148691
+hpc,36,70,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,70,Metric Name,Metric Value
+hpc,18,70,Elapsed Time,0.020956
+hpc,18,70,SP GFLOPS,0.0
+hpc,18,70,DP GFLOPS,0.0
+hpc,18,70,x87 GFLOPS,0.0
+hpc,18,70,CPI Rate,2.000000
+hpc,18,70,Average CPU Frequency,4190299670.000000
+hpc,18,70,Total Thread Count,1
+hpc,18,70,Effective Physical Core Utilization,0.3% (0.120 out of 36)
+hpc,18,70,Effective Logical Core Utilization,0.3% (0.239 out of 72)
+hpc,18,70,Memory Bound,0.0
+hpc,18,70,Cache Bound,0.0
+hpc,18,70,DRAM Bound,0.0
+hpc,18,70,NUMA: % of Remote Accesses,0.0
+hpc,18,70,Vectorization,0.0
+hpc,18,70,SP FLOPs,0.0
+hpc,18,70,Packed,0.0
+hpc,18,70,128-bit,0.0
+hpc,18,70,256-bit,0.0
+hpc,18,70,Scalar,0.0
+hpc,18,70,DP FLOPs,0.0
+hpc,18,70,Packed,0.0
+hpc,18,70,128-bit,0.0
+hpc,18,70,256-bit,0.0
+hpc,18,70,Scalar,0.0
+hpc,18,70,x87 FLOPs,0.0
+hpc,18,70,Non-FP,0.0
+hpc,18,70,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,70,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,70,Application Command Line,"myocyte ""100"" ""7"" ""0"" ""18"""
+hpc,18,70,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,70,Computer Name,quartz2391
+hpc,18,70,Result Size,3316704
+hpc,18,70,Collection start time,23:06:41 21/04/2021 UTC
+hpc,18,70,Collection stop time,23:06:41 21/04/2021 UTC
+hpc,18,70,Collector Type,Driverless Perf per-process sampling
+hpc,18,70,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,70,Frequency,2095149835
+hpc,18,70,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,70,Metric Name,Metric Value
+hpc,9,70,Elapsed Time,0.025743
+hpc,9,70,SP GFLOPS,0.0
+hpc,9,70,DP GFLOPS,0.0
+hpc,9,70,x87 GFLOPS,0.0
+hpc,9,70,CPI Rate,2.000000
+hpc,9,70,Average CPU Frequency,4190296902.000000
+hpc,9,70,Total Thread Count,1
+hpc,9,70,Effective Physical Core Utilization,0.3% (0.097 out of 36)
+hpc,9,70,Effective Logical Core Utilization,0.3% (0.195 out of 72)
+hpc,9,70,Memory Bound,0.0
+hpc,9,70,Cache Bound,0.0
+hpc,9,70,DRAM Bound,0.0
+hpc,9,70,NUMA: % of Remote Accesses,0.0
+hpc,9,70,Vectorization,0.0
+hpc,9,70,SP FLOPs,0.0
+hpc,9,70,Packed,0.0
+hpc,9,70,128-bit,0.0
+hpc,9,70,256-bit,0.0
+hpc,9,70,Scalar,0.0
+hpc,9,70,DP FLOPs,0.0
+hpc,9,70,Packed,0.0
+hpc,9,70,128-bit,0.0
+hpc,9,70,256-bit,0.0
+hpc,9,70,Scalar,0.0
+hpc,9,70,x87 FLOPs,0.0
+hpc,9,70,Non-FP,0.0
+hpc,9,70,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,70,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,70,Application Command Line,"myocyte ""100"" ""7"" ""0"" ""9"""
+hpc,9,70,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,70,Computer Name,quartz2391
+hpc,9,70,Result Size,3333180
+hpc,9,70,Collection start time,23:07:01 21/04/2021 UTC
+hpc,9,70,Collection stop time,23:07:01 21/04/2021 UTC
+hpc,9,70,Collector Type,Driverless Perf per-process sampling
+hpc,9,70,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,70,Frequency,2095148451
+hpc,9,70,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,70,Metric Name,Metric Value
+hpc,4,70,Elapsed Time,0.023603
+hpc,4,70,SP GFLOPS,0.0
+hpc,4,70,DP GFLOPS,0.0
+hpc,4,70,x87 GFLOPS,0.0
+hpc,4,70,CPI Rate,2.000000
+hpc,4,70,Average CPU Frequency,2095149139.000000
+hpc,4,70,Total Thread Count,1
+hpc,4,70,Effective Physical Core Utilization,0.6% (0.212 out of 36)
+hpc,4,70,Effective Logical Core Utilization,0.6% (0.425 out of 72)
+hpc,4,70,Memory Bound,0.0
+hpc,4,70,Cache Bound,0.0
+hpc,4,70,DRAM Bound,0.0
+hpc,4,70,NUMA: % of Remote Accesses,0.0
+hpc,4,70,Vectorization,0.0
+hpc,4,70,SP FLOPs,0.0
+hpc,4,70,Packed,0.0
+hpc,4,70,128-bit,0.0
+hpc,4,70,256-bit,0.0
+hpc,4,70,Scalar,0.0
+hpc,4,70,DP FLOPs,0.0
+hpc,4,70,Packed,0.0
+hpc,4,70,128-bit,0.0
+hpc,4,70,256-bit,0.0
+hpc,4,70,Scalar,0.0
+hpc,4,70,x87 FLOPs,0.0
+hpc,4,70,Non-FP,0.0
+hpc,4,70,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,70,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,70,Application Command Line,"myocyte ""100"" ""7"" ""0"" ""4"""
+hpc,4,70,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,70,Computer Name,quartz2391
+hpc,4,70,Result Size,3342046
+hpc,4,70,Collection start time,23:07:21 21/04/2021 UTC
+hpc,4,70,Collection stop time,23:07:21 21/04/2021 UTC
+hpc,4,70,Collector Type,Driverless Perf per-process sampling
+hpc,4,70,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,70,Frequency,2095149139
+hpc,4,70,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,71,Metric Name,Metric Value
+hpc,36,71,Elapsed Time,0.028030
+hpc,36,71,SP GFLOPS,0.0
+hpc,36,71,DP GFLOPS,0.0
+hpc,36,71,x87 GFLOPS,0.0
+hpc,36,71,CPI Rate,3.000000
+hpc,36,71,Average CPU Frequency,3142723101.000000
+hpc,36,71,Total Thread Count,1
+hpc,36,71,Effective Physical Core Utilization,0.5% (0.179 out of 36)
+hpc,36,71,Effective Logical Core Utilization,0.5% (0.358 out of 72)
+hpc,36,71,Memory Bound,0.0
+hpc,36,71,Cache Bound,0.0
+hpc,36,71,DRAM Bound,0.0
+hpc,36,71,NUMA: % of Remote Accesses,0.0
+hpc,36,71,Vectorization,0.0
+hpc,36,71,SP FLOPs,0.0
+hpc,36,71,Packed,0.0
+hpc,36,71,128-bit,0.0
+hpc,36,71,256-bit,0.0
+hpc,36,71,Scalar,0.0
+hpc,36,71,DP FLOPs,0.0
+hpc,36,71,Packed,0.0
+hpc,36,71,128-bit,0.0
+hpc,36,71,256-bit,0.0
+hpc,36,71,Scalar,0.0
+hpc,36,71,x87 FLOPs,0.0
+hpc,36,71,Non-FP,0.0
+hpc,36,71,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,71,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,71,Application Command Line,"myocyte ""100"" ""7"" ""1"" ""36"""
+hpc,36,71,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,71,Computer Name,quartz2391
+hpc,36,71,Result Size,3317283
+hpc,36,71,Collection start time,23:07:40 21/04/2021 UTC
+hpc,36,71,Collection stop time,23:07:40 21/04/2021 UTC
+hpc,36,71,Collector Type,Driverless Perf per-process sampling
+hpc,36,71,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,71,Frequency,2095148734
+hpc,36,71,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,71,Metric Name,Metric Value
+hpc,18,71,Elapsed Time,0.030792
+hpc,18,71,SP GFLOPS,0.0
+hpc,18,71,DP GFLOPS,0.0
+hpc,18,71,x87 GFLOPS,0.0
+hpc,18,71,CPI Rate,2.000000
+hpc,18,71,Average CPU Frequency,4190294798.000000
+hpc,18,71,Total Thread Count,1
+hpc,18,71,Effective Physical Core Utilization,0.2% (0.081 out of 36)
+hpc,18,71,Effective Logical Core Utilization,0.2% (0.163 out of 72)
+hpc,18,71,Memory Bound,0.0
+hpc,18,71,Cache Bound,0.0
+hpc,18,71,DRAM Bound,0.0
+hpc,18,71,NUMA: % of Remote Accesses,0.0
+hpc,18,71,Vectorization,0.0
+hpc,18,71,SP FLOPs,0.0
+hpc,18,71,Packed,0.0
+hpc,18,71,128-bit,0.0
+hpc,18,71,256-bit,0.0
+hpc,18,71,Scalar,0.0
+hpc,18,71,DP FLOPs,0.0
+hpc,18,71,Packed,0.0
+hpc,18,71,128-bit,0.0
+hpc,18,71,256-bit,0.0
+hpc,18,71,Scalar,0.0
+hpc,18,71,x87 FLOPs,0.0
+hpc,18,71,Non-FP,0.0
+hpc,18,71,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,71,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,71,Application Command Line,"myocyte ""100"" ""7"" ""1"" ""18"""
+hpc,18,71,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,71,Computer Name,quartz2391
+hpc,18,71,Result Size,3333779
+hpc,18,71,Collection start time,23:07:59 21/04/2021 UTC
+hpc,18,71,Collection stop time,23:07:59 21/04/2021 UTC
+hpc,18,71,Collector Type,Driverless Perf per-process sampling
+hpc,18,71,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,71,Frequency,2095147399
+hpc,18,71,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,71,Metric Name,Metric Value
+hpc,9,71,Elapsed Time,0.154675
+hpc,9,71,SP GFLOPS,0.0
+hpc,9,71,DP GFLOPS,0.0
+hpc,9,71,x87 GFLOPS,0.0
+hpc,9,71,CPI Rate,2.000000
+hpc,9,71,Average CPU Frequency,2095146668.000000
+hpc,9,71,Total Thread Count,1
+hpc,9,71,Effective Physical Core Utilization,0.1% (0.032 out of 36)
+hpc,9,71,Effective Logical Core Utilization,0.1% (0.065 out of 72)
+hpc,9,71,Memory Bound,0.0
+hpc,9,71,Cache Bound,0.0
+hpc,9,71,DRAM Bound,0.0
+hpc,9,71,NUMA: % of Remote Accesses,0.0
+hpc,9,71,Vectorization,0.0
+hpc,9,71,SP FLOPs,0.0
+hpc,9,71,Packed,0.0
+hpc,9,71,128-bit,0.0
+hpc,9,71,256-bit,0.0
+hpc,9,71,Scalar,0.0
+hpc,9,71,DP FLOPs,0.0
+hpc,9,71,Packed,0.0
+hpc,9,71,128-bit,0.0
+hpc,9,71,256-bit,0.0
+hpc,9,71,Scalar,0.0
+hpc,9,71,x87 FLOPs,0.0
+hpc,9,71,Non-FP,0.0
+hpc,9,71,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,71,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,71,Application Command Line,"myocyte ""100"" ""7"" ""1"" ""9"""
+hpc,9,71,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,71,Computer Name,quartz2391
+hpc,9,71,Result Size,3317088
+hpc,9,71,Collection start time,23:08:19 21/04/2021 UTC
+hpc,9,71,Collection stop time,23:08:20 21/04/2021 UTC
+hpc,9,71,Collector Type,Driverless Perf per-process sampling
+hpc,9,71,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,71,Frequency,2095146668
+hpc,9,71,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,71,Metric Name,Metric Value
+hpc,4,71,Elapsed Time,0.025110
+hpc,4,71,SP GFLOPS,0.0
+hpc,4,71,DP GFLOPS,0.0
+hpc,4,71,x87 GFLOPS,0.0
+hpc,4,71,CPI Rate,2.000000
+hpc,4,71,Average CPU Frequency,2095146585.000000
+hpc,4,71,Total Thread Count,1
+hpc,4,71,Effective Physical Core Utilization,0.6% (0.200 out of 36)
+hpc,4,71,Effective Logical Core Utilization,0.6% (0.399 out of 72)
+hpc,4,71,Memory Bound,0.0
+hpc,4,71,Cache Bound,0.0
+hpc,4,71,DRAM Bound,0.0
+hpc,4,71,NUMA: % of Remote Accesses,0.0
+hpc,4,71,Vectorization,0.0
+hpc,4,71,SP FLOPs,0.0
+hpc,4,71,Packed,0.0
+hpc,4,71,128-bit,0.0
+hpc,4,71,256-bit,0.0
+hpc,4,71,Scalar,0.0
+hpc,4,71,DP FLOPs,0.0
+hpc,4,71,Packed,0.0
+hpc,4,71,128-bit,0.0
+hpc,4,71,256-bit,0.0
+hpc,4,71,Scalar,0.0
+hpc,4,71,x87 FLOPs,0.0
+hpc,4,71,Non-FP,0.0
+hpc,4,71,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,71,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,71,Application Command Line,"myocyte ""100"" ""7"" ""1"" ""4"""
+hpc,4,71,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,71,Computer Name,quartz2391
+hpc,4,71,Result Size,3316923
+hpc,4,71,Collection start time,23:08:40 21/04/2021 UTC
+hpc,4,71,Collection stop time,23:08:40 21/04/2021 UTC
+hpc,4,71,Collector Type,Driverless Perf per-process sampling
+hpc,4,71,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,71,Frequency,2095146585
+hpc,4,71,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,80,Metric Name,Metric Value
+hpc,36,80,Elapsed Time,0.027599
+hpc,36,80,SP GFLOPS,0.0
+hpc,36,80,DP GFLOPS,0.0
+hpc,36,80,x87 GFLOPS,0.0
+hpc,36,80,CPI Rate,3.000000
+hpc,36,80,Average CPU Frequency,3142722807.000000
+hpc,36,80,Total Thread Count,1
+hpc,36,80,Effective Physical Core Utilization,0.5% (0.182 out of 36)
+hpc,36,80,Effective Logical Core Utilization,0.5% (0.363 out of 72)
+hpc,36,80,Memory Bound,0.0
+hpc,36,80,Cache Bound,0.0
+hpc,36,80,DRAM Bound,0.0
+hpc,36,80,NUMA: % of Remote Accesses,0.0
+hpc,36,80,Vectorization,0.0
+hpc,36,80,SP FLOPs,0.0
+hpc,36,80,Packed,0.0
+hpc,36,80,128-bit,0.0
+hpc,36,80,256-bit,0.0
+hpc,36,80,Scalar,0.0
+hpc,36,80,DP FLOPs,0.0
+hpc,36,80,Packed,0.0
+hpc,36,80,128-bit,0.0
+hpc,36,80,256-bit,0.0
+hpc,36,80,Scalar,0.0
+hpc,36,80,x87 FLOPs,0.0
+hpc,36,80,Non-FP,0.0
+hpc,36,80,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,80,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,80,Application Command Line,"myocyte ""100"" ""8"" ""0"" ""36"""
+hpc,36,80,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,80,Computer Name,quartz2391
+hpc,36,80,Result Size,3317331
+hpc,36,80,Collection start time,23:08:59 21/04/2021 UTC
+hpc,36,80,Collection stop time,23:08:59 21/04/2021 UTC
+hpc,36,80,Collector Type,Driverless Perf per-process sampling
+hpc,36,80,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,80,Frequency,2095148538
+hpc,36,80,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,80,Metric Name,Metric Value
+hpc,18,80,Elapsed Time,0.023547
+hpc,18,80,SP GFLOPS,0.0
+hpc,18,80,DP GFLOPS,0.0
+hpc,18,80,x87 GFLOPS,0.0
+hpc,18,80,CPI Rate,2.000000
+hpc,18,80,Average CPU Frequency,4190297592.000000
+hpc,18,80,Total Thread Count,1
+hpc,18,80,Effective Physical Core Utilization,0.3% (0.106 out of 36)
+hpc,18,80,Effective Logical Core Utilization,0.3% (0.213 out of 72)
+hpc,18,80,Memory Bound,0.0
+hpc,18,80,Cache Bound,0.0
+hpc,18,80,DRAM Bound,0.0
+hpc,18,80,NUMA: % of Remote Accesses,0.0
+hpc,18,80,Vectorization,0.0
+hpc,18,80,SP FLOPs,0.0
+hpc,18,80,Packed,0.0
+hpc,18,80,128-bit,0.0
+hpc,18,80,256-bit,0.0
+hpc,18,80,Scalar,0.0
+hpc,18,80,DP FLOPs,0.0
+hpc,18,80,Packed,0.0
+hpc,18,80,128-bit,0.0
+hpc,18,80,256-bit,0.0
+hpc,18,80,Scalar,0.0
+hpc,18,80,x87 FLOPs,0.0
+hpc,18,80,Non-FP,0.0
+hpc,18,80,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,80,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,80,Application Command Line,"myocyte ""100"" ""8"" ""0"" ""18"""
+hpc,18,80,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,80,Computer Name,quartz2391
+hpc,18,80,Result Size,3333156
+hpc,18,80,Collection start time,23:09:18 21/04/2021 UTC
+hpc,18,80,Collection stop time,23:09:18 21/04/2021 UTC
+hpc,18,80,Collector Type,Driverless Perf per-process sampling
+hpc,18,80,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,80,Frequency,2095148796
+hpc,18,80,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,80,Metric Name,Metric Value
+hpc,9,80,Elapsed Time,0.022791
+hpc,9,80,SP GFLOPS,0.0
+hpc,9,80,DP GFLOPS,0.0
+hpc,9,80,x87 GFLOPS,0.0
+hpc,9,80,CPI Rate,2.000000
+hpc,9,80,Average CPU Frequency,2095148879.000000
+hpc,9,80,Total Thread Count,1
+hpc,9,80,Effective Physical Core Utilization,0.6% (0.220 out of 36)
+hpc,9,80,Effective Logical Core Utilization,0.6% (0.440 out of 72)
+hpc,9,80,Memory Bound,0.0
+hpc,9,80,Cache Bound,0.0
+hpc,9,80,DRAM Bound,0.0
+hpc,9,80,NUMA: % of Remote Accesses,0.0
+hpc,9,80,Vectorization,0.0
+hpc,9,80,SP FLOPs,0.0
+hpc,9,80,Packed,0.0
+hpc,9,80,128-bit,0.0
+hpc,9,80,256-bit,0.0
+hpc,9,80,Scalar,0.0
+hpc,9,80,DP FLOPs,0.0
+hpc,9,80,Packed,0.0
+hpc,9,80,128-bit,0.0
+hpc,9,80,256-bit,0.0
+hpc,9,80,Scalar,0.0
+hpc,9,80,x87 FLOPs,0.0
+hpc,9,80,Non-FP,0.0
+hpc,9,80,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,80,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,80,Application Command Line,"myocyte ""100"" ""8"" ""0"" ""9"""
+hpc,9,80,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,80,Computer Name,quartz2391
+hpc,9,80,Result Size,3317029
+hpc,9,80,Collection start time,23:09:38 21/04/2021 UTC
+hpc,9,80,Collection stop time,23:09:38 21/04/2021 UTC
+hpc,9,80,Collector Type,Driverless Perf per-process sampling
+hpc,9,80,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,80,Frequency,2095148879
+hpc,9,80,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,80,Metric Name,Metric Value
+hpc,4,80,Elapsed Time,0.024581
+hpc,4,80,SP GFLOPS,0.0
+hpc,4,80,DP GFLOPS,0.0
+hpc,4,80,x87 GFLOPS,0.0
+hpc,4,80,CPI Rate,2.000000
+hpc,4,80,Average CPU Frequency,4190295966.000000
+hpc,4,80,Total Thread Count,1
+hpc,4,80,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,4,80,Effective Logical Core Utilization,0.3% (0.204 out of 72)
+hpc,4,80,Memory Bound,0.0
+hpc,4,80,Cache Bound,0.0
+hpc,4,80,DRAM Bound,0.0
+hpc,4,80,NUMA: % of Remote Accesses,0.0
+hpc,4,80,Vectorization,0.0
+hpc,4,80,SP FLOPs,0.0
+hpc,4,80,Packed,0.0
+hpc,4,80,128-bit,0.0
+hpc,4,80,256-bit,0.0
+hpc,4,80,Scalar,0.0
+hpc,4,80,DP FLOPs,0.0
+hpc,4,80,Packed,0.0
+hpc,4,80,128-bit,0.0
+hpc,4,80,256-bit,0.0
+hpc,4,80,Scalar,0.0
+hpc,4,80,x87 FLOPs,0.0
+hpc,4,80,Non-FP,0.0
+hpc,4,80,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,80,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,80,Application Command Line,"myocyte ""100"" ""8"" ""0"" ""4"""
+hpc,4,80,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,80,Computer Name,quartz2391
+hpc,4,80,Result Size,3316674
+hpc,4,80,Collection start time,23:09:57 21/04/2021 UTC
+hpc,4,80,Collection stop time,23:09:57 21/04/2021 UTC
+hpc,4,80,Collector Type,Driverless Perf per-process sampling
+hpc,4,80,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,80,Frequency,2095147983
+hpc,4,80,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,81,Metric Name,Metric Value
+hpc,36,81,Elapsed Time,0.023795
+hpc,36,81,SP GFLOPS,0.0
+hpc,36,81,DP GFLOPS,0.0
+hpc,36,81,x87 GFLOPS,0.0
+hpc,36,81,CPI Rate,2.000000
+hpc,36,81,Average CPU Frequency,2095146162.000000
+hpc,36,81,Total Thread Count,1
+hpc,36,81,Effective Physical Core Utilization,0.6% (0.211 out of 36)
+hpc,36,81,Effective Logical Core Utilization,0.6% (0.421 out of 72)
+hpc,36,81,Memory Bound,0.0
+hpc,36,81,Cache Bound,0.0
+hpc,36,81,DRAM Bound,0.0
+hpc,36,81,NUMA: % of Remote Accesses,0.0
+hpc,36,81,Vectorization,0.0
+hpc,36,81,SP FLOPs,0.0
+hpc,36,81,Packed,0.0
+hpc,36,81,128-bit,0.0
+hpc,36,81,256-bit,0.0
+hpc,36,81,Scalar,0.0
+hpc,36,81,DP FLOPs,0.0
+hpc,36,81,Packed,0.0
+hpc,36,81,128-bit,0.0
+hpc,36,81,256-bit,0.0
+hpc,36,81,Scalar,0.0
+hpc,36,81,x87 FLOPs,0.0
+hpc,36,81,Non-FP,0.0
+hpc,36,81,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,81,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,81,Application Command Line,"myocyte ""100"" ""8"" ""1"" ""36"""
+hpc,36,81,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,81,Computer Name,quartz2391
+hpc,36,81,Result Size,3317039
+hpc,36,81,Collection start time,23:10:16 21/04/2021 UTC
+hpc,36,81,Collection stop time,23:10:16 21/04/2021 UTC
+hpc,36,81,Collector Type,Driverless Perf per-process sampling
+hpc,36,81,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,81,Frequency,2095146162
+hpc,36,81,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,81,Metric Name,Metric Value
+hpc,18,81,Elapsed Time,0.024531
+hpc,18,81,SP GFLOPS,0.0
+hpc,18,81,DP GFLOPS,0.0
+hpc,18,81,x87 GFLOPS,0.0
+hpc,18,81,CPI Rate,2.000000
+hpc,18,81,Average CPU Frequency,4190292432.000000
+hpc,18,81,Total Thread Count,1
+hpc,18,81,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,18,81,Effective Logical Core Utilization,0.3% (0.204 out of 72)
+hpc,18,81,Memory Bound,0.0
+hpc,18,81,Cache Bound,0.0
+hpc,18,81,DRAM Bound,0.0
+hpc,18,81,NUMA: % of Remote Accesses,0.0
+hpc,18,81,Vectorization,0.0
+hpc,18,81,SP FLOPs,0.0
+hpc,18,81,Packed,0.0
+hpc,18,81,128-bit,0.0
+hpc,18,81,256-bit,0.0
+hpc,18,81,Scalar,0.0
+hpc,18,81,DP FLOPs,0.0
+hpc,18,81,Packed,0.0
+hpc,18,81,128-bit,0.0
+hpc,18,81,256-bit,0.0
+hpc,18,81,Scalar,0.0
+hpc,18,81,x87 FLOPs,0.0
+hpc,18,81,Non-FP,0.0
+hpc,18,81,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,81,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,81,Application Command Line,"myocyte ""100"" ""8"" ""1"" ""18"""
+hpc,18,81,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,81,Computer Name,quartz2391
+hpc,18,81,Result Size,3316719
+hpc,18,81,Collection start time,23:10:35 21/04/2021 UTC
+hpc,18,81,Collection stop time,23:10:35 21/04/2021 UTC
+hpc,18,81,Collector Type,Driverless Perf per-process sampling
+hpc,18,81,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,81,Frequency,2095146216
+hpc,18,81,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,81,Metric Name,Metric Value
+hpc,9,81,Elapsed Time,0.027642
+hpc,9,81,SP GFLOPS,0.0
+hpc,9,81,DP GFLOPS,0.0
+hpc,9,81,x87 GFLOPS,0.0
+hpc,9,81,CPI Rate,2.000000
+hpc,9,81,Average CPU Frequency,2095148756.000000
+hpc,9,81,Total Thread Count,1
+hpc,9,81,Effective Physical Core Utilization,0.5% (0.181 out of 36)
+hpc,9,81,Effective Logical Core Utilization,0.5% (0.363 out of 72)
+hpc,9,81,Memory Bound,0.0
+hpc,9,81,Cache Bound,0.0
+hpc,9,81,DRAM Bound,0.0
+hpc,9,81,NUMA: % of Remote Accesses,0.0
+hpc,9,81,Vectorization,0.0
+hpc,9,81,SP FLOPs,0.0
+hpc,9,81,Packed,0.0
+hpc,9,81,128-bit,0.0
+hpc,9,81,256-bit,0.0
+hpc,9,81,Scalar,0.0
+hpc,9,81,DP FLOPs,0.0
+hpc,9,81,Packed,0.0
+hpc,9,81,128-bit,0.0
+hpc,9,81,256-bit,0.0
+hpc,9,81,Scalar,0.0
+hpc,9,81,x87 FLOPs,0.0
+hpc,9,81,Non-FP,0.0
+hpc,9,81,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,81,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,81,Application Command Line,"myocyte ""100"" ""8"" ""1"" ""9"""
+hpc,9,81,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,81,Computer Name,quartz2391
+hpc,9,81,Result Size,3317009
+hpc,9,81,Collection start time,23:10:55 21/04/2021 UTC
+hpc,9,81,Collection stop time,23:10:55 21/04/2021 UTC
+hpc,9,81,Collector Type,Driverless Perf per-process sampling
+hpc,9,81,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,81,Frequency,2095148756
+hpc,9,81,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,81,Metric Name,Metric Value
+hpc,4,81,Elapsed Time,0.025363
+hpc,4,81,SP GFLOPS,0.0
+hpc,4,81,DP GFLOPS,0.0
+hpc,4,81,x87 GFLOPS,0.0
+hpc,4,81,CPI Rate,2.000000
+hpc,4,81,Average CPU Frequency,2095149489.000000
+hpc,4,81,Total Thread Count,1
+hpc,4,81,Effective Physical Core Utilization,0.5% (0.198 out of 36)
+hpc,4,81,Effective Logical Core Utilization,0.5% (0.395 out of 72)
+hpc,4,81,Memory Bound,0.0
+hpc,4,81,Cache Bound,0.0
+hpc,4,81,DRAM Bound,0.0
+hpc,4,81,NUMA: % of Remote Accesses,0.0
+hpc,4,81,Vectorization,0.0
+hpc,4,81,SP FLOPs,0.0
+hpc,4,81,Packed,0.0
+hpc,4,81,128-bit,0.0
+hpc,4,81,256-bit,0.0
+hpc,4,81,Scalar,0.0
+hpc,4,81,DP FLOPs,0.0
+hpc,4,81,Packed,0.0
+hpc,4,81,128-bit,0.0
+hpc,4,81,256-bit,0.0
+hpc,4,81,Scalar,0.0
+hpc,4,81,x87 FLOPs,0.0
+hpc,4,81,Non-FP,0.0
+hpc,4,81,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,81,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,81,Application Command Line,"myocyte ""100"" ""8"" ""1"" ""4"""
+hpc,4,81,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,81,Computer Name,quartz2391
+hpc,4,81,Result Size,3317001
+hpc,4,81,Collection start time,23:11:15 21/04/2021 UTC
+hpc,4,81,Collection stop time,23:11:15 21/04/2021 UTC
+hpc,4,81,Collector Type,Driverless Perf per-process sampling
+hpc,4,81,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,81,Frequency,2095149489
+hpc,4,81,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,90,Metric Name,Metric Value
+hpc,36,90,Elapsed Time,0.022955
+hpc,36,90,SP GFLOPS,0.0
+hpc,36,90,DP GFLOPS,0.0
+hpc,36,90,x87 GFLOPS,0.0
+hpc,36,90,CPI Rate,2.000000
+hpc,36,90,Average CPU Frequency,4190299028.000000
+hpc,36,90,Total Thread Count,1
+hpc,36,90,Effective Physical Core Utilization,0.3% (0.109 out of 36)
+hpc,36,90,Effective Logical Core Utilization,0.3% (0.218 out of 72)
+hpc,36,90,Memory Bound,0.0
+hpc,36,90,Cache Bound,0.0
+hpc,36,90,DRAM Bound,0.0
+hpc,36,90,NUMA: % of Remote Accesses,0.0
+hpc,36,90,Vectorization,0.0
+hpc,36,90,SP FLOPs,0.0
+hpc,36,90,Packed,0.0
+hpc,36,90,128-bit,0.0
+hpc,36,90,256-bit,0.0
+hpc,36,90,Scalar,0.0
+hpc,36,90,DP FLOPs,0.0
+hpc,36,90,Packed,0.0
+hpc,36,90,128-bit,0.0
+hpc,36,90,256-bit,0.0
+hpc,36,90,Scalar,0.0
+hpc,36,90,x87 FLOPs,0.0
+hpc,36,90,Non-FP,0.0
+hpc,36,90,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,90,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,90,Application Command Line,"myocyte ""100"" ""9"" ""0"" ""36"""
+hpc,36,90,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,90,Computer Name,quartz2391
+hpc,36,90,Result Size,3316674
+hpc,36,90,Collection start time,23:11:34 21/04/2021 UTC
+hpc,36,90,Collection stop time,23:11:34 21/04/2021 UTC
+hpc,36,90,Collector Type,Driverless Perf per-process sampling
+hpc,36,90,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,90,Frequency,2095149514
+hpc,36,90,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,90,Metric Name,Metric Value
+hpc,18,90,Elapsed Time,0.022552
+hpc,18,90,SP GFLOPS,0.0
+hpc,18,90,DP GFLOPS,0.0
+hpc,18,90,x87 GFLOPS,0.0
+hpc,18,90,CPI Rate,2.000000
+hpc,18,90,Average CPU Frequency,4190294270.000000
+hpc,18,90,Total Thread Count,1
+hpc,18,90,Effective Physical Core Utilization,0.3% (0.111 out of 36)
+hpc,18,90,Effective Logical Core Utilization,0.3% (0.222 out of 72)
+hpc,18,90,Memory Bound,0.0
+hpc,18,90,Cache Bound,0.0
+hpc,18,90,DRAM Bound,0.0
+hpc,18,90,NUMA: % of Remote Accesses,0.0
+hpc,18,90,Vectorization,0.0
+hpc,18,90,SP FLOPs,0.0
+hpc,18,90,Packed,0.0
+hpc,18,90,128-bit,0.0
+hpc,18,90,256-bit,0.0
+hpc,18,90,Scalar,0.0
+hpc,18,90,DP FLOPs,0.0
+hpc,18,90,Packed,0.0
+hpc,18,90,128-bit,0.0
+hpc,18,90,256-bit,0.0
+hpc,18,90,Scalar,0.0
+hpc,18,90,x87 FLOPs,0.0
+hpc,18,90,Non-FP,0.0
+hpc,18,90,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,90,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,90,Application Command Line,"myocyte ""100"" ""9"" ""0"" ""18"""
+hpc,18,90,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,90,Computer Name,quartz2391
+hpc,18,90,Result Size,3316714
+hpc,18,90,Collection start time,23:11:54 21/04/2021 UTC
+hpc,18,90,Collection stop time,23:11:54 21/04/2021 UTC
+hpc,18,90,Collector Type,Driverless Perf per-process sampling
+hpc,18,90,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,90,Frequency,2095147135
+hpc,18,90,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,90,Metric Name,Metric Value
+hpc,9,90,Elapsed Time,0.024636
+hpc,9,90,SP GFLOPS,0.0
+hpc,9,90,DP GFLOPS,0.0
+hpc,9,90,x87 GFLOPS,0.0
+hpc,9,90,CPI Rate,2.000000
+hpc,9,90,Average CPU Frequency,4190292978.000000
+hpc,9,90,Total Thread Count,1
+hpc,9,90,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,9,90,Effective Logical Core Utilization,0.3% (0.203 out of 72)
+hpc,9,90,Memory Bound,0.0
+hpc,9,90,Cache Bound,0.0
+hpc,9,90,DRAM Bound,0.0
+hpc,9,90,NUMA: % of Remote Accesses,0.0
+hpc,9,90,Vectorization,0.0
+hpc,9,90,SP FLOPs,0.0
+hpc,9,90,Packed,0.0
+hpc,9,90,128-bit,0.0
+hpc,9,90,256-bit,0.0
+hpc,9,90,Scalar,0.0
+hpc,9,90,DP FLOPs,0.0
+hpc,9,90,Packed,0.0
+hpc,9,90,128-bit,0.0
+hpc,9,90,256-bit,0.0
+hpc,9,90,Scalar,0.0
+hpc,9,90,x87 FLOPs,0.0
+hpc,9,90,Non-FP,0.0
+hpc,9,90,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,90,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,90,Application Command Line,"myocyte ""100"" ""9"" ""0"" ""9"""
+hpc,9,90,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,90,Computer Name,quartz2391
+hpc,9,90,Result Size,3316673
+hpc,9,90,Collection start time,23:12:13 21/04/2021 UTC
+hpc,9,90,Collection stop time,23:12:13 21/04/2021 UTC
+hpc,9,90,Collector Type,Driverless Perf per-process sampling
+hpc,9,90,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,90,Frequency,2095146489
+hpc,9,90,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,90,Metric Name,Metric Value
+hpc,4,90,Elapsed Time,0.023847
+hpc,4,90,SP GFLOPS,0.0
+hpc,4,90,DP GFLOPS,0.0
+hpc,4,90,x87 GFLOPS,0.0
+hpc,4,90,CPI Rate,2.000000
+hpc,4,90,Average CPU Frequency,4190298640.000000
+hpc,4,90,Total Thread Count,1
+hpc,4,90,Effective Physical Core Utilization,0.3% (0.105 out of 36)
+hpc,4,90,Effective Logical Core Utilization,0.3% (0.210 out of 72)
+hpc,4,90,Memory Bound,0.0
+hpc,4,90,Cache Bound,0.0
+hpc,4,90,DRAM Bound,0.0
+hpc,4,90,NUMA: % of Remote Accesses,0.0
+hpc,4,90,Vectorization,0.0
+hpc,4,90,SP FLOPs,0.0
+hpc,4,90,Packed,0.0
+hpc,4,90,128-bit,0.0
+hpc,4,90,256-bit,0.0
+hpc,4,90,Scalar,0.0
+hpc,4,90,DP FLOPs,0.0
+hpc,4,90,Packed,0.0
+hpc,4,90,128-bit,0.0
+hpc,4,90,256-bit,0.0
+hpc,4,90,Scalar,0.0
+hpc,4,90,x87 FLOPs,0.0
+hpc,4,90,Non-FP,0.0
+hpc,4,90,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,90,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,90,Application Command Line,"myocyte ""100"" ""9"" ""0"" ""4"""
+hpc,4,90,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,90,Computer Name,quartz2391
+hpc,4,90,Result Size,3316670
+hpc,4,90,Collection start time,23:12:32 21/04/2021 UTC
+hpc,4,90,Collection stop time,23:12:32 21/04/2021 UTC
+hpc,4,90,Collector Type,Driverless Perf per-process sampling
+hpc,4,90,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,90,Frequency,2095149320
+hpc,4,90,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,91,Metric Name,Metric Value
+hpc,36,91,Elapsed Time,0.024666
+hpc,36,91,SP GFLOPS,0.0
+hpc,36,91,DP GFLOPS,0.0
+hpc,36,91,x87 GFLOPS,0.0
+hpc,36,91,CPI Rate,2.000000
+hpc,36,91,Average CPU Frequency,2095148027.000000
+hpc,36,91,Total Thread Count,1
+hpc,36,91,Effective Physical Core Utilization,0.6% (0.203 out of 36)
+hpc,36,91,Effective Logical Core Utilization,0.6% (0.406 out of 72)
+hpc,36,91,Memory Bound,0.0
+hpc,36,91,Cache Bound,0.0
+hpc,36,91,DRAM Bound,0.0
+hpc,36,91,NUMA: % of Remote Accesses,0.0
+hpc,36,91,Vectorization,0.0
+hpc,36,91,SP FLOPs,0.0
+hpc,36,91,Packed,0.0
+hpc,36,91,128-bit,0.0
+hpc,36,91,256-bit,0.0
+hpc,36,91,Scalar,0.0
+hpc,36,91,DP FLOPs,0.0
+hpc,36,91,Packed,0.0
+hpc,36,91,128-bit,0.0
+hpc,36,91,256-bit,0.0
+hpc,36,91,Scalar,0.0
+hpc,36,91,x87 FLOPs,0.0
+hpc,36,91,Non-FP,0.0
+hpc,36,91,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,91,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,91,Application Command Line,"myocyte ""100"" ""9"" ""1"" ""36"""
+hpc,36,91,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,91,Computer Name,quartz2391
+hpc,36,91,Result Size,3317036
+hpc,36,91,Collection start time,23:12:51 21/04/2021 UTC
+hpc,36,91,Collection stop time,23:12:51 21/04/2021 UTC
+hpc,36,91,Collector Type,Driverless Perf per-process sampling
+hpc,36,91,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,91,Frequency,2095148027
+hpc,36,91,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,91,Metric Name,Metric Value
+hpc,18,91,Elapsed Time,0.024557
+hpc,18,91,SP GFLOPS,0.0
+hpc,18,91,DP GFLOPS,0.0
+hpc,18,91,x87 GFLOPS,0.0
+hpc,18,91,CPI Rate,3.000000
+hpc,18,91,Average CPU Frequency,3142723236.000000
+hpc,18,91,Total Thread Count,1
+hpc,18,91,Effective Physical Core Utilization,0.6% (0.204 out of 36)
+hpc,18,91,Effective Logical Core Utilization,0.6% (0.408 out of 72)
+hpc,18,91,Memory Bound,0.0
+hpc,18,91,Cache Bound,0.0
+hpc,18,91,DRAM Bound,0.0
+hpc,18,91,NUMA: % of Remote Accesses,0.0
+hpc,18,91,Vectorization,0.0
+hpc,18,91,SP FLOPs,0.0
+hpc,18,91,Packed,0.0
+hpc,18,91,128-bit,0.0
+hpc,18,91,256-bit,0.0
+hpc,18,91,Scalar,0.0
+hpc,18,91,DP FLOPs,0.0
+hpc,18,91,Packed,0.0
+hpc,18,91,128-bit,0.0
+hpc,18,91,256-bit,0.0
+hpc,18,91,Scalar,0.0
+hpc,18,91,x87 FLOPs,0.0
+hpc,18,91,Non-FP,0.0
+hpc,18,91,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,91,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,91,Application Command Line,"myocyte ""100"" ""9"" ""1"" ""18"""
+hpc,18,91,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,91,Computer Name,quartz2391
+hpc,18,91,Result Size,3333694
+hpc,18,91,Collection start time,23:13:11 21/04/2021 UTC
+hpc,18,91,Collection stop time,23:13:11 21/04/2021 UTC
+hpc,18,91,Collector Type,Driverless Perf per-process sampling
+hpc,18,91,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,91,Frequency,2095148824
+hpc,18,91,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,91,Metric Name,Metric Value
+hpc,9,91,Elapsed Time,0.025347
+hpc,9,91,SP GFLOPS,0.0
+hpc,9,91,DP GFLOPS,0.0
+hpc,9,91,x87 GFLOPS,0.0
+hpc,9,91,Average CPU Frequency,2095148692.000000
+hpc,9,91,Total Thread Count,1
+hpc,9,91,Effective Physical Core Utilization,0.3% (0.099 out of 36)
+hpc,9,91,Effective Logical Core Utilization,0.3% (0.198 out of 72)
+hpc,9,91,Memory Bound,0.0
+hpc,9,91,Cache Bound,0.0
+hpc,9,91,DRAM Bound,0.0
+hpc,9,91,NUMA: % of Remote Accesses,0.0
+hpc,9,91,Vectorization,0.0
+hpc,9,91,SP FLOPs,0.0
+hpc,9,91,Packed,0.0
+hpc,9,91,128-bit,0.0
+hpc,9,91,256-bit,0.0
+hpc,9,91,Scalar,0.0
+hpc,9,91,DP FLOPs,0.0
+hpc,9,91,Packed,0.0
+hpc,9,91,128-bit,0.0
+hpc,9,91,256-bit,0.0
+hpc,9,91,Scalar,0.0
+hpc,9,91,x87 FLOPs,0.0
+hpc,9,91,Non-FP,0.0
+hpc,9,91,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,91,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,91,Application Command Line,"myocyte ""100"" ""9"" ""1"" ""9"""
+hpc,9,91,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,91,Computer Name,quartz2391
+hpc,9,91,Result Size,3316143
+hpc,9,91,Collection start time,23:13:30 21/04/2021 UTC
+hpc,9,91,Collection stop time,23:13:30 21/04/2021 UTC
+hpc,9,91,Collector Type,Driverless Perf per-process sampling
+hpc,9,91,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,91,Frequency,2095148692
+hpc,9,91,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,91,Metric Name,Metric Value
+hpc,4,91,Elapsed Time,0.024793
+hpc,4,91,SP GFLOPS,0.0
+hpc,4,91,DP GFLOPS,0.0
+hpc,4,91,x87 GFLOPS,0.0
+hpc,4,91,CPI Rate,2.000000
+hpc,4,91,Average CPU Frequency,2095147187.000000
+hpc,4,91,Total Thread Count,1
+hpc,4,91,Effective Physical Core Utilization,0.6% (0.202 out of 36)
+hpc,4,91,Effective Logical Core Utilization,0.6% (0.404 out of 72)
+hpc,4,91,Memory Bound,0.0
+hpc,4,91,Cache Bound,0.0
+hpc,4,91,DRAM Bound,0.0
+hpc,4,91,NUMA: % of Remote Accesses,0.0
+hpc,4,91,Vectorization,0.0
+hpc,4,91,SP FLOPs,0.0
+hpc,4,91,Packed,0.0
+hpc,4,91,128-bit,0.0
+hpc,4,91,256-bit,0.0
+hpc,4,91,Scalar,0.0
+hpc,4,91,DP FLOPs,0.0
+hpc,4,91,Packed,0.0
+hpc,4,91,128-bit,0.0
+hpc,4,91,256-bit,0.0
+hpc,4,91,Scalar,0.0
+hpc,4,91,x87 FLOPs,0.0
+hpc,4,91,Non-FP,0.0
+hpc,4,91,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,91,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,91,Application Command Line,"myocyte ""100"" ""9"" ""1"" ""4"""
+hpc,4,91,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,91,Computer Name,quartz2391
+hpc,4,91,Result Size,3341645
+hpc,4,91,Collection start time,23:13:49 21/04/2021 UTC
+hpc,4,91,Collection stop time,23:13:49 21/04/2021 UTC
+hpc,4,91,Collector Type,Driverless Perf per-process sampling
+hpc,4,91,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,91,Frequency,2095147187
+hpc,4,91,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,100,Metric Name,Metric Value
+hpc,36,100,Elapsed Time,0.024481
+hpc,36,100,SP GFLOPS,0.0
+hpc,36,100,DP GFLOPS,0.0
+hpc,36,100,x87 GFLOPS,0.0
+hpc,36,100,CPI Rate,2.000000
+hpc,36,100,Average CPU Frequency,4190295304.000000
+hpc,36,100,Total Thread Count,1
+hpc,36,100,Effective Physical Core Utilization,0.3% (0.102 out of 36)
+hpc,36,100,Effective Logical Core Utilization,0.3% (0.205 out of 72)
+hpc,36,100,Memory Bound,0.0
+hpc,36,100,Cache Bound,0.0
+hpc,36,100,DRAM Bound,0.0
+hpc,36,100,NUMA: % of Remote Accesses,0.0
+hpc,36,100,Vectorization,0.0
+hpc,36,100,SP FLOPs,0.0
+hpc,36,100,Packed,0.0
+hpc,36,100,128-bit,0.0
+hpc,36,100,256-bit,0.0
+hpc,36,100,Scalar,0.0
+hpc,36,100,DP FLOPs,0.0
+hpc,36,100,Packed,0.0
+hpc,36,100,128-bit,0.0
+hpc,36,100,256-bit,0.0
+hpc,36,100,Scalar,0.0
+hpc,36,100,x87 FLOPs,0.0
+hpc,36,100,Non-FP,0.0
+hpc,36,100,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,100,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,100,Application Command Line,"myocyte ""100"" ""10"" ""0"" ""36"""
+hpc,36,100,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,100,Computer Name,quartz2391
+hpc,36,100,Result Size,3317278
+hpc,36,100,Collection start time,23:14:08 21/04/2021 UTC
+hpc,36,100,Collection stop time,23:14:08 21/04/2021 UTC
+hpc,36,100,Collector Type,Driverless Perf per-process sampling
+hpc,36,100,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,100,Frequency,2095147652
+hpc,36,100,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,100,Metric Name,Metric Value
+hpc,18,100,Elapsed Time,0.026062
+hpc,18,100,SP GFLOPS,0.0
+hpc,18,100,DP GFLOPS,0.0
+hpc,18,100,x87 GFLOPS,0.0
+hpc,18,100,CPI Rate,2.000000
+hpc,18,100,Average CPU Frequency,2095146747.000000
+hpc,18,100,Total Thread Count,1
+hpc,18,100,Effective Physical Core Utilization,0.5% (0.192 out of 36)
+hpc,18,100,Effective Logical Core Utilization,0.5% (0.385 out of 72)
+hpc,18,100,Memory Bound,0.0
+hpc,18,100,Cache Bound,0.0
+hpc,18,100,DRAM Bound,0.0
+hpc,18,100,NUMA: % of Remote Accesses,0.0
+hpc,18,100,Vectorization,0.0
+hpc,18,100,SP FLOPs,0.0
+hpc,18,100,Packed,0.0
+hpc,18,100,128-bit,0.0
+hpc,18,100,256-bit,0.0
+hpc,18,100,Scalar,0.0
+hpc,18,100,DP FLOPs,0.0
+hpc,18,100,Packed,0.0
+hpc,18,100,128-bit,0.0
+hpc,18,100,256-bit,0.0
+hpc,18,100,Scalar,0.0
+hpc,18,100,x87 FLOPs,0.0
+hpc,18,100,Non-FP,0.0
+hpc,18,100,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,100,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,100,Application Command Line,"myocyte ""100"" ""10"" ""0"" ""18"""
+hpc,18,100,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,100,Computer Name,quartz2391
+hpc,18,100,Result Size,3317115
+hpc,18,100,Collection start time,23:14:27 21/04/2021 UTC
+hpc,18,100,Collection stop time,23:14:27 21/04/2021 UTC
+hpc,18,100,Collector Type,Driverless Perf per-process sampling
+hpc,18,100,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,100,Frequency,2095146747
+hpc,18,100,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,100,Metric Name,Metric Value
+hpc,9,100,Elapsed Time,0.028817
+hpc,9,100,SP GFLOPS,0.0
+hpc,9,100,DP GFLOPS,0.0
+hpc,9,100,x87 GFLOPS,0.0
+hpc,9,100,CPI Rate,2.000000
+hpc,9,100,Average CPU Frequency,2095146548.000000
+hpc,9,100,Total Thread Count,1
+hpc,9,100,Effective Physical Core Utilization,0.5% (0.174 out of 36)
+hpc,9,100,Effective Logical Core Utilization,0.5% (0.348 out of 72)
+hpc,9,100,Memory Bound,0.0
+hpc,9,100,Cache Bound,0.0
+hpc,9,100,DRAM Bound,0.0
+hpc,9,100,NUMA: % of Remote Accesses,0.0
+hpc,9,100,Vectorization,0.0
+hpc,9,100,SP FLOPs,0.0
+hpc,9,100,Packed,0.0
+hpc,9,100,128-bit,0.0
+hpc,9,100,256-bit,0.0
+hpc,9,100,Scalar,0.0
+hpc,9,100,DP FLOPs,0.0
+hpc,9,100,Packed,0.0
+hpc,9,100,128-bit,0.0
+hpc,9,100,256-bit,0.0
+hpc,9,100,Scalar,0.0
+hpc,9,100,x87 FLOPs,0.0
+hpc,9,100,Non-FP,0.0
+hpc,9,100,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,100,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,100,Application Command Line,"myocyte ""100"" ""10"" ""0"" ""9"""
+hpc,9,100,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,100,Computer Name,quartz2391
+hpc,9,100,Result Size,3349878
+hpc,9,100,Collection start time,23:14:47 21/04/2021 UTC
+hpc,9,100,Collection stop time,23:14:47 21/04/2021 UTC
+hpc,9,100,Collector Type,Driverless Perf per-process sampling
+hpc,9,100,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,100,Frequency,2095146548
+hpc,9,100,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,100,Metric Name,Metric Value
+hpc,4,100,Elapsed Time,0.026052
+hpc,4,100,SP GFLOPS,0.0
+hpc,4,100,DP GFLOPS,0.0
+hpc,4,100,x87 GFLOPS,0.0
+hpc,4,100,CPI Rate,2.000000
+hpc,4,100,Average CPU Frequency,4190292084.000000
+hpc,4,100,Total Thread Count,1
+hpc,4,100,Effective Physical Core Utilization,0.3% (0.096 out of 36)
+hpc,4,100,Effective Logical Core Utilization,0.3% (0.192 out of 72)
+hpc,4,100,Memory Bound,0.0
+hpc,4,100,Cache Bound,0.0
+hpc,4,100,DRAM Bound,0.0
+hpc,4,100,NUMA: % of Remote Accesses,0.0
+hpc,4,100,Vectorization,0.0
+hpc,4,100,SP FLOPs,0.0
+hpc,4,100,Packed,0.0
+hpc,4,100,128-bit,0.0
+hpc,4,100,256-bit,0.0
+hpc,4,100,Scalar,0.0
+hpc,4,100,DP FLOPs,0.0
+hpc,4,100,Packed,0.0
+hpc,4,100,128-bit,0.0
+hpc,4,100,256-bit,0.0
+hpc,4,100,Scalar,0.0
+hpc,4,100,x87 FLOPs,0.0
+hpc,4,100,Non-FP,0.0
+hpc,4,100,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,100,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,100,Application Command Line,"myocyte ""100"" ""10"" ""0"" ""4"""
+hpc,4,100,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,100,Computer Name,quartz2391
+hpc,4,100,Result Size,3317116
+hpc,4,100,Collection start time,23:15:06 21/04/2021 UTC
+hpc,4,100,Collection stop time,23:15:06 21/04/2021 UTC
+hpc,4,100,Collector Type,Driverless Perf per-process sampling
+hpc,4,100,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,100,Frequency,2095146042
+hpc,4,100,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,36,101,Metric Name,Metric Value
+hpc,36,101,Elapsed Time,0.024563
+hpc,36,101,SP GFLOPS,0.0
+hpc,36,101,DP GFLOPS,0.0
+hpc,36,101,x87 GFLOPS,0.0
+hpc,36,101,CPI Rate,2.000000
+hpc,36,101,Average CPU Frequency,2095146112.000000
+hpc,36,101,Total Thread Count,1
+hpc,36,101,Effective Physical Core Utilization,0.6% (0.204 out of 36)
+hpc,36,101,Effective Logical Core Utilization,0.6% (0.408 out of 72)
+hpc,36,101,Memory Bound,0.0
+hpc,36,101,Cache Bound,0.0
+hpc,36,101,DRAM Bound,0.0
+hpc,36,101,NUMA: % of Remote Accesses,0.0
+hpc,36,101,Vectorization,0.0
+hpc,36,101,SP FLOPs,0.0
+hpc,36,101,Packed,0.0
+hpc,36,101,128-bit,0.0
+hpc,36,101,256-bit,0.0
+hpc,36,101,Scalar,0.0
+hpc,36,101,DP FLOPs,0.0
+hpc,36,101,Packed,0.0
+hpc,36,101,128-bit,0.0
+hpc,36,101,256-bit,0.0
+hpc,36,101,Scalar,0.0
+hpc,36,101,x87 FLOPs,0.0
+hpc,36,101,Non-FP,0.0
+hpc,36,101,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,36,101,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,36,101,Application Command Line,"myocyte ""100"" ""10"" ""1"" ""36"""
+hpc,36,101,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,36,101,Computer Name,quartz2391
+hpc,36,101,Result Size,3317004
+hpc,36,101,Collection start time,23:15:30 21/04/2021 UTC
+hpc,36,101,Collection stop time,23:15:30 21/04/2021 UTC
+hpc,36,101,Collector Type,Driverless Perf per-process sampling
+hpc,36,101,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,36,101,Frequency,2095146112
+hpc,36,101,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,18,101,Metric Name,Metric Value
+hpc,18,101,Elapsed Time,0.028718
+hpc,18,101,SP GFLOPS,0.0
+hpc,18,101,DP GFLOPS,0.0
+hpc,18,101,x87 GFLOPS,0.0
+hpc,18,101,CPI Rate,3.000000
+hpc,18,101,Average CPU Frequency,3142723465.500000
+hpc,18,101,Total Thread Count,1
+hpc,18,101,Effective Physical Core Utilization,0.5% (0.175 out of 36)
+hpc,18,101,Effective Logical Core Utilization,0.5% (0.349 out of 72)
+hpc,18,101,Memory Bound,0.0
+hpc,18,101,Cache Bound,0.0
+hpc,18,101,DRAM Bound,0.0
+hpc,18,101,NUMA: % of Remote Accesses,0.0
+hpc,18,101,Vectorization,0.0
+hpc,18,101,SP FLOPs,0.0
+hpc,18,101,Packed,0.0
+hpc,18,101,128-bit,0.0
+hpc,18,101,256-bit,0.0
+hpc,18,101,Scalar,0.0
+hpc,18,101,DP FLOPs,0.0
+hpc,18,101,Packed,0.0
+hpc,18,101,128-bit,0.0
+hpc,18,101,256-bit,0.0
+hpc,18,101,Scalar,0.0
+hpc,18,101,x87 FLOPs,0.0
+hpc,18,101,Non-FP,0.0
+hpc,18,101,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,18,101,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,18,101,Application Command Line,"myocyte ""100"" ""10"" ""1"" ""18"""
+hpc,18,101,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,18,101,Computer Name,quartz2391
+hpc,18,101,Result Size,3317334
+hpc,18,101,Collection start time,23:15:50 21/04/2021 UTC
+hpc,18,101,Collection stop time,23:15:50 21/04/2021 UTC
+hpc,18,101,Collector Type,Driverless Perf per-process sampling
+hpc,18,101,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,18,101,Frequency,2095148977
+hpc,18,101,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,9,101,Metric Name,Metric Value
+hpc,9,101,Elapsed Time,0.024911
+hpc,9,101,SP GFLOPS,0.0
+hpc,9,101,DP GFLOPS,0.0
+hpc,9,101,x87 GFLOPS,0.0
+hpc,9,101,CPI Rate,2.000000
+hpc,9,101,Average CPU Frequency,2095145718.000000
+hpc,9,101,Total Thread Count,1
+hpc,9,101,Effective Physical Core Utilization,0.6% (0.201 out of 36)
+hpc,9,101,Effective Logical Core Utilization,0.6% (0.402 out of 72)
+hpc,9,101,Memory Bound,0.0
+hpc,9,101,Cache Bound,0.0
+hpc,9,101,DRAM Bound,0.0
+hpc,9,101,NUMA: % of Remote Accesses,0.0
+hpc,9,101,Vectorization,0.0
+hpc,9,101,SP FLOPs,0.0
+hpc,9,101,Packed,0.0
+hpc,9,101,128-bit,0.0
+hpc,9,101,256-bit,0.0
+hpc,9,101,Scalar,0.0
+hpc,9,101,DP FLOPs,0.0
+hpc,9,101,Packed,0.0
+hpc,9,101,128-bit,0.0
+hpc,9,101,256-bit,0.0
+hpc,9,101,Scalar,0.0
+hpc,9,101,x87 FLOPs,0.0
+hpc,9,101,Non-FP,0.0
+hpc,9,101,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,9,101,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,9,101,Application Command Line,"myocyte ""100"" ""10"" ""1"" ""9"""
+hpc,9,101,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,9,101,Computer Name,quartz2391
+hpc,9,101,Result Size,3317049
+hpc,9,101,Collection start time,23:16:09 21/04/2021 UTC
+hpc,9,101,Collection stop time,23:16:09 21/04/2021 UTC
+hpc,9,101,Collector Type,Driverless Perf per-process sampling
+hpc,9,101,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,9,101,Frequency,2095145718
+hpc,9,101,Logical CPU Count,72
+vtuneCategory,threadcount,inputinfo,metric,value
+vtuneCategory,threadcount,inputinfo,metric,value
+hpc,4,101,Metric Name,Metric Value
+hpc,4,101,Elapsed Time,0.024648
+hpc,4,101,SP GFLOPS,0.0
+hpc,4,101,DP GFLOPS,0.0
+hpc,4,101,x87 GFLOPS,0.0
+hpc,4,101,CPI Rate,2.000000
+hpc,4,101,Average CPU Frequency,2095149675.000000
+hpc,4,101,Total Thread Count,1
+hpc,4,101,Effective Physical Core Utilization,0.6% (0.203 out of 36)
+hpc,4,101,Effective Logical Core Utilization,0.6% (0.407 out of 72)
+hpc,4,101,Memory Bound,0.0
+hpc,4,101,Cache Bound,0.0
+hpc,4,101,DRAM Bound,0.0
+hpc,4,101,NUMA: % of Remote Accesses,0.0
+hpc,4,101,Vectorization,0.0
+hpc,4,101,SP FLOPs,0.0
+hpc,4,101,Packed,0.0
+hpc,4,101,128-bit,0.0
+hpc,4,101,256-bit,0.0
+hpc,4,101,Scalar,0.0
+hpc,4,101,DP FLOPs,0.0
+hpc,4,101,Packed,0.0
+hpc,4,101,128-bit,0.0
+hpc,4,101,256-bit,0.0
+hpc,4,101,Scalar,0.0
+hpc,4,101,x87 FLOPs,0.0
+hpc,4,101,Non-FP,0.0
+hpc,4,101,FP Arith/Mem Rd Instr. Ratio,0.0
+hpc,4,101,FP Arith/Mem Wr Instr. Ratio,0.0
+hpc,4,101,Application Command Line,"myocyte ""100"" ""10"" ""1"" ""4"""
+hpc,4,101,Operating System,"3.10.0-1160.15.2.1chaos.ch6.x86_64 NAME=""Red Hat Enterprise Linux Server"" VERSION=""7.9 (Maipo)"" ID=""rhel"" ID_LIKE=""fedora"" VARIANT=""Server"" VARIANT_ID=""server"" VERSION_ID=""7.9"" PRETTY_NAME=""Red Hat Enterprise Linux Server 7.9 (Maipo)"" ANSI_COLOR=""0;31"" CPE_NAME=""cpe:/o:redhat:enterprise_linux:7.9:GA:server"" HOME_URL=""https://www.redhat.com/"" BUG_REPORT_URL=""https://bugzilla.redhat.com/""  REDHAT_BUGZILLA_PRODUCT=""Red Hat Enterprise Linux 7"" REDHAT_BUGZILLA_PRODUCT_VERSION=7.9 REDHAT_SUPPORT_PRODUCT=""Red Hat Enterprise Linux"" REDHAT_SUPPORT_PRODUCT_VERSION=""7.9"""
+hpc,4,101,Computer Name,quartz2391
+hpc,4,101,Result Size,3333779
+hpc,4,101,Collection start time,23:16:30 21/04/2021 UTC
+hpc,4,101,Collection stop time,23:16:30 21/04/2021 UTC
+hpc,4,101,Collector Type,Driverless Perf per-process sampling
+hpc,4,101,Name,Intel(R) Xeon(R) Processor code named Broadwell
+hpc,4,101,Frequency,2095149675
+hpc,4,101,Logical CPU Count,72
