@@ -11,12 +11,39 @@ def convert(argv):
 	if(os.path.exists(outputfile)):
  		os.rename(outputfile, backupoutputfile)
 	files = [f for f in os.listdir(DIR) if os.path.isfile(os.path.join(DIR, f))]
-	for f in files:
-		fullpath = os.path.join(DIR, f)	
-		print("processing C:" + fullpath)
-		getInfo(fullpath, outputfile)
 
-def getInfo(inputfile, outputfile):
+	df = pd.DataFrame(columns = ['vtuneCategory','threadcount','inputinfo','metric', 'value'])
+
+	for f in files:
+		if f.endswith(".log"):
+			fullpath = os.path.join(DIR, f)	
+			print("processing:" + fullpath)
+			getInfo(fullpath, df)
+
+
+	metrics = df[['metric']].copy()
+	metrics.drop_duplicates( inplace=True)
+	metricslist = metrics["metric"].tolist()
+	metricslist.pop(0)
+	#print(metricslist)
+	newdf = pd.DataFrame (columns = ['threadcount','inputinfo'])
+	for col in metricslist:
+		newdf[col] = 0
+
+	for index, row in df.iterrows():
+		#print(row['vtuneCategory'], row['threadcount'])
+		new_row ={'threadcount':row['threadcount'],'inputinfo':row['inputinfo']}
+		newdf = newdf.append(new_row, ignore_index=True)
+
+	newdf = newdf.drop_duplicates()
+	for index, row in df.iterrows():
+		newdf.loc[(newdf['threadcount'] == row['threadcount'] ) & (newdf['inputinfo'] == row['inputinfo']), row['metric']] = row['value']
+
+	print(newdf)
+	newdf.to_csv(outputfile, index=False, mode = 'a')
+
+
+def getInfo(inputfile, df):
 	filename = os.path.basename(inputfile)
 	filenamenoext = filename.rsplit('.')[0]
 	filecomp = re.split(r'_',filenamenoext)
@@ -28,7 +55,6 @@ def getInfo(inputfile, outputfile):
 #	print(filecomp)
 	file = open(inputfile,"r",encoding="utf-8")
 	Lines = file.readlines()
-	df = pd.DataFrame(columns = ['vtuneCategory','threadcount','inputinfo','metric', 'value'])
 	for l in Lines:
 		#print(l)
 		l = l.rstrip()
@@ -39,7 +65,6 @@ def getInfo(inputfile, outputfile):
 #			print(dat[3])
 			df.loc[len(df.index)] = dat
 #	print(df)
-	df.to_csv(outputfile, index=False, mode = 'a')
 		
 
 if __name__ == "__main__":
